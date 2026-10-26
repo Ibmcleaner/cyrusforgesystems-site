@@ -137,7 +137,7 @@ window.CYRUS_DATA = {
     {
       "players": "Patrick Mahomes, Michael Penix Jr., Dak Prescott, Jacoby Brissett, Bo Nix",
       "count": 5,
-      "reason": "Cyrus's projection is too close to the casino line to make a call."
+      "reason": "Cyrus's projection is too close to the market line to make a call."
     }
   ]
 };
