@@ -64,4 +64,3 @@ Open `index.html` in a browser. There is nothing to install.
 ## License
 
 Code is MIT licensed (see `LICENSE`). The Cyrus Forge Systems name, hawk logo and mascot are trademarks of Cyrus Forge Systems, LLC and are not covered by the license.
-
