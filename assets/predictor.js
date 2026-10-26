@@ -118,6 +118,75 @@
     }
   }
 
+  // Player lookup
+  (function () {
+    var form = document.getElementById('lookup-form');
+    if (!form) return;
+    var players = (data && data.players) || [];
+    var input = document.getElementById('lookup-input');
+    var out = document.getElementById('lookup-result');
+    var dl = document.getElementById('player-list');
+    players.slice().sort(function (a, b) { return a.name.localeCompare(b.name); }).forEach(function (p) {
+      var o = document.createElement('option'); o.value = p.name; o.label = p.pos + ' · ' + p.game; dl.appendChild(o);
+    });
+    function norm(s) { return String(s || '').toLowerCase().replace(/[^a-z]/g, ''); }
+    function find(q) {
+      var k = norm(q); if (!k) return null;
+      var exact = players.filter(function (p) { return norm(p.name) === k; });
+      if (exact.length) return exact[0];
+      var part = players.filter(function (p) { return norm(p.name).indexOf(k) >= 0 || k.indexOf(norm(p.name.split(' ').pop())) >= 0 && k.length > 3; });
+      return part.length === 1 ? part[0] : (part.length > 1 ? { multi: part } : null);
+    }
+    function list(title, items, cls) {
+      if (!items || !items.length) return null;
+      var wrap = el('div', 'lk-list ' + cls);
+      wrap.appendChild(el('h4', null, title));
+      var ul = el('ul');
+      items.forEach(function (s) { ul.appendChild(el('li', null, s)); });
+      wrap.appendChild(ul);
+      return wrap;
+    }
+    function render(p) {
+      out.textContent = ''; out.hidden = false;
+      if (!p) {
+        out.appendChild(el('p', 'lk-none', 'No match this week. Cyrus covers the scheduled starting quarterbacks and the running backs with a regular role; a player on a bye week, injured, or not yet a starter will not appear until he does.'));
+        return;
+      }
+      if (p.multi) {
+        out.appendChild(el('p', 'lk-none', 'Did you mean: ' + p.multi.map(function (x) { return x.name; }).join(', ') + '?'));
+        return;
+      }
+      var head = el('div', 'lk-head');
+      var left = el('div');
+      left.appendChild(el('p', 'lk-name', p.name + ' · ' + p.pos));
+      left.appendChild(el('p', 'lk-game', p.game + ' · ' + p.kickoff));
+      head.appendChild(left);
+      head.appendChild(chip(p.tier === 'NO LINE' ? 'PASS' : p.tier).firstChild);
+      out.appendChild(head);
+      var nums = el('div', 'lk-nums');
+      function stat(label, val) { var d = el('div'); d.appendChild(el('span', 'lk-label', label)); d.appendChild(el('span', 'lk-val', val)); nums.appendChild(d); }
+      if (p.pos === 'QB') {
+        stat('Cyrus projection', p.projection != null ? p.projection + ' yds' : '—');
+        stat('Market line', p.line != null ? p.line + ' yds' : '—');
+        stat('Cyrus call', p.side ? p.side + ' ' + p.line : '—');
+        stat('Chance', p.chance != null ? p.chance + '%' : '—');
+      } else {
+        stat('Chance to score', p.chance + '%');
+        stat('Verdict', p.verdict);
+      }
+      out.appendChild(nums);
+      out.appendChild(el('p', 'lk-summary', p.summary));
+      var cols = el('div', 'lk-cols');
+      var a = list('What supports it', p.pros, 'pos'); if (a) cols.appendChild(a);
+      var b = list('What works against it', p.cons, 'neg'); if (b) cols.appendChild(b);
+      var h = list('Against ' + (p.opp_name || p.opp || 'this opponent') + ' recently', p.history, 'hist'); if (h) cols.appendChild(h);
+      out.appendChild(cols);
+      out.appendChild(el('p', 'lk-note', 'A "no call" means Cyrus does not see enough of an edge either way; it is not a prediction of the opposite. Lines move and injury reports change, so check again before kickoff.'));
+    }
+    form.addEventListener('submit', function (e) { e.preventDefault(); render(find(input.value)); });
+    input.addEventListener('change', function () { if (find(input.value) && !find(input.value).multi) render(find(input.value)); });
+  })();
+
   // Tabs
   var tabs = [document.getElementById('tab-rb'), document.getElementById('tab-qb')];
   function select(i) {

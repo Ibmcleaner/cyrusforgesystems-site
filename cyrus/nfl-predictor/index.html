@@ -49,6 +49,22 @@
     <div class="stat"><p class="label">NEXT UPDATE</p><p class="value text" id="next-update">Wed 6:45 PM CT<br>Fri 6:45 PM CT</p></div>
   </section>
 
+  <section class="card lookup" aria-labelledby="lookup-title">
+    <div class="lookup-head">
+      <div>
+        <h2 id="lookup-title">Check a player</h2>
+        <p>Wondering about someone who isn't on the card? Type a quarterback or running back and Cyrus shows its projection, what supports it, what works against it, and his history against this week's opponent.</p>
+      </div>
+      <form class="lookup-form" id="lookup-form" autocomplete="off">
+        <label class="sr-only" for="lookup-input">Player name</label>
+        <input id="lookup-input" type="search" list="player-list" placeholder="e.g. Josh Allen" required>
+        <datalist id="player-list"></datalist>
+        <button class="btn btn-primary" type="submit">Check</button>
+      </form>
+    </div>
+    <div id="lookup-result" class="lookup-result" hidden></div>
+  </section>
+
   <div class="tabs" role="tablist" aria-label="Market">
     <button class="tab" role="tab" id="tab-rb" aria-controls="panel-rb" aria-selected="true">RB anytime touchdown</button>
     <button class="tab" role="tab" id="tab-qb" aria-controls="panel-qb" aria-selected="false" tabindex="-1">QB passing yards</button>
