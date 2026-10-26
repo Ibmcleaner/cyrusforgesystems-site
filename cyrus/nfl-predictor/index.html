@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NFL Touchdown &amp; Passing Predictor | Cyrus</title>
+<meta name="description" content="Weekly NFL predictions for RB anytime touchdowns and QB passing yards, compared with the casino lines and labeled Best Bet, Bet, Lean or Pass.">
+<link rel="icon" href="../../assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="wrap site-nav" aria-label="Site">
+    <a class="brand" href="../../index.html">
+      <video class="brand-mark" autoplay muted loop playsinline preload="auto" poster="../../assets/hawk-poster.jpg" aria-hidden="true" width="84" height="50"><source src="../../assets/hawk-loop.webm" type="video/webm"><source src="../../assets/hawk-loop.mp4" type="video/mp4"></video>
+      <span>CYRUS FORGE SYSTEMS</span>
+    </a>
+    <div class="nav-links">
+      <a href="../../index.html">Home</a>
+      <a href="../index.html" aria-current="page">Cyrus</a>
+      <a href="../../index.html#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main" class="wrap" style="padding-top:32px;padding-bottom:72px">
+  <p class="crumbs"><a href="../index.html">Cyrus</a> / NFL Predictor</p>
+
+  <div class="pred-head">
+    <div>
+      <h1>NFL Touchdown &amp; Passing Predictor</h1>
+      <p class="lead">Cyrus's call on who scores a touchdown and how many yards each quarterback throws, compared with the casino lines. Every call shows how confident Cyrus is; anything uncertain is passed.</p>
+    </div>
+    <div>
+      <span class="week-badge" id="week-badge">—</span>
+      <span class="updated" id="updated"></span>
+    </div>
+  </div>
+
+  <section class="stat-tiles" aria-label="This week at a glance">
+    <div class="stat"><p class="label best">BEST BETS</p><p class="value" id="n-best">—</p></div>
+    <div class="stat"><p class="label bet">BETS</p><p class="value" id="n-bet">—</p></div>
+    <div class="stat"><p class="label">PASSED</p><p class="value" id="n-pass">—</p></div>
+    <div class="stat"><p class="label">NEXT UPDATE</p><p class="value text" id="next-update">Wed 6:45 PM CT<br>Fri 6:45 PM CT</p></div>
+  </section>
+
+  <div class="tabs" role="tablist" aria-label="Market">
+    <button class="tab" role="tab" id="tab-rb" aria-controls="panel-rb" aria-selected="true">RB anytime touchdown</button>
+    <button class="tab" role="tab" id="tab-qb" aria-controls="panel-qb" aria-selected="false" tabindex="-1">QB passing yards</button>
+  </div>
+
+  <section class="panel" id="panel-rb" role="tabpanel" aria-labelledby="tab-rb">
+    <div class="panel-head">
+      <h2>Anytime touchdown, rushing or receiving</h2>
+      <p>Cyrus's chance that each back scores a rushing or receiving touchdown.</p>
+    </div>
+    <div class="table-scroll">
+      <table class="picks rb">
+        <thead><tr><th>Tier</th><th>Player</th><th>Game</th><th>Kickoff</th><th>Chance</th><th>Note</th></tr></thead>
+        <tbody id="rb-body"><tr><td class="empty" colspan="6">Loading this week's card…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-qb" role="tabpanel" aria-labelledby="tab-qb" hidden>
+    <div class="panel-head">
+      <h2>Passing yards: Cyrus vs the casino line</h2>
+      <p>Casino line at update time; lines move, so check before kickoff.</p>
+    </div>
+    <div class="table-scroll">
+      <table class="picks qb">
+        <thead><tr><th>Tier</th><th>Quarterback</th><th>Game</th><th>Kickoff</th><th>Cyrus call</th><th>Cyrus projection</th><th>Casino line</th><th>Chance</th><th>Note</th></tr></thead>
+        <tbody id="qb-body"><tr><td class="empty" colspan="9">Loading this week's card…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card passed" aria-label="Passed this week">
+    <h2>Passed this week</h2>
+    <ul id="passed-list"></ul>
+  </section>
+
+  <section class="panel record" aria-labelledby="record-title">
+    <div class="panel-head">
+      <h2 id="record-title">Track record</h2>
+      <p id="record-label">Starts with 2026 Week 8, the first card published automatically.</p>
+    </div>
+    <div class="table-scroll">
+      <table class="picks rec">
+        <thead><tr><th>Market</th><th>Tier</th><th>Record</th><th>Hit rate</th><th>Expected</th></tr></thead>
+        <tbody id="record-body"><tr><td class="empty" colspan="5">The first results appear after Week 8 games are graded.</td></tr></tbody>
+      </table>
+    </div>
+    <p class="record-note">Every Best Bet, Bet and Lean is logged before kickoff and graded from the official box score. The last card before kickoff counts. Voids (player did not play) are left out. Hit rate is how often the call was right. Expected is the average chance Cyrus gave those calls: when the hit rate keeps pace with it, the confidence numbers can be trusted.</p>
+  </section>
+
+  <section class="read-me grid grid-260" aria-label="How to read this">
+    <div>
+      <h2>How to read this</h2>
+      <p style="margin:0">Chance is how often Cyrus expects the call to be right. For quarterbacks, Cyrus's projection is set beside the casino line, and the call is the side Cyrus expects him to land on.</p>
+    </div>
+    <div class="card legend stack" style="padding:20px">
+      <p><span class="chip chip-best">BEST BET</span><span>Our strongest calls</span></p>
+      <p><span class="chip chip-bet">BET</span><span>Confident calls</span></p>
+      <p><span class="chip chip-lean">LEAN</span><span>Slight lean; lower confidence</span></p>
+      <p><span class="chip chip-recheck">RECHECK</span><span>Waiting on an injury decision</span></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap" style="padding-top:40px;padding-bottom:40px">
+    <p class="footer-small">For information and entertainment only. Cyrus is not a sportsbook and does not accept wagers. Probabilities are estimates, not guarantees; past results do not predict future results. You must be of legal age where you live to bet. If you or someone you know has a gambling problem, call 1-800-GAMBLER. © 2026 Cyrus Forge Systems, LLC.</p>
+  </div>
+</footer>
+
+<script src="../../data/latest.js"></script>
+<script src="../../assets/predictor.js"></script>
+</body>
+</html>
