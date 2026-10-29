@@ -33,7 +33,7 @@
     <div class="hero-text">
       <p class="eyebrow">Cyrus Forge Systems · Tools and demonstrations</p>
       <h1 style="font-size:clamp(42px,6vw,64px)">Cyrus Engines</h1>
-      <p class="lead" style="max-width:620px">Two distinct tools: Cyrus Insight Engine generates player projections; Cyrus Consolidation Analyzer compares contest selections from independent sources. Explore each tool's results, methods and potential business applications.</p>
+      <p class="lead" style="max-width:620px">Explore two different workflows: use historical data to estimate outcomes, or bring independent sources together for a traceable comparison. Start with how each engine works, then follow its detailed example.</p>
       <div class="btn-row">
         <a class="btn btn-primary" href="#tools">Explore the engines
           <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#FFFFFF" stroke-width="2"><path d="M4 9h10"/><path d="M10 5l4 4-4 4"/></svg></a>
@@ -52,26 +52,12 @@
     </div>
   </section>
 
-  <section id="how" class="wrap" style="padding-top:64px;padding-bottom:36px">
-    <h2 style="font-size:36px;margin-bottom:28px">How it works</h2>
-    <ol class="steps grid grid-260">
-      <li>
-        <p class="num">01 · DATA</p>
-        <h3>Start from the numbers</h3>
-        <p>Gather relevant historical data and contextual inputs, using only information available at the time of each forecast.</p>
-      </li>
-      <li>
-        <p class="num">02 · CALL</p>
-        <h3>Estimate the outcome</h3>
-        <p>Produce a projection with a confidence estimate, and flag cases where the evidence is incomplete.</p>
-      </li>
-      <li>
-        <p class="num">03 · COMPARE</p>
-        <h3>Compare and evaluate</h3>
-        <p>Compare projections with relevant benchmarks and observed outcomes to assess performance and identify areas for improvement.</p>
-      </li>
-    </ol>
-  </section>
+  <section id="how" class="wrap section" aria-labelledby="choose-title">
+<h2 id="choose-title">Choose the workflow for your question</h2>
+<div class="grid grid-300">
+<article class="tile"><h3>What is likely to happen?</h3><p>The Insight Engine begins with historical measurements and context. It produces estimates, communicates uncertainty and evaluates outcomes.</p></article>
+<article class="tile"><h3>What do the sources say?</h3><p>The Consolidation Analyzer begins with separate records. It checks completeness and consistency, then displays agreement, differences and exceptions.</p></article>
+</div></section>
   <section id="engine" class="band" aria-labelledby="engine-title">
     <div class="wrap section" style="padding-top:52px;padding-bottom:64px">
       <h2 id="engine-title" style="font-size:36px">Applications Across Industries</h2>
@@ -88,25 +74,32 @@
   </section>
   <section id="tools" class="wrap" style="padding-top:72px;padding-bottom:72px">
     <h2 style="font-size:36px">Cyrus tools</h2>
-    <p class="section-intro" style="margin-bottom:28px">Choose a tool below. The Insight Engine shows player projections; the Consolidation Analyzer shows an archived contest comparison.</p>
+    <p class="section-intro" style="margin-bottom:28px">Each engine page explains its inputs, processing, validation, outputs and limitations. A worked example follows the explanation.</p>
     <div class="grid grid-300">
       <article class="tile" style="padding:28px;gap:14px">
         <div class="tile-top">
           <svg aria-hidden="true" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="#1E6B4A" stroke-width="1.8"><rect x="6" y="7" width="24" height="23" rx="3"/><path d="M11 24l6-7 5 3 5-9"/></svg>
-          <span class="chip chip-pill chip-best">Live · beta</span>
+          <span class="chip chip-pill chip-best">Forecasting workflow</span>
         </div>
         <h3 style="font-size:20px">Cyrus Insight Engine</h3>
-        <p>View player projections for touchdown likelihood and passing yards, with confidence estimates and outcome tracking.</p>
-        <a class="tile-link" href="nfl-predictor/index.html">Open Cyrus Insight Engine →</a>
+        <p>Estimate outcomes from historical data, explain the contributing factors and measure results against a timestamped forecast.</p>
+        <a class="tile-link" href="nfl-predictor/index.html">How Insight Engine works →</a>
       </article>
       <article class="tile" style="padding:28px;gap:14px">
-        <div class="tile-top"><span class="chip chip-pill chip-dev">Archive · Week 6</span></div>
+        <div class="tile-top"><span class="chip chip-pill chip-dev">Comparison workflow</span></div>
         <h3 style="font-size:20px">Cyrus Consolidation Analyzer</h3>
-        <p>Compare Westgate and Circa contest selections, entry agreement and source differences. Includes a historical owner-approved board and its methodology.</p>
-        <a class="tile-link" href="consolidation-analyzer/index.html">Open Consolidation Analyzer →</a>
+        <p>Collect and standardize records from independent sources, validate their consistency, and present agreement and exceptions with supporting evidence.</p>
+        <a class="tile-link" href="consolidation-analyzer/index.html">How Consolidation Analyzer works →</a>
       </article>
     </div>
   </section>
+  <section class="wrap section" aria-labelledby="research-title">
+<h2 id="research-title">Research and planned work</h2>
+<p class="section-intro">These projects are documented separately from the two engines above and are not available as finished tools.</p>
+<div class="grid grid-300">
+<article class="tile"><span class="chip chip-pill chip-dev">Planned · not released</span><h3>Game-level forecasting</h3><p>Spread and total projections were excluded from the first player-model release so its existing outputs could be published and evaluated first. The model remains planned work.</p><a href="https://github.com/Ibmcleaner/cyrus-nfl-analytics#whats-next">View the roadmap →</a></article>
+<article class="tile"><span class="chip chip-pill chip-dev">Paused for redesign</span><h3>Cyrus Strategic Prediction Model</h3><p>A separate research project exploring controlled collaboration between multiple AI models. Its public repository is a design record and retrospective, not a runnable application. No restart date has been announced.</p><a href="https://github.com/Ibmcleaner/Cyrus-Strategic-Prediction-Model">Read the project status →</a></article>
+</div></section>
 </main>
 
 <footer class="site-footer">
