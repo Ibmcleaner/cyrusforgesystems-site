@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cyrus Forecast Engine | Cyrus</title>
-<meta name="description" content="Cyrus Forecast Engine: a working demonstration of projections, confidence estimates, benchmark comparisons and outcome tracking.">
+<title>Cyrus Insight Engine | Cyrus</title>
+<meta name="description" content="Cyrus Insight Engine: a working demonstration of projections, confidence estimates, benchmark comparisons and outcome tracking.">
 <link rel="icon" href="../../assets/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,11 +29,11 @@
 </header>
 
 <main id="main" class="wrap" style="padding-top:32px;padding-bottom:72px">
-  <p class="crumbs"><a href="../index.html">Cyrus</a> / Forecast Engine</p>
+  <p class="crumbs"><a href="../index.html">Model overview</a> / Insight Engine</p>
 
   <div class="pred-head">
     <div>
-      <h1>Cyrus Forecast Engine</h1>
+      <h1>Cyrus Insight Engine</h1>
       <p class="lead">A working demonstration of projections, confidence estimates and benchmark comparisons. This version uses player statistics as its example dataset; the table labels describe those specific measures.</p>
     </div>
     <div>
@@ -41,6 +41,39 @@
       <span class="updated" id="updated"></span>
     </div>
   </div>
+
+  <div class="btn-row" style="margin-bottom:28px">
+    <a class="btn btn-secondary" href="#how">How it works</a>
+    <a class="btn btn-secondary" href="#lookup-title">Explore the demonstration</a>
+  </div>
+
+  <section id="how" aria-labelledby="how-title" style="padding-top:64px;padding-bottom:36px">
+    <h2 id="how-title" style="font-size:36px;margin-bottom:28px">How it works</h2>
+    <ol class="steps grid grid-260">
+      <li>
+        <p class="num">01 · DATA</p>
+        <h3>Start from the numbers</h3>
+        <p>Gather relevant historical data and contextual inputs, using only information available at the time of each forecast.</p>
+      </li>
+      <li>
+        <p class="num">02 · CALL</p>
+        <h3>Estimate the outcome</h3>
+        <p>Produce a projection with a confidence estimate, and flag cases where the evidence is incomplete.</p>
+      </li>
+      <li>
+        <p class="num">03 · COMPARE</p>
+        <h3>Compare and evaluate</h3>
+        <p>Compare projections with relevant benchmarks and observed outcomes to assess performance and identify areas for improvement.</p>
+      </li>
+    </ol>
+    <p><a href="../index.html#engine">Explore applications across industries →</a></p>
+  </section>
+
+  <section class="card" aria-labelledby="use-title" style="margin-bottom:28px">
+    <h2 id="use-title">How to use this demonstration</h2>
+    <p>Search for a player or choose a data tab below. Review the projection, confidence tier and supporting notes, then use the track record to compare published estimates with observed outcomes.</p>
+    <p>This demonstration uses a specific example dataset. Business applications require their own data, configuration and validation.</p>
+  </section>
 
   <section class="stat-tiles" aria-label="This week at a glance">
     <div class="stat"><p class="label best">STRONG</p><p class="value" id="n-best">—</p></div>
