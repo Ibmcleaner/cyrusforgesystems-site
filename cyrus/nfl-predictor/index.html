@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NFL Touchdown &amp; Passing Predictor | Cyrus</title>
-<meta name="description" content="Weekly NFL predictions for RB anytime touchdowns and QB passing yards, compared with the market lines and labeled Best Bet, Bet, Lean or Pass.">
+<meta name="description" content="Weekly NFL predictions for RB anytime touchdowns and QB passing yards, compared with the market lines and labeled Strong, Moderate, Slight or Pass by confidence.">
 <link rel="icon" href="../../assets/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../assets/styles.css?v=202610261814">
+<link rel="stylesheet" href="../../assets/styles.css?v=202610282235">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -43,8 +43,8 @@
   </div>
 
   <section class="stat-tiles" aria-label="This week at a glance">
-    <div class="stat"><p class="label best">BEST BETS</p><p class="value" id="n-best">—</p></div>
-    <div class="stat"><p class="label bet">BETS</p><p class="value" id="n-bet">—</p></div>
+    <div class="stat"><p class="label best">STRONG</p><p class="value" id="n-best">—</p></div>
+    <div class="stat"><p class="label bet">MODERATE</p><p class="value" id="n-bet">—</p></div>
     <div class="stat"><p class="label">PASSED</p><p class="value" id="n-pass">—</p></div>
     <div class="stat"><p class="label">NEXT UPDATE</p><p class="value text" id="next-update">Wed 6:45 PM CT<br>Fri 6:45 PM CT</p></div>
   </section>
@@ -112,7 +112,7 @@
         <tbody id="record-body"><tr><td class="empty" colspan="5">The first results appear after Week 8 games are graded.</td></tr></tbody>
       </table>
     </div>
-    <p class="record-note">Every Best Bet, Bet and Lean is logged before kickoff and graded from the official box score. The last card before kickoff counts. Voids (player did not play) are left out. Hit rate is how often the call was right. Expected is the average chance Cyrus gave those calls: when the hit rate keeps pace with it, the confidence numbers can be trusted.</p>
+    <p class="record-note">Every Strong, Moderate and Slight call is logged before kickoff and graded from the official box score. The last card before kickoff counts. Voids (player did not play) are left out. Hit rate is how often the call was right. Expected is the average chance Cyrus gave those calls: when the hit rate keeps pace with it, the confidence numbers can be trusted.</p>
   </section>
 
   <section class="read-me grid grid-260" aria-label="How to read this">
@@ -121,9 +121,9 @@
       <p style="margin:0">Chance is how often Cyrus expects the call to be right. For quarterbacks, Cyrus's projection is set beside the market line, and the call is the side Cyrus expects him to land on.</p>
     </div>
     <div class="card legend stack" style="padding:20px">
-      <p><span class="chip chip-best">BEST BET</span><span>Our strongest calls</span></p>
-      <p><span class="chip chip-bet">BET</span><span>Confident calls</span></p>
-      <p><span class="chip chip-lean">LEAN</span><span>Slight lean; lower confidence</span></p>
+      <p><span class="chip chip-best">STRONG</span><span>Our highest-confidence projections</span></p>
+      <p><span class="chip chip-bet">MODERATE</span><span>Confident projections</span></p>
+      <p><span class="chip chip-lean">SLIGHT</span><span>Slight lean; lower confidence</span></p>
       <p><span class="chip chip-recheck">RECHECK</span><span>Waiting on an injury decision</span></p>
     </div>
   </section>
@@ -136,6 +136,6 @@
 </footer>
 
 <script src="../../data/latest.js?v=202610261814"></script>
-<script src="../../assets/predictor.js?v=202610261814"></script>
+<script src="../../assets/predictor.js?v=202610282235"></script>
 </body>
 </html>

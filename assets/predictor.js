@@ -1,7 +1,9 @@
 // Renders the NFL Predictor page from window.CYRUS_DATA (data/latest.js).
 (function () {
   var data = window.CYRUS_DATA;
-  var CHIP = { 'BEST BET': 'chip-best', 'BET': 'chip-bet', 'LEAN': 'chip-lean', 'RECHECK': 'chip-recheck', 'PASS': 'chip-pass' };
+  var LEGACY = { 'BEST BET': 'STRONG', 'BET': 'MODERATE', 'LEAN': 'SLIGHT' };   // tier names used before Week 8
+  var CHIP = { 'STRONG': 'chip-best', 'MODERATE': 'chip-bet', 'SLIGHT': 'chip-lean', 'RECHECK': 'chip-recheck', 'PASS': 'chip-pass' };
+  function norm(t) { t = String(t || '').toUpperCase(); return LEGACY[t] || t; }
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
@@ -11,6 +13,7 @@
   }
   function chip(tier) {
     var td = el('td');
+    tier = norm(tier);
     td.appendChild(el('span', 'chip ' + (CHIP[tier] || 'chip-lean'), tier));
     return td;
   }
@@ -58,9 +61,9 @@
     }
 
     var all = (data.rb || []).concat(data.qb || []);
-    var count = function (t) { return all.filter(function (r) { return r.tier === t; }).length; };
-    document.getElementById('n-best').textContent = count('BEST BET');
-    document.getElementById('n-bet').textContent = count('BET');
+    var count = function (t) { return all.filter(function (r) { return norm(r.tier) === t; }).length; };
+    document.getElementById('n-best').textContent = count('STRONG');
+    document.getElementById('n-bet').textContent = count('MODERATE');
     document.getElementById('n-pass').textContent = (data.passed || []).reduce(function (s, p) { return s + (p.count || 0); }, 0);
 
     fillBody('rb-body', data.rb, 6, function (r) {
