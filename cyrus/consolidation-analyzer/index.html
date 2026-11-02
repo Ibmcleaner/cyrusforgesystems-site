@@ -11,6 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/styles.css?v=202610282235">
 <style>
+  .origin-story{margin:32px 0;padding:28px 30px;border-left:5px solid #1e6b4a;border-radius:0 16px 16px 0;background:linear-gradient(105deg,#edf6f1 0%,#f8fbf9 75%);box-shadow:0 12px 34px rgba(15,31,60,.07)}
+  .origin-story h2{margin:0 0 10px;color:#0f1f3c;font-size:clamp(1.55rem,3vw,2rem)}
+  .origin-story p{max-width:880px;margin-bottom:10px}
+  .origin-story p:last-child{margin-bottom:0}
   .live-preview{margin-top:24px;padding:30px;border:1px solid #d8dee5;border-radius:18px;background:linear-gradient(135deg,#0f1f3c 0%,#162c4f 70%,#1e6b4a 160%);color:#fff;box-shadow:0 18px 46px rgba(15,31,60,.14)}
   .live-preview h3{color:#fff;margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.25rem)}
   .live-preview p{color:#dce6ef;max-width:760px}
@@ -21,7 +25,7 @@
   .preview-support{display:block;margin-top:6px;color:#dce6ef;font-size:.9rem}
   .live-preview .btn{background:#fff;color:#0f1f3c;border-color:#fff}
   .live-preview .btn:hover{background:#f0c86a;border-color:#f0c86a}
-  @media(max-width:720px){.preview-grid{grid-template-columns:1fr}.live-preview{padding:22px}}
+  @media(max-width:720px){.origin-story{padding:22px 20px}.preview-grid{grid-template-columns:1fr}.live-preview{padding:22px}}
 </style>
 </head>
 <body>
@@ -48,6 +52,13 @@
   <h1 id="consolidation-title">Cyrus Consolidation Analyzer</h1>
   <p class="lead">Turn records from separate sources into a traceable comparison, while preserving disagreements, missing information and the evidence behind each result.</p>
   <p>This engine organizes and validates existing information. It does not generate the same projections as the Insight Engine. Its current implementation uses specialized document parsers, a private staging service and a separately reviewed reporting board.</p>
+</section>
+
+<section class="origin-story" aria-labelledby="origin-title">
+  <p class="eyebrow">Built from a practical request</p>
+  <h2 id="origin-title">Our First Real-World Challenge</h2>
+  <p>Cyrus Forge Systems began with a practical request: build an analyzer that could compare leading contest entries, identify shared selections, and turn scattered information into a clear consensus view.</p>
+  <p>The Consolidation Analyzer is the engine we designed to solve that challenge. It preserves each source independently, compares selections across contests, and highlights where agreement is strongest.</p>
 </section>
 
 <section class="panel" style="padding:28px 0" aria-labelledby="workflow-title">
