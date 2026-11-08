@@ -8,91 +8,67 @@
 <link rel="icon" href="../../assets/favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/styles.css?v=202610282235">
 <style>
-  .origin-story{margin:32px 0;padding:28px 30px;border-left:5px solid #1e6b4a;border-radius:0 16px 16px 0;background:linear-gradient(105deg,#edf6f1 0%,#f8fbf9 75%);box-shadow:0 12px 34px rgba(15,31,60,.07)}
-  .origin-story h2{margin:0 0 10px;color:#0f1f3c;font-size:clamp(1.55rem,3vw,2rem)}
-  .origin-story p{max-width:880px;margin-bottom:10px}
-  .origin-story p:last-child{margin-bottom:0}
-  .live-preview{margin-top:24px;padding:30px;border:1px solid #d8dee5;border-radius:18px;background:linear-gradient(135deg,#0f1f3c 0%,#162c4f 70%,#1e6b4a 160%);color:#fff;box-shadow:0 18px 46px rgba(15,31,60,.14)}
-  .live-preview h3{color:#fff;margin:0 0 8px;font-size:clamp(1.6rem,3vw,2.25rem)}
-  .live-preview p{color:#dce6ef;max-width:760px}
-  .preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}
-  .preview-pick{padding:18px;border-radius:14px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18)}
-  .preview-rank{display:block;color:#f0c86a;font:700 .8rem/1 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase}
-  .preview-team{display:block;margin-top:9px;font:700 1.35rem/1.1 "Barlow Condensed",sans-serif}
-  .preview-support{display:block;margin-top:6px;color:#dce6ef;font-size:.9rem}
-  .live-preview .btn{background:#fff;color:#0f1f3c;border-color:#fff}
-  .live-preview .btn:hover{background:#f0c86a;border-color:#f0c86a}
-  @media(max-width:720px){.origin-story{padding:22px 20px}.preview-grid{grid-template-columns:1fr}.live-preview{padding:22px}}
+  :root{--navy:#0f1f3c;--green:#1e6b4a;--gold:#f0c86a;--line:#d8dee5;--ink:#18263c;--muted:#5f6b7b}
+  .origin-story{margin:32px 0;padding:28px 30px;border-left:5px solid var(--green);border-radius:0 16px 16px 0;background:linear-gradient(105deg,#edf6f1 0%,#f8fbf9 75%);box-shadow:0 12px 34px rgba(15,31,60,.07)}
+  .origin-story h2{margin:0 0 10px;color:var(--navy);font-size:clamp(1.55rem,3vw,2rem)}
+  .origin-story p{max-width:880px;margin-bottom:10px}.origin-story p:last-child{margin-bottom:0}
+  .weekly-board{margin-top:24px;padding:30px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 18px 46px rgba(15,31,60,.12)}
+  .board-hero{padding:28px;border-radius:16px;background:linear-gradient(135deg,var(--navy) 0%,#162c4f 72%,var(--green) 165%);color:#fff}
+  .board-hero h3{color:#fff;margin:0 0 8px;font-size:clamp(1.7rem,3vw,2.35rem)}.board-hero p{color:#dce6ef;max-width:820px}
+  .status-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.status-chip{padding:7px 10px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(255,255,255,.09);font-size:.79rem}.status-chip strong{color:var(--gold)}
+  .board-section{padding:30px 0;border-bottom:1px solid #e8edf2}.board-section:last-child{border-bottom:0;padding-bottom:0}.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:16px}.section-head h3{margin:0;color:var(--navy);font-size:1.55rem}.section-head p{max-width:580px;margin:0;color:var(--muted);font-size:.92rem}
+  .book-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.book-card{border:1px solid var(--line);border-radius:15px;background:#fff;overflow:hidden}.book-card header{padding:18px 20px;background:#f5f8fb;border-bottom:1px solid var(--line)}.book-card header.circa{border-top:5px solid #c18c13}.book-card header.westgate{border-top:5px solid var(--green)}.book-card h4{margin:0;color:var(--navy);font-size:1.3rem}.book-card header p{margin:5px 0 0;color:var(--muted);font-size:.82rem}
+  .table-wrap{overflow-x:auto}.pick-table{width:100%;border-collapse:collapse;font-size:.85rem}.pick-table th,.pick-table td{padding:9px 12px;border-bottom:1px solid #edf1f5;text-align:left}.pick-table th{background:#fbfcfd;color:#586577;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}.pick-table td:nth-child(n+2),.pick-table th:nth-child(n+2){text-align:right;white-space:nowrap}.pick-table tr:last-child td{border-bottom:0}.pick-table .leader{color:#15583d;font-weight:700}
+  .consensus-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.consensus-card{padding:20px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(150deg,#f8fbf9,#fff)}.rank-badge{display:inline-flex;padding:5px 8px;border-radius:999px;background:#e9f3ee;color:#15583d;font-size:.71rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.team-name{margin:12px 0 4px!important;color:var(--navy)!important;font-size:1.65rem!important}.combined{margin:0 0 15px;color:var(--muted)}.combined strong{color:var(--green);font-size:1.25rem}.support{display:grid;grid-template-columns:1fr 1fr;gap:8px}.support div{padding:10px;border-radius:10px;background:#f2f5f8}.support span{display:block;color:var(--muted);font-size:.69rem;text-transform:uppercase}.support strong{display:block;margin-top:4px;color:#263954;font-size:.82rem}.pending{margin-top:14px;color:#8b6a19;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+  .evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.evidence-card{padding:16px;border-left:4px solid var(--green);border-radius:12px;background:#f7f9fc}.evidence-card strong{display:block;color:var(--navy)}.evidence-card span{display:block;margin-top:5px;color:var(--muted);font-size:.83rem}.source-links{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}.source-links a{display:inline-flex;padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:.8rem;text-decoration:none}.method-note{margin-top:18px;padding:17px;border-radius:13px;background:#eef5f1;border:1px solid #cfe1d7;color:#284f3d}.small-note{margin:14px 0 0;color:var(--muted);font-size:.84rem}
+  @media(max-width:900px){.book-grid,.consensus-grid{grid-template-columns:1fr}.evidence-grid{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:7px}}
+  @media(max-width:620px){.origin-story,.weekly-board{padding:22px 18px}.board-hero{padding:23px 19px}.pick-table th,.pick-table td{padding:8px}.support{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-
-<header class="site-header">
-  <nav class="wrap site-nav" aria-label="Site">
-    <a class="brand" href="../../index.html">
-      <video class="brand-mark" autoplay muted loop playsinline preload="auto" poster="../../assets/hawk-poster.jpg" aria-hidden="true" width="84" height="50"><source src="../../assets/hawk-loop.webm" type="video/webm"><source src="../../assets/hawk-loop.mp4" type="video/mp4"></video>
-      <span>CYRUS FORGE SYSTEMS</span>
-    </a>
-    <div class="nav-links">
-      <a href="../../index.html">Home</a>
-      <a href="../index.html" aria-current="page">Cyrus</a>
-      <a href="../../index.html#contact">Contact</a>
-    </div>
-  </nav>
-</header>
+<header class="site-header"><nav class="wrap site-nav" aria-label="Site"><a class="brand" href="../../index.html"><video class="brand-mark" autoplay muted loop playsinline preload="auto" poster="../../assets/hawk-poster.jpg" aria-hidden="true" width="84" height="50"><source src="../../assets/hawk-loop.webm" type="video/webm"><source src="../../assets/hawk-loop.mp4" type="video/mp4"></video><span>CYRUS FORGE SYSTEMS</span></a><div class="nav-links"><a href="../../index.html">Home</a><a href="../index.html" aria-current="page">Cyrus</a><a href="../../index.html#contact">Contact</a></div></nav></header>
 
 <main id="main" class="wrap" style="padding-top:32px;padding-bottom:72px">
 <p class="crumbs"><a href="../index.html">Cyrus engines</a> / Consolidation Analyzer</p>
-<section aria-labelledby="consolidation-title">
-  <p class="eyebrow">Multi-source collection, validation and comparison</p>
-  <h1 id="consolidation-title">Cyrus Consolidation Analyzer</h1>
-  <p class="lead">Turn records from separate sources into a traceable comparison, while preserving disagreements, missing information and the evidence behind each result.</p>
-  <p>This engine organizes and validates existing information. It does not generate the same projections as the Insight Engine. Its current implementation uses specialized document parsers, a private staging service and a separately reviewed reporting board.</p>
-</section>
+<section aria-labelledby="consolidation-title"><p class="eyebrow">Multi-source collection, validation and comparison</p><h1 id="consolidation-title">Cyrus Consolidation Analyzer</h1><p class="lead">Turn records from separate sources into a traceable comparison, while preserving disagreements, missing information and the evidence behind each result.</p><p>This engine organizes and validates existing information. It does not generate the same projections as the Insight Engine. Its current implementation uses specialized document parsers, a private staging service and a separately reviewed reporting board.</p></section>
 
-<section class="origin-story" aria-labelledby="origin-title">
-  <p class="eyebrow">Built from a practical request</p>
-  <h2 id="origin-title">Our First Real-World Challenge</h2>
-  <p>Cyrus Forge Systems began with a practical request: build an analyzer that could compare leading contest entries, identify shared selections, and turn scattered information into a clear consensus view.</p>
-  <p>The Consolidation Analyzer is the engine we designed to solve that challenge. It preserves each source independently, compares selections across contests, and highlights where agreement is strongest.</p>
-</section>
+<section class="origin-story" aria-labelledby="origin-title"><p class="eyebrow">Built from a practical request</p><h2 id="origin-title">Our First Real-World Challenge</h2><p>Cyrus Forge Systems began with a practical request: build an analyzer that could compare leading contest entries, identify shared selections, and turn scattered information into a clear consensus view.</p><p>The Consolidation Analyzer is the engine we designed to solve that challenge. It preserves each source independently, compares selections across contests, and highlights where agreement is strongest.</p></section>
 
-<section class="panel" style="padding:28px 0" aria-labelledby="workflow-title">
-  <h2 id="workflow-title">How it works at a glance</h2>
-  <p class="section-intro">Cyrus Consolidation Analyzer brings information from separate sources into one clear comparison, helping you see where records agree, where they differ and what needs attention.</p>
-  <div class="grid grid-250">
-    <article class="tile"><svg aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#1E6B4A" stroke-width="1.8"><rect x="4" y="5" width="10" height="15" rx="2"/><rect x="18" y="5" width="10" height="15" rx="2"/><path d="M9 23v4h14v-4"/></svg><h3>Bring sources together</h3><p>Collect relevant documents and organize their information into a consistent, comparable format.</p></article>
-    <article class="tile"><svg aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#1E6B4A" stroke-width="1.8"><path d="M5 9h22M5 16h22M5 23h22"/><circle cx="11" cy="9" r="3" fill="white"/><circle cx="22" cy="16" r="3" fill="white"/><circle cx="15" cy="23" r="3" fill="white"/></svg><h3>Check and compare</h3><p>Validate required information, identify inconsistencies and preserve meaningful differences between sources.</p></article>
-    <article class="tile"><svg aria-hidden="true" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#1E6B4A" stroke-width="1.8"><rect x="5" y="5" width="22" height="22" rx="4"/><path d="M10 11h12M10 16h7M10 21h9"/></svg><h3>Deliver a clear view</h3><p>Present reviewed findings with supporting evidence, visible exceptions and a dated snapshot.</p></article>
-  </div>
-  <p style="margin-top:20px"><strong>The result:</strong> A traceable comparison that supports informed review and decisions.</p>
-  <p class="muted">Agreement between sources is not proof of accuracy. New applications require tailored source connections and validation rules.</p>
-</section>
+<section class="panel" style="padding:28px 0" aria-labelledby="workflow-title"><h2 id="workflow-title">How it works at a glance</h2><p class="section-intro">Cyrus Consolidation Analyzer brings information from separate sources into one clear comparison, helping you see where records agree, where they differ and what needs attention.</p><div class="grid grid-250"><article class="tile"><h3>Bring sources together</h3><p>Collect official documents and organize their information into a consistent, comparable format.</p></article><article class="tile"><h3>Check and compare</h3><p>Validate required information, identify duplicate opinions and preserve each source's exact contest line.</p></article><article class="tile"><h3>Deliver a clear view</h3><p>Present book-level findings first, then show where independent leader pools agree most strongly.</p></article></div><p style="margin-top:20px"><strong>The result:</strong> A traceable comparison that supports informed review and decisions.</p><p class="muted">Agreement between sources is not proof of accuracy. New applications require tailored source connections and validation rules.</p></section>
 
-<section style="padding:32px 0" aria-labelledby="consolidation-applications">
-  <h2 id="consolidation-applications">Applications Across Industries</h2>
-  <p>Potential applications include supplier quote comparison, invoice-to-order reconciliation, inventory checks and recurring operations reports. For example, a purchasing workflow could extract supplier prices and delivery commitments, normalize units and currencies, flag missing terms, and route the comparison for human review.</p>
-  <p>AI-assisted extraction or summarization could be added for a suitable application, with validation and review. The current engine is not a universal AI connector: customer-specific adapters, schemas, access controls and rules would still be required.</p>
-  <p><a href="https://github.com/Ibmcleaner/Cyrus-Consolidation-Analyzer/blob/main/docs/ARCHITECTURE.md">Read the architecture and implementation on GitHub →</a></p>
+<section style="padding:32px 0" aria-labelledby="consolidation-applications"><h2 id="consolidation-applications">Applications Across Industries</h2><p>Potential applications include supplier quote comparison, invoice-to-order reconciliation, inventory checks and recurring operations reports. For example, a purchasing workflow could extract supplier prices and delivery commitments, normalize units and currencies, flag missing terms, and route the comparison for human review.</p><p><a href="https://github.com/Ibmcleaner/Cyrus-Consolidation-Analyzer/blob/main/docs/ARCHITECTURE.md">Read the architecture and implementation on GitHub →</a></p>
 
-  <article class="live-preview" aria-labelledby="live-title">
-    <p class="eyebrow" style="color:#f0c86a">Live implementation · 2026 Week 8</p>
-    <h3 id="live-title">See the consensus, then inspect every source card</h3>
-    <p>The current contest board compares the leading Westgate and Circa entries, surfaces teams selected in both contests, and preserves every qualifying entry's five-pick card and contest-specific line.</p>
-    <div class="preview-grid" aria-label="Current combined consensus leaders">
-      <div class="preview-pick"><span class="preview-rank">Rank 1 · 75%</span><span class="preview-team">Chargers</span><span class="preview-support">Westgate 2 of 4 · Circa 4 of 4</span></div>
-      <div class="preview-pick"><span class="preview-rank">Rank 2T · 50%</span><span class="preview-team">Ravens</span><span class="preview-support">Westgate 1 of 4 · Circa 3 of 4</span></div>
-      <div class="preview-pick"><span class="preview-rank">Rank 2T · 50%</span><span class="preview-team">Broncos</span><span class="preview-support">Westgate 1 of 4 · Circa 3 of 4</span></div>
+<article class="weekly-board" aria-labelledby="week9-title">
+  <div class="board-hero"><p class="eyebrow" style="color:#f0c86a">Live implementation · 2026 Week 9</p><h3 id="week9-title">Contest Leader Consolidation</h3><p>Official Westgate and Circa leader cards are preserved separately before their deduplicated shares are combined. Thursday selections are excluded, and each book keeps its own spread.</p><div class="status-row"><span class="status-chip"><strong>COMPLETE</strong> official files verified</span><span class="status-chip"><strong>5 + 6</strong> unique leader opinions</span><span class="status-chip"><strong>3</strong> tied consensus leaders</span><span class="status-chip"><strong>PENDING</strong> outcome grade</span></div></div>
+
+  <section class="board-section" aria-labelledby="books-title"><div class="section-head"><div><p class="eyebrow">Sources first</p><h3 id="books-title">Each contest stands on its own</h3></div><p>The fractions are people, not probabilities. Westgate uses five unique leader cards; Circa uses six. TAMTAM-9's Thursday pick is excluded, leaving four active sides on that card.</p></div>
+    <div class="book-grid">
+      <article class="book-card"><header class="westgate"><h4>Westgate SuperContest</h4><p>Raw 5 · Deduplicated 5 · 25 active picks</p></header><div class="table-wrap"><table class="pick-table"><thead><tr><th>Pick</th><th>Spread</th><th>Leaders</th><th>Field</th></tr></thead><tbody>
+        <tr class="leader"><td>Packers</td><td>+3</td><td>3 of 5</td><td>75 of 591</td></tr><tr><td>Cardinals</td><td>+12.5</td><td>2 of 5</td><td>224 of 591</td></tr><tr class="leader"><td>Buccaneers</td><td>+6.5</td><td>2 of 5</td><td>153 of 591</td></tr><tr><td>Giants</td><td>-3.5</td><td>2 of 5</td><td>100 of 591</td></tr><tr><td>Panthers</td><td>+2.5</td><td>2 of 5</td><td>145 of 591</td></tr><tr><td>Raiders</td><td>+9.5</td><td>2 of 5</td><td>70 of 591</td></tr><tr class="leader"><td>Saints</td><td>-3</td><td>2 of 5</td><td>169 of 591</td></tr><tr><td>Texans</td><td>-4.5</td><td>2 of 5</td><td>130 of 591</td></tr><tr class="leader"><td>Vikings</td><td>+3.5</td><td>2 of 5</td><td>174 of 591</td></tr><tr><td>Bills</td><td>-3.5</td><td>1 of 5</td><td>104 of 591</td></tr><tr><td>Browns</td><td>+3</td><td>1 of 5</td><td>46 of 591</td></tr><tr><td>Chiefs</td><td>-9.5</td><td>1 of 5</td><td>73 of 591</td></tr><tr><td>Commanders</td><td>+5.5</td><td>1 of 5</td><td>131 of 591</td></tr><tr><td>Eagles</td><td>+3.5</td><td>1 of 5</td><td>98 of 591</td></tr><tr><td>Patriots</td><td>-3</td><td>1 of 5</td><td>134 of 591</td></tr>
+      </tbody></table></div></article>
+      <article class="book-card"><header class="circa"><h4>Circa Million VIII</h4><p>Raw 6 · Deduplicated 6 · 29 active picks</p></header><div class="table-wrap"><table class="pick-table"><thead><tr><th>Pick</th><th>Spread</th><th>Leaders</th></tr></thead><tbody>
+        <tr class="leader"><td>Buccaneers</td><td>+6</td><td>4 of 6</td></tr><tr class="leader"><td>Saints</td><td>-3</td><td>4 of 6</td></tr><tr class="leader"><td>Vikings</td><td>+3.5</td><td>4 of 6</td></tr><tr><td>Panthers</td><td>+2.5</td><td>3 of 6</td></tr><tr><td>Bengals</td><td>-3</td><td>2 of 6</td></tr><tr><td>Patriots</td><td>-3</td><td>2 of 6</td></tr><tr><td>Rams</td><td>-4</td><td>2 of 6</td></tr><tr><td>Broncos</td><td>-2.5</td><td>1 of 6</td></tr><tr><td>Commanders</td><td>+4</td><td>1 of 6</td></tr><tr><td>Cowboys</td><td>-4.5</td><td>1 of 6</td></tr><tr><td>Eagles</td><td>+3.5</td><td>1 of 6</td></tr><tr><td>Falcons</td><td>+3</td><td>1 of 6</td></tr><tr><td>49ers</td><td>-10</td><td>1 of 6</td></tr><tr><td>Seahawks</td><td>-8.5</td><td>1 of 6</td></tr><tr><td>Texans</td><td>-4.5</td><td>1 of 6</td></tr>
+      </tbody></table></div></article>
     </div>
-    <div class="btn-row"><a class="btn btn-primary" href="contest-board/">View the current contest board →</a></div>
-  </article>
+    <p class="small-note"><strong>Top-tier overlap:</strong> Circa's exact top three—Buccaneers, Saints and Vikings—are all in Westgate's eight-way second tier. Westgate has Packers alone at 3 of 5, then eight teams at 2 of 5, so it has no honest standalone top-three cut.</p>
+  </section>
+
+  <section class="board-section" aria-labelledby="combined-title"><div class="section-head"><div><p class="eyebrow">Book-balanced result</p><h3 id="combined-title">Combined top three</h3></div><p>Each score is the mean of the Westgate and Circa deduplicated leader-pool shares. The larger pool does not outweigh the smaller one.</p></div><div class="consensus-grid">
+    <article class="consensus-card"><span class="rank-badge">Rank 1T</span><h3 class="team-name">Buccaneers</h3><p class="combined"><strong>53.3%</strong> mean share</p><div class="support"><div><span>Westgate</span><strong>+6.5 · 2 of 5</strong></div><div><span>Circa</span><strong>+6 · 4 of 6</strong></div></div><div class="pending">Grade pending</div></article>
+    <article class="consensus-card"><span class="rank-badge">Rank 1T</span><h3 class="team-name">Saints</h3><p class="combined"><strong>53.3%</strong> mean share</p><div class="support"><div><span>Westgate</span><strong>-3 · 2 of 5</strong></div><div><span>Circa</span><strong>-3 · 4 of 6</strong></div></div><div class="pending">Grade pending</div></article>
+    <article class="consensus-card"><span class="rank-badge">Rank 1T</span><h3 class="team-name">Vikings</h3><p class="combined"><strong>53.3%</strong> mean share</p><div class="support"><div><span>Westgate</span><strong>+3.5 · 2 of 5</strong></div><div><span>Circa</span><strong>+3.5 · 4 of 6</strong></div></div><div class="pending">Grade pending</div></article>
+  </div><p class="small-note">Next: Panthers at 45.0% (Westgate 2 of 5; Circa 3 of 6). Packers lead Westgate but fall to 30.0% combined because no Circa leader selected them.</p></section>
+
+  <section class="board-section" aria-labelledby="evidence-title"><div class="section-head"><div><p class="eyebrow">Evidence and exceptions</p><h3 id="evidence-title">What differs between the books</h3></div><p>No half-point difference moves onto, off, or across the key numbers 3 or 7 in Week 9.</p></div><div class="evidence-grid"><div class="evidence-card"><strong>Seahawks / Cardinals</strong><span>Westgate -12.5 / +12.5 · Circa -8.5 / +8.5 · 4-point difference</span></div><div class="evidence-card"><strong>Rams / Commanders</strong><span>Westgate -5.5 / +5.5 · Circa -4 / +4 · 1.5-point difference</span></div><div class="evidence-card"><strong>Buccaneers consensus line</strong><span>Westgate +6.5 · Circa +6 · exact book-specific grading required</span></div></div><div class="method-note"><strong>Duplicate and alias check:</strong> no duplicate cards within either selected leader pool and no identical five-team card across books. TAMTAM-9's card matches other nonleader TAMTAM entries in the Circa file; only the qualifying leader entry counts. No new cross-book alias record opens.</div>
+    <div class="source-links"><a href="https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino/casino/2026-supercontest-standings/">Westgate standings</a><a href="https://www.westgateresorts.com/supercontest/download/2026%20SUPERCONTEST%20GAME%20SHEET%20WEEK%209.pdf?contest=/2026/SuperContest/Card">Westgate Week 9 card</a><a href="https://www.westgateresorts.com/supercontest/download/2026%20SUPERCONTEST%20SELECTIONS%20WEEK%209.pdf?contest=/2026/SuperContest/Selections">Westgate Week 9 selections</a><a href="https://www.circasports.com/wp-content/uploads/2026/11/Circa-Sports-Million-VIII-Full-Season-Standings-After-Week-8.pdf">Circa standings</a><a href="https://www.circasports.com/wp-content/uploads/2026/11/Circa-Sports-Million-VIII-Contest-Point-Spreads-Week-9.pdf">Circa Week 9 card</a><a href="https://www.circasports.com/wp-content/uploads/2026/11/Circa-Sports-Million-VIII-Week-9-Selections.pdf">Circa Week 9 selections</a></div><p class="small-note">Sample-size caution: the leaders were identified after 40 contest picks, and the current pools contain only five and six unique opinions. A count such as 4 of 6 means four people; it is not a win probability or guarantee.</p>
+  </section>
+</article>
 </section>
 </main>
-
 <footer class="site-footer"><div class="wrap" style="padding-top:40px;padding-bottom:40px"><p class="footer-small">For demonstration and informational purposes only. Projections are estimates, not guarantees. Performance in one application does not establish accuracy in another. © 2026 Cyrus Forge Systems, LLC.</p></div></footer>
 </body>
 </html>
