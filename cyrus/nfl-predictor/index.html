@@ -155,7 +155,13 @@
   </div>
 </footer>
 
-<script src="../../data/latest.js?v=202610261814"></script>
-<script src="../../assets/predictor.js?v=202610282235"></script>
+<script>
+  // Always fetch the current card: the version tag changes every 5 minutes, so no browser or edge cache can serve a stale week.
+  (function () {
+    var t = Math.floor(Date.now() / 300000);
+    document.write('<script src="../../data/latest.js?t=' + t + '"><\/script>');
+    document.write('<script src="../../assets/predictor.js?t=' + t + '"><\/script>');
+  })();
+</script>
 </body>
 </html>
