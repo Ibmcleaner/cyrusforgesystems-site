@@ -126,16 +126,23 @@
     var lab = document.getElementById('record-label');
     lab.textContent = rec.rows && rec.rows.length ? 'Season to date: ' + rec.label + '.' : 'Starts with ' + rec.season + ' Week ' + rec.start_week + ', the first card published automatically.';
     if (rec.rows && rec.rows.length) {
-      var rb = document.getElementById('record-body');
-      rb.textContent = '';
-      rec.rows.forEach(function (r) {
-        var tr = el('tr');
-        tr.appendChild(el('td', 'strong', r.market === 'RB TD' ? 'RB anytime TD' : 'QB passing yards'));
-        tr.appendChild(chip(r.tier));
-        tr.appendChild(el('td', 'num', r.wins + '-' + r.losses + (r.voids ? ' (' + r.voids + ' void)' : '')));
-        tr.appendChild(el('td', 'num strong', r.picks ? Math.round(r.win_pct * 100) + '%' : '—'));
-        tr.appendChild(el('td', 'num soft', r.picks ? Math.round(r.expected_pct * 100) + '%' : '—'));
-        rb.appendChild(tr);
+      // One table per market, each on its own tab (same split as the card above).
+      [['record-body-rb', 'RB TD'], ['record-body-qb', 'QB YDS']].forEach(function (pair) {
+        var body = document.getElementById(pair[0]);
+        if (!body) return;
+        var rows = rec.rows.filter(function (r) { return r.market === pair[1]; });
+        body.textContent = '';
+        if (!rows.length) {
+          var e = el('tr'); var td = el('td', 'empty', 'No graded calls in this market yet.'); td.colSpan = 4; e.appendChild(td); body.appendChild(e); return;
+        }
+        rows.forEach(function (r) {
+          var tr = el('tr');
+          tr.appendChild(chip(r.tier));
+          tr.appendChild(el('td', 'num', r.wins + '-' + r.losses + (r.voids ? ' (' + r.voids + ' void)' : '')));
+          tr.appendChild(el('td', 'num strong', r.picks ? Math.round(r.win_pct * 100) + '%' : '—'));
+          tr.appendChild(el('td', 'num soft', r.picks ? Math.round(r.expected_pct * 100) + '%' : '—'));
+          body.appendChild(tr);
+        });
       });
     }
   }
@@ -286,21 +293,26 @@
     input.addEventListener('change', function () { if (find(input.value) && !find(input.value).multi) render(find(input.value)); });
   })();
 
-  // Tabs
-  var tabs = [document.getElementById('tab-rb'), document.getElementById('tab-qb')];
-  function select(i) {
-    tabs.forEach(function (t, j) {
-      var on = i === j;
-      t.setAttribute('aria-selected', on ? 'true' : 'false');
-      t.tabIndex = on ? 0 : -1;
-      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+  // Tabs: the card (RB / QB) and the track record (RB / QB) each have their own pair.
+  function wireTabs(ids) {
+    var tabs = ids.map(function (id) { return document.getElementById(id); }).filter(Boolean);
+    if (tabs.length < 2) return;
+    function select(i) {
+      tabs.forEach(function (t, j) {
+        var on = i === j;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+      });
+      tabs[i].focus();
+    }
+    tabs.forEach(function (t, i) {
+      t.addEventListener('click', function () { select(i); });
+      t.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); select(i === 0 ? 1 : 0); }
+      });
     });
-    tabs[i].focus();
   }
-  tabs.forEach(function (t, i) {
-    t.addEventListener('click', function () { select(i); });
-    t.addEventListener('keydown', function (e) {
-      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); select(i === 0 ? 1 : 0); }
-    });
-  });
+  wireTabs(['tab-rb', 'tab-qb']);
+  wireTabs(['rtab-rb', 'rtab-qb']);
 })();

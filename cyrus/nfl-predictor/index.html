@@ -37,6 +37,8 @@
 .chron-sum .cs-label { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 2px; }
 .chron-sum .cs-val { font-weight: 600; font-variant-numeric: tabular-nums; }
 .chron-summary .cs-note { grid-column: 1 / -1; margin: 0; font-size: 13px; color: var(--muted); }
+.rec-tabs { margin: 0 20px 6px; }
+.picks.rec { min-width: 520px; }
 </style>
 </head>
 <body>
@@ -154,11 +156,25 @@
       <h2 id="record-title">Track record</h2>
       <p id="record-label">Starts with 2026 Week 8, the first card published automatically.</p>
     </div>
-    <div class="table-scroll">
-      <table class="picks rec">
-        <thead><tr><th>Market</th><th>Tier</th><th>Record</th><th>Hit rate</th><th>Expected</th></tr></thead>
-        <tbody id="record-body"><tr><td class="empty" colspan="5">The first results appear after Week 8 games are graded.</td></tr></tbody>
-      </table>
+    <div class="tabs rec-tabs" role="tablist" aria-label="Track record market">
+      <button class="tab" role="tab" id="rtab-rb" aria-controls="rpanel-rb" aria-selected="true">RB anytime touchdown</button>
+      <button class="tab" role="tab" id="rtab-qb" aria-controls="rpanel-qb" aria-selected="false" tabindex="-1">QB passing yards</button>
+    </div>
+    <div id="rpanel-rb" role="tabpanel" aria-labelledby="rtab-rb">
+      <div class="table-scroll">
+        <table class="picks rec">
+          <thead><tr><th>Tier</th><th>Record</th><th>Hit rate</th><th>Expected</th></tr></thead>
+          <tbody id="record-body-rb"><tr><td class="empty" colspan="4">The first results appear after Week 8 games are graded.</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="rpanel-qb" role="tabpanel" aria-labelledby="rtab-qb" hidden>
+      <div class="table-scroll">
+        <table class="picks rec">
+          <thead><tr><th>Tier</th><th>Record</th><th>Hit rate</th><th>Expected</th></tr></thead>
+          <tbody id="record-body-qb"><tr><td class="empty" colspan="4">The first results appear after Week 8 games are graded.</td></tr></tbody>
+        </table>
+      </div>
     </div>
     <p class="record-note">Every Strong, Moderate and Slight call is logged before kickoff and graded from the official box score. The last card before kickoff counts. Voids (player did not play) are left out. Hit rate is how often the call was right. Expected is the average chance Cyrus gave those calls: when the hit rate keeps pace with it, the confidence numbers can be trusted.</p>
   </section>
