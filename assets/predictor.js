@@ -134,18 +134,26 @@
     var body = document.getElementById('chronicle-body');
     if (!ch || !body || !ch.weeks || !ch.weeks.length) return;
     var RUN = { auto: ['run-auto', 'published itself'], manual: ['run-manual', 'published by hand'], offline: ['run-offline', 'logged'] };
+    // Headline numbers are Strong + Moderate calls (t.core); Slight and Recheck calls (t.slight) are shown underneath.
+    function core(t) { return t.core || t; }
+    function wl(x) { return x.wins + '-' + x.losses + (x.voids ? ' (' + x.voids + ' void)' : ''); }
+    function pct(x) { return x.picks ? Math.round(x.win_pct * 100) + '%' : '—'; }
     function rec(t, official) {
+      var c = core(t), sl = t.slight;
       var td = el('td', 'num' + (official ? ' strong' : ' test'));
       if (!t.picks && !t.voids) { td.textContent = t.pending ? t.pending + ' logged, not yet graded' : '—'; td.className = 'soft'; return td; }
-      td.appendChild(document.createTextNode(t.wins + '-' + t.losses + (t.voids ? ' (' + t.voids + ' void)' : '')));
+      td.appendChild(document.createTextNode(c.picks || c.voids ? wl(c) : '—'));
+      if (sl && (sl.picks || sl.voids)) td.appendChild(el('span', 'exp', 'Slight ' + wl(sl)));
       if (t.pending) td.appendChild(el('span', 'exp', t.pending + ' still to grade'));
       return td;
     }
     function rate(t, official) {
+      var c = core(t), sl = t.slight;
       var td = el('td', 'num' + (official ? ' strong' : ' test'));
       if (!t.picks) { td.textContent = '—'; td.className = 'soft'; return td; }
-      td.appendChild(document.createTextNode(Math.round(t.win_pct * 100) + '%'));
-      if (t.expected_pct != null) td.appendChild(el('span', 'exp', 'expected ' + Math.round(t.expected_pct * 100) + '%'));
+      td.appendChild(document.createTextNode(pct(c)));
+      if (c.picks && c.expected_pct != null) td.appendChild(el('span', 'exp', 'expected ' + Math.round(c.expected_pct * 100) + '%'));
+      if (sl && sl.picks) td.appendChild(el('span', 'exp', 'Slight ' + pct(sl)));
       return td;
     }
     body.textContent = '';
@@ -171,9 +179,22 @@
     });
     var lab = document.getElementById('chronicle-label');
     if (lab && ch.totals) {
-      var r = ch.totals.rb, q = ch.totals.qb;
-      lab.textContent = 'Official record (' + ch.label + '): RB anytime TD ' + r.wins + '-' + r.losses + (r.picks ? ' (' + Math.round(r.win_pct * 100) + '%)' : '') +
-        ' · QB passing yards ' + q.wins + '-' + q.losses + (q.picks ? ' (' + Math.round(q.win_pct * 100) + '%)' : '') + '. Updated ' + ch.generated + '.';
+      lab.textContent = 'Strong + Moderate calls only. Updated ' + ch.generated + '.';
+    }
+    var sum = document.getElementById('chronicle-summary');
+    if (sum && ch.totals) {
+      function pair(label, w) {
+        var d = el('div', 'chron-sum');
+        d.appendChild(el('span', 'cs-label', label));
+        d.appendChild(el('span', 'cs-val', 'RB anytime TD ' + core(w.rb).wins + '-' + core(w.rb).losses + ' (' + pct(core(w.rb)) + ')'));
+        d.appendChild(el('span', 'cs-val', 'QB passing yards ' + core(w.qb).wins + '-' + core(w.qb).losses + ' (' + pct(core(w.qb)) + ')'));
+        return d;
+      }
+      sum.textContent = '';
+      if (ch.last_week) sum.appendChild(pair('Last week (Week ' + ch.last_week.week + ')', ch.last_week));
+      sum.appendChild(pair('Season to date (' + ch.label + ')', ch.totals));
+      sum.appendChild(el('p', 'cs-note', 'Strong + Moderate calls, voids left out. Season to date across all tiers including Slight: RB ' + ch.totals.rb.wins + '-' + ch.totals.rb.losses + ', QB ' + ch.totals.qb.wins + '-' + ch.totals.qb.losses + '.'));
+      sum.hidden = false;
     }
     if (ch.milestones && ch.milestones.length) {
       var box = document.getElementById('milestones'), ul = document.getElementById('milestone-list');
