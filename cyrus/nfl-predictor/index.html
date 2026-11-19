@@ -10,6 +10,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/styles.css?v=202611152000">
+<style>
+/* Call badges (QB passing yards) */
+.chip-over { background: #E3F1E9; color: #14492F; }
+.chip-under { background: #EEF0F3; color: #2D3748; }
+
+/* Season chronicle */
+.chronicle { margin-top: 24px; }
+.picks.chron { min-width: 820px; }
+.picks.chron .exp { display: block; font-size: 12px; color: var(--muted); font-weight: 400; }
+.picks.chron .test { color: var(--muted); }
+.picks.chron .runs { font-size: 13.5px; line-height: 1.7; }
+.run { display: inline-block; white-space: nowrap; font-size: 12px; font-weight: 600; padding: 3px 8px; border-radius: 6px; margin: 1px 6px 1px 0; }
+.run-auto { background: #E3F1E9; color: #14492F; }
+.run-manual { background: #E6EDF7; color: #1B4479; }
+.run-offline { background: #EEF0F3; color: #4A5568; }
+.run-pending { background: #FBF0DC; color: #7A4B00; }
+.milestones { padding: 14px 20px 18px; border-top: 1px solid var(--row); }
+.milestones h3 { margin: 0 0 8px; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.milestones ul { margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6; }
+.milestones li { margin: 4px 0; }
+.milestones .ms-date { font-weight: 600; margin-right: 6px; }
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -110,7 +132,7 @@
     <div class="review-note" role="note"><strong>Under review.</strong> The first 40 graded passing-yards calls (Weeks 8&ndash;9) ran well below the confidence the model assigned them, with the Strong tier the weakest. Treat the passing-yards tiers as experimental until the record supports them. The projections and lines are still published so the comparison stays visible. The touchdown model is tracking close to its expected rate.</div>
     <div class="table-scroll">
       <table class="picks qb">
-        <thead><tr><th>Tier</th><th>Quarterback</th><th>Game</th><th>Kickoff</th><th>Cyrus call</th><th>Cyrus projection</th><th>Market line</th><th>Chance</th><th>Note</th></tr></thead>
+        <thead><tr><th>Tier</th><th>Quarterback</th><th>Game</th><th>Kickoff</th><th>Market line</th><th>Cyrus projection</th><th>Call</th><th>Chance</th><th>Why</th></tr></thead>
         <tbody id="qb-body"><tr><td class="empty" colspan="9">Loading this week's card…</td></tr></tbody>
       </table>
     </div>
@@ -135,10 +157,28 @@
     <p class="record-note">Every Strong, Moderate and Slight call is logged before kickoff and graded from the official box score. The last card before kickoff counts. Voids (player did not play) are left out. Hit rate is how often the call was right. Expected is the average chance Cyrus gave those calls: when the hit rate keeps pace with it, the confidence numbers can be trusted.</p>
   </section>
 
+  <section class="panel chronicle" aria-labelledby="chronicle-title">
+    <div class="panel-head">
+      <h2 id="chronicle-title">Season chronicle</h2>
+      <p id="chronicle-label">Week by week: how each card did, and whether it published on schedule.</p>
+    </div>
+    <div class="table-scroll">
+      <table class="picks chron">
+        <thead><tr><th>Week</th><th>RB anytime TD</th><th>Hit rate</th><th>QB passing yards</th><th>Hit rate</th><th>Runs</th></tr></thead>
+        <tbody id="chronicle-body"><tr><td class="empty" colspan="6">The chronicle appears once the first week is graded.</td></tr></tbody>
+      </table>
+    </div>
+    <p class="record-note">Each row is one NFL week. Records are wins-losses on the graded calls (voids left out); the small number is the average chance Cyrus gave those calls. Weeks before Week 8 were tests and do not count toward the record. Under Runs, each card the pipeline produced is listed with how it reached this page: <span class="run run-auto">published itself</span> means the scheduled job pushed the update and the site deployed with no one touching it; <span class="run run-manual">published by hand</span> means a person pushed it; <span class="run run-offline">logged</span> means the card was logged but the site was updated outside the automated path. Regenerated every run morning from the ledger and the site's own commit history.</p>
+    <div class="milestones" id="milestones" hidden>
+      <h3>Milestones</h3>
+      <ul id="milestone-list"></ul>
+    </div>
+  </section>
+
   <section class="read-me grid grid-260" aria-label="How to read this">
     <div>
       <h2>How to read this</h2>
-      <p style="margin:0">Chance is how often Cyrus expects the call to be right. For quarterbacks, Cyrus's projection is set beside the market line, and the call is the side Cyrus expects him to land on.</p>
+      <p style="margin:0">Chance is how often Cyrus expects the call to be right. For quarterbacks, Cyrus's projection is set beside the market line, and the call is the side of that line Cyrus expects him to land on; the Why column gives the biggest reason behind it, and the player lookup above gives all of them.</p>
     </div>
     <div class="card legend stack" style="padding:20px">
       <p><span class="chip chip-best">STRONG</span><span>Our highest-confidence projections</span></p>
@@ -160,6 +200,7 @@
   (function () {
     var t = Math.floor(Date.now() / 300000);
     document.write('<script src="../../data/latest.js?t=' + t + '"><\/script>');
+    document.write('<script src="../../data/chronicle.js?t=' + t + '"><\/script>');
     document.write('<script src="../../assets/predictor.js?t=' + t + '"><\/script>');
   })();
 </script>

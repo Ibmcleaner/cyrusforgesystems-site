@@ -77,17 +77,24 @@
       return tr;
     });
 
+    // The biggest reason behind each QB call comes from the same explanation the player lookup shows.
+    var whyByName = {};
+    (data.players || []).forEach(function (p) { if (p.pos === 'QB' && p.pros && p.pros.length) whyByName[p.name] = p.pros[0]; });
     fillBody('qb-body', data.qb, 9, function (q) {
       var tr = el('tr');
       tr.appendChild(chip(q.tier));
       tr.appendChild(el('td', 'strong', q.player));
       tr.appendChild(el('td', 'soft', q.game));
       tr.appendChild(el('td', 'soft nowrap', q.kickoff));
-      tr.appendChild(el('td', 'strong nowrap', q.pick));
-      tr.appendChild(el('td', 'num', q.projection + ' yds'));
-      tr.appendChild(el('td', 'num soft', q.line != null ? q.line + ' yds' : '—'));
+      tr.appendChild(el('td', 'num soft nowrap', q.line != null ? q.line + ' yds' : '—'));
+      tr.appendChild(el('td', 'num strong nowrap', q.projection + ' yds'));
+      var side = String(q.pick || '').split(' ')[0].toUpperCase();
+      var call = el('td');
+      call.appendChild(el('span', 'chip ' + (side === 'OVER' ? 'chip-over' : side === 'UNDER' ? 'chip-under' : 'chip-lean'), side || '—'));
+      tr.appendChild(call);
       tr.appendChild(el('td', 'num strong', q.chance + '%'));
-      tr.appendChild(el('td', 'note', q.note));
+      var why = [q.note, whyByName[q.player]].filter(function (x) { return x; }).join(' ');
+      tr.appendChild(el('td', 'note', why));
       return tr;
     });
 
@@ -120,6 +127,60 @@
       });
     }
   }
+
+  // Season chronicle (data/chronicle.js, regenerated each run morning from the ledger and the site's commit history)
+  (function () {
+    var ch = window.CYRUS_CHRONICLE;
+    var body = document.getElementById('chronicle-body');
+    if (!ch || !body || !ch.weeks || !ch.weeks.length) return;
+    var RUN = { auto: ['run-auto', 'published itself'], manual: ['run-manual', 'published by hand'], offline: ['run-offline', 'logged'] };
+    function rec(t, official) {
+      var td = el('td', 'num' + (official ? ' strong' : ' test'));
+      if (!t.picks && !t.voids) { td.textContent = t.pending ? t.pending + ' logged, not yet graded' : '—'; td.className = 'soft'; return td; }
+      td.appendChild(document.createTextNode(t.wins + '-' + t.losses + (t.voids ? ' (' + t.voids + ' void)' : '')));
+      if (t.pending) td.appendChild(el('span', 'exp', t.pending + ' still to grade'));
+      return td;
+    }
+    function rate(t, official) {
+      var td = el('td', 'num' + (official ? ' strong' : ' test'));
+      if (!t.picks) { td.textContent = '—'; td.className = 'soft'; return td; }
+      td.appendChild(document.createTextNode(Math.round(t.win_pct * 100) + '%'));
+      if (t.expected_pct != null) td.appendChild(el('span', 'exp', 'expected ' + Math.round(t.expected_pct * 100) + '%'));
+      return td;
+    }
+    body.textContent = '';
+    ch.weeks.slice().reverse().forEach(function (w) {
+      var tr = el('tr');
+      var wk = el('td', 'strong nowrap', 'Week ' + w.week);
+      if (!w.official) wk.appendChild(el('span', 'exp', 'test week'));
+      else if (w.status === 'in_play') wk.appendChild(el('span', 'exp', 'in play'));
+      tr.appendChild(wk);
+      tr.appendChild(rec(w.rb, w.official)); tr.appendChild(rate(w.rb, w.official));
+      tr.appendChild(rec(w.qb, w.official)); tr.appendChild(rate(w.qb, w.official));
+      var runs = el('td', 'runs');
+      (w.runs || []).forEach(function (r) {
+        var line = el('div');
+        var kind = RUN[r.published] || RUN.offline;
+        line.appendChild(el('span', 'run ' + kind[0], kind[1]));
+        line.appendChild(document.createTextNode((r.day ? r.day + ' run' : 'Update') + (r.pushed ? ' · pushed ' + r.pushed.replace(/^\w+ /, '') : (r.logged ? ' · logged ' + r.logged.replace(/^\w+ /, '') : ''))));
+        runs.appendChild(line);
+      });
+      if (!(w.runs || []).length) runs.textContent = '—';
+      tr.appendChild(runs);
+      body.appendChild(tr);
+    });
+    var lab = document.getElementById('chronicle-label');
+    if (lab && ch.totals) {
+      var r = ch.totals.rb, q = ch.totals.qb;
+      lab.textContent = 'Official record (' + ch.label + '): RB anytime TD ' + r.wins + '-' + r.losses + (r.picks ? ' (' + Math.round(r.win_pct * 100) + '%)' : '') +
+        ' · QB passing yards ' + q.wins + '-' + q.losses + (q.picks ? ' (' + Math.round(q.win_pct * 100) + '%)' : '') + '. Updated ' + ch.generated + '.';
+    }
+    if (ch.milestones && ch.milestones.length) {
+      var box = document.getElementById('milestones'), ul = document.getElementById('milestone-list');
+      ch.milestones.forEach(function (m) { var li = el('li'); li.appendChild(el('span', 'ms-date', m.date)); li.appendChild(document.createTextNode(m.text)); ul.appendChild(li); });
+      box.hidden = false;
+    }
+  })();
 
   // Player lookup
   (function () {
@@ -171,7 +232,7 @@
       if (p.pos === 'QB') {
         stat('Cyrus projection', p.projection != null ? p.projection + ' yds' : '—');
         stat('Market line', p.line != null ? p.line + ' yds' : '—');
-        stat('Cyrus call', p.side ? p.side + ' ' + p.line : '—');
+        stat('Call', p.side ? p.side : 'No call');
         stat('Chance', p.chance != null ? p.chance + '%' : '—');
       } else {
         stat('Chance to score', p.chance + '%');
