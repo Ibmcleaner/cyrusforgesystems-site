@@ -1,8 +1,8 @@
 // This week's Cyrus card, written by weekly_props.py. Times are Central.
 window.CYRUS_DATA = {
   "season": 2026,
-  "week": 10,
-  "updated": "Sun Nov 15, 7:47 PM CT",
+  "week": 11,
+  "updated": "Wed Nov 18, 6:47 PM CT",
   "sample": false,
   "next_update": [
     "Wed 6:45 PM CT",
@@ -10,32 +10,263 @@ window.CYRUS_DATA = {
   ],
   "rb": [
     {
+      "tier": "STRONG",
+      "player": "Jahmyr Gibbs",
+      "game": "DET vs TB",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 70,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "D'Andre Swift",
+      "game": "CHI vs NO",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 67,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Javonte Williams",
+      "game": "DAL vs TEN",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 67,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Kenneth Walker III",
+      "game": "KC vs ARI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 66,
+      "note": "missed team's last game"
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Christian McCaffrey",
+      "game": "SF vs MIN",
+      "kickoff": "Sun Nov 22, 7:20 PM CT",
+      "chance": 66,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "James Cook",
+      "game": "BUF vs MIA",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 63,
+      "note": ""
+    },
+    {
       "tier": "MODERATE",
       "player": "Derrick Henry",
-      "game": "BAL vs LAC",
-      "kickoff": "Mon Nov 16, 7:15 PM CT",
-      "chance": 62,
+      "game": "BAL @ CAR",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 63,
+      "note": ""
+    },
+    {
+      "tier": "SLIGHT",
+      "player": "Tony Pollard",
+      "game": "TEN @ DAL",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 52,
+      "note": ""
+    },
+    {
+      "tier": "SLIGHT",
+      "player": "Chuba Hubbard",
+      "game": "CAR vs BAL",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 52,
+      "note": ""
+    },
+    {
+      "tier": "SLIGHT",
+      "player": "Bhayshul Tuten",
+      "game": "JAX @ NYG",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 51,
       "note": ""
     }
   ],
   "qb": [
     {
+      "tier": "STRONG",
+      "player": "Dak Prescott",
+      "game": "DAL vs TEN",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "pick": "Over 276.5",
+      "line": 276.5,
+      "projection": 321,
+      "chance": 60,
+      "note": ""
+    },
+    {
+      "tier": "STRONG",
+      "player": "Josh Allen",
+      "game": "BUF vs MIA",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "pick": "Over 227.5",
+      "line": 227.5,
+      "projection": 252,
+      "chance": 57,
+      "note": ""
+    },
+    {
       "tier": "MODERATE",
-      "player": "Justin Herbert",
-      "game": "LAC @ BAL",
-      "kickoff": "Mon Nov 16, 7:15 PM CT",
-      "pick": "Over 200.5",
-      "line": 200.5,
-      "projection": 214,
+      "player": "Joe Milton III",
+      "game": "PHI vs PIT",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "pick": "Over 185.5",
+      "line": 185.5,
+      "projection": 223,
+      "chance": 62,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Caleb Williams",
+      "game": "CHI vs NO",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "pick": "Over 249.5",
+      "line": 249.5,
+      "projection": 260,
+      "chance": 53,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Jared Goff",
+      "game": "DET vs TB",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "pick": "Over 249.5",
+      "line": 249.5,
+      "projection": 277,
+      "chance": 57,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Brock Purdy",
+      "game": "SF vs MIN",
+      "kickoff": "Sun Nov 22, 7:20 PM CT",
+      "pick": "Under 246.5",
+      "line": 246.5,
+      "projection": 224,
+      "chance": 56,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "J.J. McCarthy",
+      "game": "NYG vs JAX",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "pick": "Under 217.5",
+      "line": 217.5,
+      "projection": 198,
+      "chance": 56,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Patrick Mahomes",
+      "game": "KC vs ARI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "pick": "Over 250.5",
+      "line": 250.5,
+      "projection": 277,
+      "chance": 57,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Fernando Mendoza",
+      "game": "LV @ DEN",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "pick": "Over 168.5",
+      "line": 168.5,
+      "projection": 185,
+      "chance": 56,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Geno Smith",
+      "game": "NYJ @ LAC",
+      "kickoff": "Sun Nov 22, 3:05 PM CT",
+      "pick": "Under 217.5",
+      "line": 217.5,
+      "projection": 198,
+      "chance": 56,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Cam Ward",
+      "game": "TEN @ DAL",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "pick": "Under 237.5",
+      "line": 237.5,
+      "projection": 221,
+      "chance": 55,
+      "note": ""
+    },
+    {
+      "tier": "MODERATE",
+      "player": "Joe Burrow",
+      "game": "CIN @ WAS",
+      "kickoff": "Mon Nov 23, 7:15 PM CT",
+      "pick": "Over 302.5",
+      "line": 302.5,
+      "projection": 326,
+      "chance": 55,
+      "note": ""
+    },
+    {
+      "tier": "SLIGHT",
+      "player": "Bo Nix",
+      "game": "DEN vs LV",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "pick": "Over 214.5",
+      "line": 214.5,
+      "projection": 228,
       "chance": 54,
+      "note": ""
+    },
+    {
+      "tier": "SLIGHT",
+      "player": "C.J. Stroud",
+      "game": "HOU vs IND",
+      "kickoff": "Thu Nov 19, 7:15 PM CT",
+      "pick": "Over 259.5",
+      "line": 259.5,
+      "projection": 275,
+      "chance": 54,
+      "note": ""
+    },
+    {
+      "tier": "SLIGHT",
+      "player": "Daniel Jones",
+      "game": "IND @ HOU",
+      "kickoff": "Thu Nov 19, 7:15 PM CT",
+      "pick": "Over 180.5",
+      "line": 180.5,
+      "projection": 185,
+      "chance": 52,
       "note": ""
     }
   ],
   "passed": [
     {
-      "players": "Jacoby Brissett",
-      "count": 1,
+      "players": "Carson Beck, Jacoby Brissett, Jalon Daniels",
+      "count": 3,
       "reason": "the starting quarterback isn't settled, so Cyrus won't make a call."
+    },
+    {
+      "players": "Tyler Shough, Kirk Cousins, Jayden Daniels, Kyle McCord, Trevor Lawrence, Bryce Young, Aaron Rodgers, Justin Herbert",
+      "count": 8,
+      "reason": "Cyrus's projection is too close to the market line to make a call."
     }
   ],
   "record": {
@@ -47,68 +278,68 @@ window.CYRUS_DATA = {
       {
         "market": "RB TD",
         "tier": "STRONG",
-        "picks": 3,
-        "wins": 2,
+        "picks": 5,
+        "wins": 4,
         "losses": 1,
         "voids": 0,
-        "win_pct": 0.6666666666666666,
-        "expected_pct": 0.7233333333333333,
+        "win_pct": 0.8,
+        "expected_pct": 0.718,
         "units": null
       },
       {
         "market": "RB TD",
         "tier": "MODERATE",
-        "picks": 7,
-        "wins": 4,
-        "losses": 3,
-        "voids": 0,
-        "win_pct": 0.5714285714285714,
-        "expected_pct": 0.6564285714285715,
+        "picks": 11,
+        "wins": 6,
+        "losses": 5,
+        "voids": 1,
+        "win_pct": 0.5454545454545454,
+        "expected_pct": 0.6420000000000001,
         "units": null
       },
       {
         "market": "RB TD",
         "tier": "SLIGHT",
-        "picks": 7,
-        "wins": 5,
-        "losses": 2,
-        "voids": 0,
-        "win_pct": 0.7142857142857143,
-        "expected_pct": 0.5549999999999999,
+        "picks": 9,
+        "wins": 6,
+        "losses": 3,
+        "voids": 1,
+        "win_pct": 0.6666666666666666,
+        "expected_pct": 0.5528888888888889,
         "units": null
       },
       {
         "market": "QB YDS",
         "tier": "STRONG",
+        "picks": 16,
+        "wins": 7,
+        "losses": 9,
+        "voids": 0,
+        "win_pct": 0.4375,
+        "expected_pct": 0.595625,
+        "units": -2.33
+      },
+      {
+        "market": "QB YDS",
+        "tier": "MODERATE",
+        "picks": 26,
+        "wins": 14,
+        "losses": 12,
+        "voids": 0,
+        "win_pct": 0.5384615384615384,
+        "expected_pct": 0.5501538461538462,
+        "units": 1.14
+      },
+      {
+        "market": "QB YDS",
+        "tier": "SLIGHT",
         "picks": 13,
         "wins": 4,
         "losses": 9,
         "voids": 0,
         "win_pct": 0.3076923076923077,
-        "expected_pct": 0.5946923076923076,
-        "units": -5.32
-      },
-      {
-        "market": "QB YDS",
-        "tier": "MODERATE",
-        "picks": 20,
-        "wins": 9,
-        "losses": 11,
-        "voids": 0,
-        "win_pct": 0.45,
-        "expected_pct": 0.5487,
-        "units": -2.49
-      },
-      {
-        "market": "QB YDS",
-        "tier": "SLIGHT",
-        "picks": 7,
-        "wins": 2,
-        "losses": 5,
-        "voids": 0,
-        "win_pct": 0.2857142857142857,
-        "expected_pct": 0.5191428571428571,
-        "units": -3.18
+        "expected_pct": 0.5238461538461539,
+        "units": -5.39
       },
       {
         "market": "QB YDS",
@@ -128,236 +359,1663 @@ window.CYRUS_DATA = {
   },
   "players": [
     {
-      "name": "Justin Herbert",
+      "name": "Dak Prescott",
       "pos": "QB",
-      "team": "LAC",
-      "opp": "BAL",
-      "opp_name": "Baltimore",
-      "game": "LAC @ BAL",
-      "kickoff": "Mon Nov 16, 7:15 PM CT",
-      "tier": "MODERATE",
-      "projection": 214,
-      "line": 200.5,
+      "team": "DAL",
+      "opp": "TEN",
+      "opp_name": "Tennessee",
+      "game": "DAL vs TEN",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "STRONG",
+      "projection": 321,
+      "line": 276.5,
       "side": "Over",
-      "chance": 54,
-      "verdict": "Moderate projection",
-      "summary": "Cyrus leans over 200.5 for Justin Herbert (54% chance). Moderate projection.",
+      "chance": 60,
+      "verdict": "Strong projection",
+      "summary": "Cyrus leans over 276.5 for Dak Prescott (60% chance). Strong projection.",
       "pros": [
-        "In his last 2 meetings with Baltimore he averaged 218 yards and went over 200.5 2 times."
+        "Cyrus projects 321 yards against a line of 276.5: a 44-yard gap in favor of the over.",
+        "Tennessee allows 282 passing yards per game this season, the most in the league.",
+        "Dallas is a 8.5-point underdog, and teams that trail tend to throw more.",
+        "The game total is 55.5, which the market reads as a high-scoring game."
+      ],
+      "cons": [],
+      "history": []
+    },
+    {
+      "name": "Josh Allen",
+      "pos": "QB",
+      "team": "BUF",
+      "opp": "MIA",
+      "opp_name": "Miami",
+      "game": "BUF vs MIA",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "STRONG",
+      "projection": 252,
+      "line": 227.5,
+      "side": "Over",
+      "chance": 57,
+      "verdict": "Strong projection",
+      "summary": "Cyrus leans over 227.5 for Josh Allen (57% chance). Strong projection.",
+      "pros": [
+        "Cyrus projects 252 yards against a line of 227.5: a 24-yard gap in favor of the over.",
+        "Buffalo is a 16.5-point underdog, and teams that trail tend to throw more.",
+        "In his last 6 meetings with Miami he averaged 262 yards and went over 227.5 4 times."
       ],
       "cons": [
-        "Cyrus projects 214 yards against a line of 200.5: a 14-yard gap which is too close to call with confidence.",
-        "Baltimore allows 242 passing yards per game this season, 14th-most in the league. That is middle of the pack, so the matchup does not push either way.",
-        "The Chargers are favored by 4.5, and teams that lead tend to run more and throw less late.",
-        "The game total is 38.5, which the market reads as a low-scoring game."
+        "Miami allows 212 passing yards per game this season, 6th-fewest in the league.",
+        "Division game: familiar opponents, and passing yards run lower on average in these matchups."
       ],
       "history": [
-        "2023 Wk 12: 217 yds",
-        "2024 Wk 12: 218 yds"
+        "2023 Wk 4: 320 yds",
+        "2023 Wk 18: 359 yds",
+        "2024 Wk 2: 139 yds",
+        "2024 Wk 9: 235 yds",
+        "2025 Wk 3: 213 yds",
+        "2025 Wk 10: 306 yds"
       ]
+    },
+    {
+      "name": "Joe Milton III",
+      "pos": "QB",
+      "team": "PHI",
+      "opp": "PIT",
+      "opp_name": "Pittsburgh",
+      "game": "PHI vs PIT",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "MODERATE",
+      "projection": 223,
+      "line": 185.5,
+      "side": "Over",
+      "chance": 62,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans over 185.5 for Joe Milton III (62% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 223 yards against a line of 185.5: a 38-yard gap in favor of the over.",
+        "Pittsburgh allows 261 passing yards per game this season, 4th-most in the league."
+      ],
+      "cons": [
+        "Philadelphia is favored by 4.5, and teams that lead tend to run more and throw less late.",
+        "The game total is 37.5, which the market reads as a low-scoring game.",
+        "Only 2 starts on record, so the projection rests on a thin history."
+      ],
+      "history": []
+    },
+    {
+      "name": "Caleb Williams",
+      "pos": "QB",
+      "team": "CHI",
+      "opp": "NO",
+      "opp_name": "New Orleans",
+      "game": "CHI vs NO",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": 260,
+      "line": 249.5,
+      "side": "Over",
+      "chance": 53,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans over 249.5 for Caleb Williams (53% chance). Moderate projection.",
+      "pros": [
+        "New Orleans allows 249 passing yards per game this season, 11th-most in the league.",
+        "Chicago is a 11.5-point underdog, and teams that trail tend to throw more.",
+        "The game total is 48.5, which the market reads as a high-scoring game."
+      ],
+      "cons": [
+        "Cyrus projects 260 yards against a line of 249.5: a 10-yard gap which is too close to call with confidence."
+      ],
+      "history": [
+        "2025 Wk 7: 172 yds",
+        "In his last 1 meeting with New Orleans he averaged 172 yards and went over 249.5 0 times."
+      ]
+    },
+    {
+      "name": "Jared Goff",
+      "pos": "QB",
+      "team": "DET",
+      "opp": "TB",
+      "opp_name": "Tampa Bay",
+      "game": "DET vs TB",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": 277,
+      "line": 249.5,
+      "side": "Over",
+      "chance": 57,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans over 249.5 for Jared Goff (57% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 277 yards against a line of 249.5: a 28-yard gap in favor of the over.",
+        "Detroit is a 7.0-point underdog, and teams that trail tend to throw more.",
+        "Indoors, where passing numbers run a little higher.",
+        "In his last 3 meetings with Tampa Bay he averaged 300 yards and went over 249.5 2 times."
+      ],
+      "cons": [
+        "Tampa Bay allows 227 passing yards per game this season, 9th-fewest in the league."
+      ],
+      "history": [
+        "2023 Wk 6: 353 yds",
+        "2024 Wk 2: 307 yds",
+        "2025 Wk 7: 241 yds"
+      ]
+    },
+    {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "team": "SF",
+      "opp": "MIN",
+      "opp_name": "Minnesota",
+      "game": "SF vs MIN",
+      "kickoff": "Sun Nov 22, 7:20 PM CT",
+      "tier": "MODERATE",
+      "projection": 224,
+      "line": 246.5,
+      "side": "Under",
+      "chance": 56,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans under 246.5 for Brock Purdy (56% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 224 yards against a line of 246.5: a 22-yard gap in favor of the under.",
+        "Minnesota allows 191 passing yards per game this season, 2nd-fewest in the league."
+      ],
+      "cons": [
+        "San Francisco is a 3.0-point underdog, and teams that trail tend to throw more.",
+        "In his last 2 meetings with Minnesota he averaged 296 yards and went over 246.5 2 times."
+      ],
+      "history": [
+        "2023 Wk 7: 272 yds",
+        "2024 Wk 2: 319 yds"
+      ]
+    },
+    {
+      "name": "J.J. McCarthy",
+      "pos": "QB",
+      "team": "NYG",
+      "opp": "JAX",
+      "opp_name": "Jacksonville",
+      "game": "NYG vs JAX",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": 198,
+      "line": 217.5,
+      "side": "Under",
+      "chance": 56,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans under 217.5 for J.J. McCarthy (56% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 198 yards against a line of 217.5: a 20-yard gap in favor of the under.",
+        "The Giants are favored by 6.0, and teams that lead tend to run more and throw less late."
+      ],
+      "cons": [
+        "Jacksonville allows 238 passing yards per game this season, 16th-most in the league. That is middle of the pack, so the matchup does not push either way.",
+        "Only 13 starts on record, so the projection rests on a thin history."
+      ],
+      "history": []
+    },
+    {
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "team": "KC",
+      "opp": "ARI",
+      "opp_name": "Arizona",
+      "game": "KC vs ARI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": 277,
+      "line": 250.5,
+      "side": "Over",
+      "chance": 57,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans over 250.5 for Patrick Mahomes (57% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 277 yards against a line of 250.5: a 26-yard gap in favor of the over.",
+        "Kansas City is a 15.5-point underdog, and teams that trail tend to throw more."
+      ],
+      "cons": [
+        "Arizona allows 232 passing yards per game this season, 13th-fewest in the league. That is middle of the pack, so the matchup does not push either way.",
+        "The game total is 40.5, which the market reads as a low-scoring game."
+      ],
+      "history": []
+    },
+    {
+      "name": "Fernando Mendoza",
+      "pos": "QB",
+      "team": "LV",
+      "opp": "DEN",
+      "opp_name": "Denver",
+      "game": "LV @ DEN",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "MODERATE",
+      "projection": 185,
+      "line": 168.5,
+      "side": "Over",
+      "chance": 56,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans over 168.5 for Fernando Mendoza (56% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 185 yards against a line of 168.5: a 16-yard gap in favor of the over.",
+        "Denver allows 250 passing yards per game this season, 10th-most in the league."
+      ],
+      "cons": [
+        "Las Vegas is favored by 10.0, and teams that lead tend to run more and throw less late.",
+        "The game total is 40.5, which the market reads as a low-scoring game.",
+        "Division game: familiar opponents, and passing yards run lower on average in these matchups.",
+        "Only 1 starts on record, so the projection rests on a thin history."
+      ],
+      "history": []
+    },
+    {
+      "name": "Geno Smith",
+      "pos": "QB",
+      "team": "NYJ",
+      "opp": "LAC",
+      "opp_name": "the Chargers",
+      "game": "NYJ @ LAC",
+      "kickoff": "Sun Nov 22, 3:05 PM CT",
+      "tier": "MODERATE",
+      "projection": 198,
+      "line": 217.5,
+      "side": "Under",
+      "chance": 56,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans under 217.5 for Geno Smith (56% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 198 yards against a line of 217.5: a 20-yard gap in favor of the under.",
+        "The Jets are favored by 3.0, and teams that lead tend to run more and throw less late.",
+        "In his last 2 meetings with the Chargers he averaged 172 yards and went over 217.5 0 times."
+      ],
+      "cons": [
+        "The Chargers allow 243 passing yards per game this season, 13th-most in the league. That is middle of the pack, so the matchup does not push either way.",
+        "Indoors, where passing numbers run a little higher."
+      ],
+      "history": [
+        "2025 Wk 2: 180 yds",
+        "2025 Wk 13: 165 yds"
+      ]
+    },
+    {
+      "name": "Cam Ward",
+      "pos": "QB",
+      "team": "TEN",
+      "opp": "DAL",
+      "opp_name": "Dallas",
+      "game": "TEN @ DAL",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": 221,
+      "line": 237.5,
+      "side": "Under",
+      "chance": 55,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans under 237.5 for Cam Ward (55% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 221 yards against a line of 237.5: a 16-yard gap in favor of the under.",
+        "Tennessee is favored by 8.5, and teams that lead tend to run more and throw less late."
+      ],
+      "cons": [
+        "Dallas allows 252 passing yards per game this season, 8th-most in the league.",
+        "The game total is 55.5, which the market reads as a high-scoring game."
+      ],
+      "history": []
     },
     {
       "name": "Joe Burrow",
       "pos": "QB",
       "team": "CIN",
-      "opp": "PIT",
-      "opp_name": "Pittsburgh",
-      "game": "CIN vs PIT",
-      "kickoff": "Sun Nov 15, 7:20 PM CT",
-      "tier": "NO LINE",
-      "projection": 302,
-      "line": null,
-      "side": null,
-      "chance": null,
-      "verdict": "No market line yet",
-      "summary": "Cyrus projects 302 passing yards for Joe Burrow, but no market line was posted at update time, so there is nothing to compare it with yet.",
-      "pros": [],
+      "opp": "WAS",
+      "opp_name": "Washington",
+      "game": "CIN @ WAS",
+      "kickoff": "Mon Nov 23, 7:15 PM CT",
+      "tier": "MODERATE",
+      "projection": 326,
+      "line": 302.5,
+      "side": "Over",
+      "chance": 55,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus leans over 302.5 for Joe Burrow (55% chance). Moderate projection.",
+      "pros": [
+        "Cyrus projects 326 yards against a line of 302.5: a 24-yard gap in favor of the over.",
+        "Washington allows 260 passing yards per game this season, 5th-most in the league.",
+        "Cincinnati is a 6.5-point underdog, and teams that trail tend to throw more.",
+        "The game total is 54.5, which the market reads as a high-scoring game."
+      ],
       "cons": [],
+      "history": [
+        "2024 Wk 3: 324 yds",
+        "In his last 1 meeting with Washington he averaged 324 yards and went over 302.5 1 time."
+      ]
+    },
+    {
+      "name": "Bo Nix",
+      "pos": "QB",
+      "team": "DEN",
+      "opp": "LV",
+      "opp_name": "Las Vegas",
+      "game": "DEN vs LV",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "SLIGHT",
+      "projection": 228,
+      "line": 214.5,
+      "side": "Over",
+      "chance": 54,
+      "verdict": "Slight lean",
+      "summary": "Cyrus leans over 214.5 for Bo Nix (54% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
+      "pros": [
+        "Las Vegas allows 248 passing yards per game this season, 12th-most in the league.",
+        "Denver is a 10.0-point underdog, and teams that trail tend to throw more."
+      ],
+      "cons": [
+        "Cyrus projects 228 yards against a line of 214.5: a 14-yard gap which is too close to call with confidence.",
+        "The game total is 40.5, which the market reads as a low-scoring game.",
+        "Division game: familiar opponents, and passing yards run lower on average in these matchups.",
+        "In his last 4 meetings with Las Vegas he averaged 210 yards and went over 214.5 1 time."
+      ],
+      "history": [
+        "2024 Wk 5: 206 yds",
+        "2024 Wk 12: 273 yds",
+        "2025 Wk 10: 150 yds",
+        "2025 Wk 14: 212 yds"
+      ]
+    },
+    {
+      "name": "C.J. Stroud",
+      "pos": "QB",
+      "team": "HOU",
+      "opp": "IND",
+      "opp_name": "Indianapolis",
+      "game": "HOU vs IND",
+      "kickoff": "Thu Nov 19, 7:15 PM CT",
+      "tier": "SLIGHT",
+      "projection": 275,
+      "line": 259.5,
+      "side": "Over",
+      "chance": 54,
+      "verdict": "Slight lean",
+      "summary": "Cyrus leans over 259.5 for C.J. Stroud (54% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
+      "pros": [
+        "Cyrus projects 275 yards against a line of 259.5: a 16-yard gap in favor of the over.",
+        "Houston is a 12.5-point underdog, and teams that trail tend to throw more."
+      ],
+      "cons": [
+        "Indianapolis allows 239 passing yards per game this season, 15th-most in the league. That is middle of the pack, so the matchup does not push either way.",
+        "Division game: familiar opponents, and passing yards run lower on average in these matchups.",
+        "In his last 6 meetings with Indianapolis he averaged 232 yards and went over 259.5 3 times."
+      ],
+      "history": [
+        "2023 Wk 18: 264 yds",
+        "2024 Wk 1: 234 yds",
+        "2024 Wk 8: 285 yds",
+        "2025 Wk 13: 276 yds",
+        "2025 Wk 18: 169 yds",
+        "2026 Wk 3: 167 yds"
+      ]
+    },
+    {
+      "name": "Daniel Jones",
+      "pos": "QB",
+      "team": "IND",
+      "opp": "HOU",
+      "opp_name": "Houston",
+      "game": "IND @ HOU",
+      "kickoff": "Thu Nov 19, 7:15 PM CT",
+      "tier": "SLIGHT",
+      "projection": 185,
+      "line": 180.5,
+      "side": "Over",
+      "chance": 52,
+      "verdict": "Slight lean",
+      "summary": "Cyrus leans over 180.5 for Daniel Jones (52% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
+      "pros": [
+        "Houston allows 263 passing yards per game this season, 3rd-most in the league.",
+        "In his last 2 meetings with Houston he averaged 218 yards and went over 180.5 2 times."
+      ],
+      "cons": [
+        "Cyrus projects 185 yards against a line of 180.5: a 4-yard gap which is too close to call with confidence.",
+        "Indianapolis is favored by 12.5, and teams that lead tend to run more and throw less late.",
+        "Division game: familiar opponents, and passing yards run lower on average in these matchups."
+      ],
+      "history": [
+        "2025 Wk 13: 201 yds",
+        "2026 Wk 3: 235 yds"
+      ]
+    },
+    {
+      "name": "Tyler Shough",
+      "pos": "QB",
+      "team": "NO",
+      "opp": "CHI",
+      "opp_name": "Chicago",
+      "game": "NO @ CHI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": 230,
+      "line": 240.5,
+      "side": "Under",
+      "chance": 53,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans under 240.5 for Tyler Shough, but only at 53%, which is not enough of an edge to publish.",
+      "pros": [
+        "New Orleans is favored by 11.5, and teams that lead tend to run more and throw less late."
+      ],
+      "cons": [
+        "Cyrus projects 230 yards against a line of 240.5: a 10-yard gap which is too close to call with confidence.",
+        "Chicago allows 236 passing yards per game this season, 14th-fewest in the league. That is middle of the pack, so the matchup does not push either way.",
+        "The game total is 48.5, which the market reads as a high-scoring game.",
+        "Only 18 starts on record, so the projection rests on a thin history."
+      ],
+      "history": []
+    },
+    {
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "team": "MIN",
+      "opp": "SF",
+      "opp_name": "San Francisco",
+      "game": "MIN @ SF",
+      "kickoff": "Sun Nov 22, 7:20 PM CT",
+      "tier": "PASS",
+      "projection": 241,
+      "line": 232.5,
+      "side": "Over",
+      "chance": 52,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans over 232.5 for Kirk Cousins, but only at 52%, which is not enough of an edge to publish.",
+      "pros": [],
+      "cons": [
+        "Cyrus projects 241 yards against a line of 232.5: a 8-yard gap which is too close to call with confidence.",
+        "San Francisco allows 236 passing yards per game this season, 15th-fewest in the league. That is middle of the pack, so the matchup does not push either way.",
+        "Minnesota is favored by 3.0, and teams that lead tend to run more and throw less late.",
+        "In his last 2 meetings with San Francisco he averaged 297 yards and went over 232.5 1 time."
+      ],
+      "history": [
+        "2023 Wk 7: 378 yds",
+        "2026 Wk 9: 216 yds"
+      ]
+    },
+    {
+      "name": "Jayden Daniels",
+      "pos": "QB",
+      "team": "WAS",
+      "opp": "CIN",
+      "opp_name": "Cincinnati",
+      "game": "WAS vs CIN",
+      "kickoff": "Mon Nov 23, 7:15 PM CT",
+      "tier": "PASS",
+      "projection": 229,
+      "line": 225.5,
+      "side": "Over",
+      "chance": 51,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans over 225.5 for Jayden Daniels, but only at 51%, which is not enough of an edge to publish.",
+      "pros": [
+        "The game total is 54.5, which the market reads as a high-scoring game."
+      ],
+      "cons": [
+        "Cyrus projects 229 yards against a line of 225.5: a 4-yard gap which is too close to call with confidence.",
+        "Cincinnati allows 237 passing yards per game this season, 16th-fewest in the league. That is middle of the pack, so the matchup does not push either way.",
+        "Washington is favored by 6.5, and teams that lead tend to run more and throw less late."
+      ],
+      "history": [
+        "2024 Wk 3: 254 yds",
+        "In his last 1 meeting with Cincinnati he averaged 254 yards and went over 225.5 1 time."
+      ]
+    },
+    {
+      "name": "Kyle McCord",
+      "pos": "QB",
+      "team": "MIA",
+      "opp": "BUF",
+      "opp_name": "Buffalo",
+      "game": "MIA @ BUF",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": 187,
+      "line": 185.5,
+      "side": "Over",
+      "chance": 50,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans over 185.5 for Kyle McCord, but only at 50%, which is not enough of an edge to publish.",
+      "pros": [
+        "Buffalo allows 256 passing yards per game this season, 7th-most in the league."
+      ],
+      "cons": [
+        "Cyrus projects 187 yards against a line of 185.5: a 2-yard gap which is too close to call with confidence.",
+        "Miami is favored by 16.5, and teams that lead tend to run more and throw less late.",
+        "Division game: familiar opponents, and passing yards run lower on average in these matchups.",
+        "Only 1 starts on record, so the projection rests on a thin history."
+      ],
+      "history": []
+    },
+    {
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "team": "JAX",
+      "opp": "NYG",
+      "opp_name": "the Giants",
+      "game": "JAX @ NYG",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": 240,
+      "line": 242.5,
+      "side": "Under",
+      "chance": 51,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans under 242.5 for Trevor Lawrence, but only at 51%, which is not enough of an edge to publish.",
+      "pros": [
+        "The Giants allow 196 passing yards per game this season, 3rd-fewest in the league."
+      ],
+      "cons": [
+        "Cyrus projects 240 yards against a line of 242.5: a 2-yard gap which is too close to call with confidence.",
+        "Jacksonville is a 6.0-point underdog, and teams that trail tend to throw more."
+      ],
+      "history": []
+    },
+    {
+      "name": "Bryce Young",
+      "pos": "QB",
+      "team": "CAR",
+      "opp": "BAL",
+      "opp_name": "Baltimore",
+      "game": "CAR vs BAL",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": 239,
+      "line": 240.5,
+      "side": "Under",
+      "chance": 50,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans under 240.5 for Bryce Young, but only at 50%, which is not enough of an edge to publish.",
+      "pros": [],
+      "cons": [
+        "Cyrus projects 239 yards against a line of 240.5: a 2-yard gap which is too close to call with confidence.",
+        "Baltimore allows 231 passing yards per game this season, 12th-fewest in the league. That is middle of the pack, so the matchup does not push either way."
+      ],
       "history": []
     },
     {
       "name": "Aaron Rodgers",
       "pos": "QB",
       "team": "PIT",
-      "opp": "CIN",
-      "opp_name": "Cincinnati",
-      "game": "PIT @ CIN",
-      "kickoff": "Sun Nov 15, 7:20 PM CT",
-      "tier": "NO LINE",
-      "projection": 234,
-      "line": null,
-      "side": null,
-      "chance": null,
-      "verdict": "No market line yet",
-      "summary": "Cyrus projects 234 passing yards for Aaron Rodgers, but no market line was posted at update time, so there is nothing to compare it with yet.",
-      "pros": [],
-      "cons": [],
+      "opp": "PHI",
+      "opp_name": "Philadelphia",
+      "game": "PIT @ PHI",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "PASS",
+      "projection": 209,
+      "line": 210.5,
+      "side": "Under",
+      "chance": 50,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans under 210.5 for Aaron Rodgers, but only at 50%, which is not enough of an edge to publish.",
+      "pros": [
+        "The game total is 37.5, which the market reads as a low-scoring game."
+      ],
+      "cons": [
+        "Cyrus projects 209 yards against a line of 210.5: a 2-yard gap which is too close to call with confidence.",
+        "Philadelphia allows 239 passing yards per game this season, 14th-most in the league. That is middle of the pack, so the matchup does not push either way.",
+        "Pittsburgh is a 4.5-point underdog, and teams that trail tend to throw more."
+      ],
       "history": []
+    },
+    {
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "team": "LAC",
+      "opp": "NYJ",
+      "opp_name": "the Jets",
+      "game": "LAC vs NYJ",
+      "kickoff": "Sun Nov 22, 3:05 PM CT",
+      "tier": "PASS",
+      "projection": 202,
+      "line": 202.5,
+      "side": "Over",
+      "chance": 50,
+      "verdict": "No call",
+      "summary": "Not a call this week. Cyrus leans over 202.5 for Justin Herbert, but only at 50%, which is not enough of an edge to publish.",
+      "pros": [
+        "The Chargers are a 3.0-point underdog, and teams that trail tend to throw more.",
+        "Indoors, where passing numbers run a little higher."
+      ],
+      "cons": [
+        "Cyrus projects 202 yards against a line of 202.5: a 0-yard gap which is too close to call with confidence.",
+        "The Jets allow 210 passing yards per game this season, 5th-fewest in the league."
+      ],
+      "history": [
+        "2023 Wk 9: 136 yds",
+        "In his last 1 meeting with the Jets he averaged 136 yards and went over 202.5 0 times."
+      ]
     },
     {
       "name": "Tyler Huntley",
       "pos": "QB",
       "team": "BAL",
-      "opp": "LAC",
-      "opp_name": "the Chargers",
-      "game": "BAL vs LAC",
-      "kickoff": "Mon Nov 16, 7:15 PM CT",
+      "opp": "CAR",
+      "opp_name": "Carolina",
+      "game": "BAL @ CAR",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
       "tier": "NO LINE",
-      "projection": 191,
+      "projection": 186,
       "line": null,
       "side": null,
       "chance": null,
       "verdict": "No market line yet",
-      "summary": "Cyrus projects 191 passing yards for Tyler Huntley, but no market line was posted at update time, so there is nothing to compare it with yet.",
+      "summary": "Cyrus projects 186 passing yards for Tyler Huntley, but no market line was posted at update time, so there is nothing to compare it with yet.",
       "pros": [],
       "cons": [],
       "history": []
     },
     {
-      "name": "Derrick Henry",
+      "name": "Baker Mayfield",
+      "pos": "QB",
+      "team": "TB",
+      "opp": "DET",
+      "opp_name": "Detroit",
+      "game": "TB @ DET",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "NO LINE",
+      "projection": 201,
+      "line": null,
+      "side": null,
+      "chance": null,
+      "verdict": "No market line yet",
+      "summary": "Cyrus projects 201 passing yards for Baker Mayfield, but no market line was posted at update time, so there is nothing to compare it with yet.",
+      "pros": [],
+      "cons": [],
+      "history": []
+    },
+    {
+      "name": "Gardner Minshew",
+      "pos": "QB",
+      "team": "ARI",
+      "opp": "KC",
+      "opp_name": "Kansas City",
+      "game": "ARI @ KC",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "NO LINE",
+      "projection": 163,
+      "line": null,
+      "side": null,
+      "chance": null,
+      "verdict": "No market line yet",
+      "summary": "Cyrus projects 163 passing yards for Gardner Minshew, but no market line was posted at update time, so there is nothing to compare it with yet.",
+      "pros": [],
+      "cons": [],
+      "history": []
+    },
+    {
+      "name": "Jahmyr Gibbs",
       "pos": "RB",
-      "team": "BAL",
-      "opp": "LAC",
-      "opp_name": "the Chargers",
-      "game": "BAL vs LAC",
-      "kickoff": "Mon Nov 16, 7:15 PM CT",
+      "team": "DET",
+      "opp": "TB",
+      "opp_name": "Tampa Bay",
+      "game": "DET vs TB",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "STRONG",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 70,
+      "verdict": "Strong projection",
+      "summary": "Cyrus gives Jahmyr Gibbs a 70% chance to score. Strong projection.",
+      "pros": [
+        "Jahmyr Gibbs has 13 touchdowns in 9 games this season (1.44 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.99 touchdowns per game.",
+        "The market implies about 25 points for Detroit in this game (their season average is 27).",
+        "He has scored in 1 of his last 2 meetings with Tampa Bay."
+      ],
+      "cons": [
+        "Tampa Bay allows 1.67 rushing and receiving touchdowns per game this season, 4th-fewest in the league."
+      ],
+      "history": [
+        "2024 Wk 2: 0 TD",
+        "2025 Wk 7: 2 TD"
+      ]
+    },
+    {
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "team": "CHI",
+      "opp": "NO",
+      "opp_name": "New Orleans",
+      "game": "CHI vs NO",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
       "tier": "MODERATE",
       "projection": null,
       "line": null,
       "side": null,
-      "chance": 62,
+      "chance": 67,
       "verdict": "Moderate projection",
-      "summary": "Cyrus gives Derrick Henry a 62% chance to score. Moderate projection.",
+      "summary": "Cyrus gives D'Andre Swift a 67% chance to score. Moderate projection.",
       "pros": [
-        "Derrick Henry has 9 touchdowns in 9 games this season (1.00 per game).",
-        "Last season's pace, blended with the league average, puts his underlying rate at 0.89 touchdowns per game.",
-        "The Chargers allow 3.00 rushing and receiving touchdowns per game this season, 6th-most in the league.",
-        "He has scored in 1 of his last 2 meetings with the Chargers."
+        "D'Andre Swift has 10 touchdowns in 9 games this season (1.11 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.62 touchdowns per game.",
+        "New Orleans allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league.",
+        "The market implies about 30 points for Chicago in this game (their season average is 26)."
+      ],
+      "cons": [],
+      "history": [
+        "2025 Wk 7: 1 TD",
+        "He has scored in 1 of his last 1 meeting with New Orleans."
+      ]
+    },
+    {
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "team": "DAL",
+      "opp": "TEN",
+      "opp_name": "Tennessee",
+      "game": "DAL vs TEN",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 67,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus gives Javonte Williams a 67% chance to score. Moderate projection.",
+      "pros": [
+        "Javonte Williams has 10 touchdowns in 10 games this season (1.00 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.78 touchdowns per game.",
+        "Tennessee allows 2.78 rushing and receiving touchdowns per game this season, 11th-most in the league.",
+        "The market implies about 32 points for Dallas in this game (their season average is 27)."
+      ],
+      "cons": [],
+      "history": []
+    },
+    {
+      "name": "Kenneth Walker III",
+      "pos": "RB",
+      "team": "KC",
+      "opp": "ARI",
+      "opp_name": "Arizona",
+      "game": "KC vs ARI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 66,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus gives Kenneth Walker III a 66% chance to score. Moderate projection.",
+      "pros": [
+        "Kenneth Walker III has 11 touchdowns in 8 games this season (1.38 per game).",
+        "Arizona allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league.",
+        "The market implies about 28 points for Kansas City in this game (their season average is 25)."
       ],
       "cons": [
-        "The market implies about 22 points for Baltimore in this game (their season average is 22)."
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.34 touchdowns per game.",
+        "He missed his team's last game, so his role this week is less certain.",
+        "He has scored in 0 of his last 5 meetings with Arizona."
       ],
       "history": [
-        "2023 Wk 2: 1 TD",
-        "2024 Wk 12: 0 TD"
+        "2023 Wk 7: 0 TD",
+        "2023 Wk 18: 0 TD",
+        "2024 Wk 12: 0 TD",
+        "2025 Wk 4: 0 TD",
+        "2025 Wk 10: 0 TD"
+      ]
+    },
+    {
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "team": "SF",
+      "opp": "MIN",
+      "opp_name": "Minnesota",
+      "game": "SF vs MIN",
+      "kickoff": "Sun Nov 22, 7:20 PM CT",
+      "tier": "MODERATE",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 66,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus gives Christian McCaffrey a 66% chance to score. Moderate projection.",
+      "pros": [
+        "Christian McCaffrey has 13 touchdowns in 9 games this season (1.44 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.94 touchdowns per game.",
+        "The market implies about 24 points for San Francisco in this game (their season average is 28)."
+      ],
+      "cons": [
+        "Minnesota allows 1.22 rushing and receiving touchdowns per game this season, the fewest in the league."
+      ],
+      "history": [
+        "2023 Wk 7: 2 TD",
+        "He has scored in 1 of his last 1 meeting with Minnesota."
+      ]
+    },
+    {
+      "name": "James Cook",
+      "pos": "RB",
+      "team": "BUF",
+      "opp": "MIA",
+      "opp_name": "Miami",
+      "game": "BUF vs MIA",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 63,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus gives James Cook a 63% chance to score. Moderate projection.",
+      "pros": [
+        "James Cook has 9 touchdowns in 9 games this season (1.00 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.79 touchdowns per game.",
+        "The market implies about 31 points for Buffalo in this game (their season average is 29).",
+        "He has scored in 3 of his last 6 meetings with Miami."
+      ],
+      "cons": [
+        "Miami allows 2.67 rushing and receiving touchdowns per game this season, 16th-fewest in the league. That is an average matchup."
+      ],
+      "history": [
+        "2023 Wk 4: 1 TD",
+        "2023 Wk 18: 0 TD",
+        "2024 Wk 2: 3 TD",
+        "2024 Wk 9: 0 TD",
+        "2025 Wk 3: 1 TD",
+        "2025 Wk 10: 0 TD"
+      ]
+    },
+    {
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "team": "BAL",
+      "opp": "CAR",
+      "opp_name": "Carolina",
+      "game": "BAL @ CAR",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "MODERATE",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 63,
+      "verdict": "Moderate projection",
+      "summary": "Cyrus gives Derrick Henry a 63% chance to score. Moderate projection.",
+      "pros": [
+        "Derrick Henry has 11 touchdowns in 10 games this season (1.10 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.89 touchdowns per game.",
+        "Carolina allows 3.00 rushing and receiving touchdowns per game this season, 5th-most in the league."
+      ],
+      "cons": [
+        "The market implies about 20 points for Baltimore in this game (their season average is 21)."
+      ],
+      "history": [
+        "2023 Wk 12: 2 TD",
+        "He has scored in 1 of his last 1 meeting with Carolina."
+      ]
+    },
+    {
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "team": "TEN",
+      "opp": "DAL",
+      "opp_name": "Dallas",
+      "game": "TEN @ DAL",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "SLIGHT",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 52,
+      "verdict": "Slight lean",
+      "summary": "Cyrus gives Tony Pollard a 52% chance to score: better than even, but not enough for a confident call.",
+      "pros": [
+        "Tony Pollard has 7 touchdowns in 9 games this season (0.78 per game).",
+        "Dallas allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league."
+      ],
+      "cons": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.34 touchdowns per game.",
+        "The market implies about 24 points for Tennessee in this game (their season average is 20)."
+      ],
+      "history": []
+    },
+    {
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "team": "CAR",
+      "opp": "BAL",
+      "opp_name": "Baltimore",
+      "game": "CAR vs BAL",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "SLIGHT",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 52,
+      "verdict": "Slight lean",
+      "summary": "Cyrus gives Chuba Hubbard a 52% chance to score: better than even, but not enough for a confident call.",
+      "pros": [
+        "Chuba Hubbard has 9 touchdowns in 9 games this season (1.00 per game)."
+      ],
+      "cons": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.32 touchdowns per game.",
+        "Baltimore allows 2.60 rushing and receiving touchdowns per game this season, 15th-fewest in the league. That is an average matchup.",
+        "The market implies about 23 points for Carolina in this game (their season average is 24)."
+      ],
+      "history": []
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "team": "JAX",
+      "opp": "NYG",
+      "opp_name": "the Giants",
+      "game": "JAX @ NYG",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "SLIGHT",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 51,
+      "verdict": "Slight lean",
+      "summary": "Cyrus gives Bhayshul Tuten a 51% chance to score: better than even, but not enough for a confident call.",
+      "pros": [
+        "Bhayshul Tuten has 8 touchdowns in 9 games this season (0.89 per game).",
+        "The market implies about 26 points for Jacksonville in this game (their season average is 28)."
+      ],
+      "cons": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.49 touchdowns per game.",
+        "The Giants allow 2.67 rushing and receiving touchdowns per game this season, 16th-fewest in the league. That is an average matchup."
+      ],
+      "history": []
+    },
+    {
+      "name": "Jonah Coleman",
+      "pos": "RB",
+      "team": "DEN",
+      "opp": "LV",
+      "opp_name": "Las Vegas",
+      "game": "DEN vs LV",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 49,
+      "verdict": "No call",
+      "summary": "Cyrus gives Jonah Coleman a 49% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Jonah Coleman has 3 touchdowns in 5 games this season (0.60 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.58 touchdowns per game.",
+        "Las Vegas allows 3.50 rushing and receiving touchdowns per game this season, the most in the league.",
+        "The market implies about 25 points for Denver in this game (their season average is 22)."
+      ],
+      "cons": [],
+      "history": []
+    },
+    {
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "team": "IND",
+      "opp": "HOU",
+      "opp_name": "Houston",
+      "game": "IND @ HOU",
+      "kickoff": "Thu Nov 19, 7:15 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 48,
+      "verdict": "No call",
+      "summary": "Cyrus gives Jonathan Taylor a 48% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Jonathan Taylor has 8 touchdowns in 10 games this season (0.80 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 1.09 touchdowns per game.",
+        "He has scored in 3 of his last 6 meetings with Houston."
+      ],
+      "cons": [
+        "Houston allows 2.67 rushing and receiving touchdowns per game this season, 16th-fewest in the league. That is an average matchup.",
+        "The market implies about 16 points for Indianapolis in this game (their season average is 21)."
+      ],
+      "history": [
+        "2023 Wk 18: 1 TD",
+        "2024 Wk 1: 1 TD",
+        "2024 Wk 8: 1 TD",
+        "2025 Wk 13: 0 TD",
+        "2025 Wk 18: 0 TD",
+        "2026 Wk 3: 0 TD"
+      ]
+    },
+    {
+      "name": "Kyle Monangai",
+      "pos": "RB",
+      "team": "CHI",
+      "opp": "NO",
+      "opp_name": "New Orleans",
+      "game": "CHI vs NO",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 46,
+      "verdict": "No call",
+      "summary": "Cyrus gives Kyle Monangai a 46% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Kyle Monangai has 3 touchdowns in 4 games this season (0.75 per game).",
+        "New Orleans allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league.",
+        "The market implies about 30 points for Chicago in this game (their season average is 26)."
+      ],
+      "cons": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.34 touchdowns per game.",
+        "He missed his team's last game, so his role this week is less certain."
+      ],
+      "history": [
+        "2025 Wk 7: 1 TD",
+        "He has scored in 1 of his last 1 meeting with New Orleans."
+      ]
+    },
+    {
+      "name": "David Montgomery",
+      "pos": "RB",
+      "team": "HOU",
+      "opp": "IND",
+      "opp_name": "Indianapolis",
+      "game": "HOU vs IND",
+      "kickoff": "Thu Nov 19, 7:15 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 46,
+      "verdict": "No call",
+      "summary": "Cyrus gives David Montgomery a 46% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "David Montgomery has 3 touchdowns in 5 games this season (0.60 per game).",
+        "The market implies about 28 points for Houston in this game (their season average is 25).",
+        "He has scored in 1 of his last 2 meetings with Indianapolis."
+      ],
+      "cons": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.49 touchdowns per game.",
+        "Indianapolis allows 2.70 rushing and receiving touchdowns per game this season, 14th-most in the league. That is an average matchup.",
+        "He missed his team's last game, so his role this week is less certain."
+      ],
+      "history": [
+        "2024 Wk 12: 1 TD",
+        "2026 Wk 3: 0 TD"
       ]
     },
     {
       "name": "Omarion Hampton",
       "pos": "RB",
       "team": "LAC",
-      "opp": "BAL",
-      "opp_name": "Baltimore",
-      "game": "LAC @ BAL",
-      "kickoff": "Mon Nov 16, 7:15 PM CT",
+      "opp": "NYJ",
+      "opp_name": "the Jets",
+      "game": "LAC vs NYJ",
+      "kickoff": "Sun Nov 22, 3:05 PM CT",
       "tier": "PASS",
       "projection": null,
       "line": null,
       "side": null,
-      "chance": 35,
+      "chance": 45,
       "verdict": "No call",
-      "summary": "Cyrus gives Omarion Hampton a 35% chance to score, which is below even money. Not a call this week.",
+      "summary": "Cyrus gives Omarion Hampton a 45% chance to score, which is below even money. Not a call this week.",
       "pros": [
-        "Last season's pace, blended with the league average, puts his underlying rate at 0.56 touchdowns per game."
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.56 touchdowns per game.",
+        "The Jets allow 3.00 rushing and receiving touchdowns per game this season, 5th-most in the league."
       ],
       "cons": [
-        "Omarion Hampton has 3 touchdowns in 8 games this season (0.38 per game).",
-        "Baltimore allows 2.67 rushing and receiving touchdowns per game this season, 15th-fewest in the league. That is an average matchup.",
-        "The market implies about 17 points for the Chargers in this game (their season average is 18)."
+        "Omarion Hampton has 4 touchdowns in 9 games this season (0.44 per game).",
+        "The market implies about 22 points for the Chargers in this game (their season average is 18)."
       ],
       "history": []
     },
     {
-      "name": "Jaylen Warren",
+      "name": "Cam Skattebo",
       "pos": "RB",
-      "team": "PIT",
-      "opp": "CIN",
-      "opp_name": "Cincinnati",
-      "game": "PIT @ CIN",
-      "kickoff": "Sun Nov 15, 7:20 PM CT",
+      "team": "NYG",
+      "opp": "JAX",
+      "opp_name": "Jacksonville",
+      "game": "NYG vs JAX",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
       "tier": "PASS",
       "projection": null,
       "line": null,
       "side": null,
-      "chance": 35,
+      "chance": 45,
       "verdict": "No call",
-      "summary": "Cyrus gives Jaylen Warren a 35% chance to score, which is below even money. Not a call this week.",
+      "summary": "Cyrus gives Cam Skattebo a 45% chance to score, which is below even money. Not a call this week.",
       "pros": [
-        "Last season's pace, blended with the league average, puts his underlying rate at 0.51 touchdowns per game."
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.79 touchdowns per game."
       ],
       "cons": [
-        "Jaylen Warren has 3 touchdowns in 8 games this season (0.38 per game).",
-        "Cincinnati allows 2.12 rushing and receiving touchdowns per game this season, 8th-fewest in the league.",
-        "The market implies about 22 points for Pittsburgh in this game (their season average is 22).",
-        "He has scored in 0 of his last 6 meetings with Cincinnati."
+        "Cam Skattebo has 4 touchdowns in 7 games this season (0.57 per game).",
+        "Jacksonville allows 1.67 rushing and receiving touchdowns per game this season, 4th-fewest in the league.",
+        "The market implies about 20 points for the Giants in this game (their season average is 22)."
+      ],
+      "history": []
+    },
+    {
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "team": "TB",
+      "opp": "DET",
+      "opp_name": "Detroit",
+      "game": "TB @ DET",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 45,
+      "verdict": "No call",
+      "summary": "Cyrus gives Bucky Irving a 45% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Bucky Irving has 8 touchdowns in 9 games this season (0.89 per game).",
+        "Detroit allows 2.78 rushing and receiving touchdowns per game this season, 11th-most in the league."
+      ],
+      "cons": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.44 touchdowns per game.",
+        "The market implies about 18 points for Tampa Bay in this game (their season average is 22)."
       ],
       "history": [
-        "2023 Wk 16: 0 TD",
-        "2024 Wk 13: 0 TD",
-        "2024 Wk 18: 0 TD",
-        "2025 Wk 7: 0 TD",
-        "2025 Wk 11: 0 TD",
-        "2026 Wk 3: 0 TD"
+        "2024 Wk 2: 0 TD",
+        "He has scored in 0 of his last 1 meeting with Detroit."
       ]
     },
     {
-      "name": "Rico Dowdle",
+      "name": "Jacory Croskey-Merritt",
       "pos": "RB",
-      "team": "PIT",
+      "team": "WAS",
       "opp": "CIN",
       "opp_name": "Cincinnati",
-      "game": "PIT @ CIN",
-      "kickoff": "Sun Nov 15, 7:20 PM CT",
+      "game": "WAS vs CIN",
+      "kickoff": "Mon Nov 23, 7:15 PM CT",
       "tier": "PASS",
       "projection": null,
       "line": null,
       "side": null,
-      "chance": 27,
+      "chance": 38,
       "verdict": "No call",
-      "summary": "Cyrus gives Rico Dowdle a 27% chance to score, which is below even money. Not a call this week.",
-      "pros": [],
-      "cons": [
-        "Rico Dowdle has 1 touchdown in 5 games this season (0.20 per game).",
-        "Last season's pace, blended with the league average, puts his underlying rate at 0.44 touchdowns per game.",
-        "Cincinnati allows 2.12 rushing and receiving touchdowns per game this season, 8th-fewest in the league.",
-        "The market implies about 22 points for Pittsburgh in this game (their season average is 22)."
+      "summary": "Cyrus gives Jacory Croskey-Merritt a 38% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "The market implies about 24 points for Washington in this game (their season average is 22)."
       ],
-      "history": [
-        "2024 Wk 14: 0 TD",
-        "He has scored in 0 of his last 1 meeting with Cincinnati."
-      ]
+      "cons": [
+        "Jacory Croskey-Merritt has 2 touchdowns in 5 games this season (0.40 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.49 touchdowns per game.",
+        "Cincinnati allows 2.11 rushing and receiving touchdowns per game this season, 8th-fewest in the league.",
+        "He missed his team's last game, so his role this week is less certain."
+      ],
+      "history": []
     },
     {
       "name": "Chase Brown",
       "pos": "RB",
       "team": "CIN",
+      "opp": "WAS",
+      "opp_name": "Washington",
+      "game": "CIN @ WAS",
+      "kickoff": "Mon Nov 23, 7:15 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 38,
+      "verdict": "No call",
+      "summary": "Cyrus gives Chase Brown a 38% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.64 touchdowns per game.",
+        "Washington allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league.",
+        "The market implies about 30 points for Cincinnati in this game (their season average is 28)."
+      ],
+      "cons": [
+        "Chase Brown has 3 touchdowns in 9 games this season (0.33 per game)."
+      ],
+      "history": [
+        "2024 Wk 3: 0 TD",
+        "He has scored in 0 of his last 1 meeting with Washington."
+      ]
+    },
+    {
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "team": "PHI",
       "opp": "PIT",
       "opp_name": "Pittsburgh",
-      "game": "CIN vs PIT",
-      "kickoff": "Sun Nov 15, 7:20 PM CT",
+      "game": "PHI vs PIT",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 35,
+      "verdict": "No call",
+      "summary": "Cyrus gives Saquon Barkley a 35% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.57 touchdowns per game."
+      ],
+      "cons": [
+        "Saquon Barkley has 3 touchdowns in 7 games this season (0.43 per game).",
+        "Pittsburgh allows 1.78 rushing and receiving touchdowns per game this season, 7th-fewest in the league.",
+        "The market implies about 16 points for Philadelphia in this game (their season average is 18)."
+      ],
+      "history": [
+        "2024 Wk 15: 0 TD",
+        "He has scored in 0 of his last 1 meeting with Pittsburgh."
+      ]
+    },
+    {
+      "name": "J.K. Dobbins",
+      "pos": "RB",
+      "team": "DEN",
+      "opp": "LV",
+      "opp_name": "Las Vegas",
+      "game": "DEN vs LV",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 35,
+      "verdict": "No call",
+      "summary": "Cyrus gives J.K. Dobbins a 35% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Las Vegas allows 3.50 rushing and receiving touchdowns per game this season, the most in the league.",
+        "The market implies about 25 points for Denver in this game (their season average is 22)."
+      ],
+      "cons": [
+        "J.K. Dobbins has 3 touchdowns in 9 games this season (0.33 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.44 touchdowns per game.",
+        "He has scored in 1 of his last 3 meetings with Las Vegas."
+      ],
+      "history": [
+        "2024 Wk 1: 1 TD",
+        "2024 Wk 18: 0 TD",
+        "2025 Wk 10: 0 TD"
+      ]
+    },
+    {
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "team": "PIT",
+      "opp": "PHI",
+      "opp_name": "Philadelphia",
+      "game": "PIT @ PHI",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 31,
+      "verdict": "No call",
+      "summary": "Cyrus gives Jaylen Warren a 31% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.51 touchdowns per game."
+      ],
+      "cons": [
+        "Jaylen Warren has 3 touchdowns in 9 games this season (0.33 per game).",
+        "Philadelphia allows 2.56 rushing and receiving touchdowns per game this season, 14th-fewest in the league. That is an average matchup.",
+        "The market implies about 21 points for Pittsburgh in this game (their season average is 22)."
+      ],
+      "history": [
+        "2024 Wk 15: 0 TD",
+        "He has scored in 0 of his last 1 meeting with Philadelphia."
+      ]
+    },
+    {
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "team": "MIA",
+      "opp": "BUF",
+      "opp_name": "Buffalo",
+      "game": "MIA @ BUF",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 30,
+      "verdict": "No call",
+      "summary": "Cyrus gives De'Von Achane a 30% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.72 touchdowns per game.",
+        "He has scored in 5 of his last 6 meetings with Buffalo."
+      ],
+      "cons": [
+        "De'Von Achane has 0 touchdowns in 3 games this season (0.00 per game).",
+        "Buffalo allows 2.44 rushing and receiving touchdowns per game this season, 13th-fewest in the league. That is an average matchup.",
+        "The market implies about 14 points for Miami in this game (their season average is 18).",
+        "He missed his team's last game, so his role this week is less certain."
+      ],
+      "history": [
+        "2023 Wk 4: 2 TD",
+        "2023 Wk 18: 1 TD",
+        "2024 Wk 2: 1 TD",
+        "2024 Wk 9: 2 TD",
+        "2025 Wk 3: 0 TD",
+        "2025 Wk 10: 2 TD"
+      ]
+    },
+    {
+      "name": "Dameon Pierce",
+      "pos": "RB",
+      "team": "PHI",
+      "opp": "PIT",
+      "opp_name": "Pittsburgh",
+      "game": "PHI vs PIT",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 29,
+      "verdict": "No call",
+      "summary": "Cyrus gives Dameon Pierce a 29% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Dameon Pierce has 2 touchdowns in 3 games this season (0.67 per game)."
+      ],
+      "cons": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.22 touchdowns per game.",
+        "Pittsburgh allows 1.78 rushing and receiving touchdowns per game this season, 7th-fewest in the league.",
+        "The market implies about 16 points for Philadelphia in this game (their season average is 18).",
+        "He missed his team's last game, so his role this week is less certain."
+      ],
+      "history": [
+        "2023 Wk 4: 0 TD",
+        "He has scored in 0 of his last 1 meeting with Pittsburgh."
+      ]
+    },
+    {
+      "name": "Aaron Jones",
+      "pos": "RB",
+      "team": "MIN",
+      "opp": "SF",
+      "opp_name": "San Francisco",
+      "game": "MIN @ SF",
+      "kickoff": "Sun Nov 22, 7:20 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 29,
+      "verdict": "No call",
+      "summary": "Cyrus gives Aaron Jones a 29% chance to score, which is below even money. Not a call this week.",
+      "pros": [],
+      "cons": [
+        "Aaron Jones has 3 touchdowns in 9 games this season (0.33 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.32 touchdowns per game.",
+        "San Francisco allows 2.22 rushing and receiving touchdowns per game this season, 9th-fewest in the league.",
+        "The market implies about 21 points for Minnesota in this game (their season average is 20)."
+      ],
+      "history": [
+        "2024 Wk 2: 0 TD",
+        "He has scored in 0 of his last 1 meeting with San Francisco."
+      ]
+    },
+    {
+      "name": "Travis Etienne",
+      "pos": "RB",
+      "team": "NO",
+      "opp": "CHI",
+      "opp_name": "Chicago",
+      "game": "NO @ CHI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 29,
+      "verdict": "No call",
+      "summary": "Cyrus gives Travis Etienne a 29% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.74 touchdowns per game."
+      ],
+      "cons": [
+        "Travis Etienne has 0 touchdowns in 4 games this season (0.00 per game).",
+        "Chicago allows 2.33 rushing and receiving touchdowns per game this season, 12th-fewest in the league. That is an average matchup.",
+        "The market implies about 18 points for New Orleans in this game (their season average is 22)."
+      ],
+      "history": [
+        "2024 Wk 6: 0 TD",
+        "He has scored in 0 of his last 1 meeting with Chicago."
+      ]
+    },
+    {
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "team": "MIA",
+      "opp": "BUF",
+      "opp_name": "Buffalo",
+      "game": "MIA @ BUF",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 28,
+      "verdict": "No call",
+      "summary": "Cyrus gives Ollie Gordon II a 28% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "He has scored in 1 of his last 2 meetings with Buffalo."
+      ],
+      "cons": [
+        "Ollie Gordon II has 4 touchdowns in 8 games this season (0.50 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.29 touchdowns per game.",
+        "Buffalo allows 2.44 rushing and receiving touchdowns per game this season, 13th-fewest in the league. That is an average matchup.",
+        "The market implies about 14 points for Miami in this game (their season average is 18)."
+      ],
+      "history": [
+        "2025 Wk 3: 1 TD",
+        "2025 Wk 10: 0 TD"
+      ]
+    },
+    {
+      "name": "Jordan Mason",
+      "pos": "RB",
+      "team": "MIN",
+      "opp": "SF",
+      "opp_name": "San Francisco",
+      "game": "MIN @ SF",
+      "kickoff": "Sun Nov 22, 7:20 PM CT",
       "tier": "PASS",
       "projection": null,
       "line": null,
       "side": null,
       "chance": 27,
       "verdict": "No call",
-      "summary": "Cyrus gives Chase Brown a 27% chance to score, which is below even money. Not a call this week.",
+      "summary": "Cyrus gives Jordan Mason a 27% chance to score, which is below even money. Not a call this week.",
+      "pros": [],
+      "cons": [
+        "Jordan Mason has 1 touchdown in 5 games this season (0.20 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.41 touchdowns per game.",
+        "San Francisco allows 2.22 rushing and receiving touchdowns per game this season, 9th-fewest in the league.",
+        "The market implies about 21 points for Minnesota in this game (their season average is 20)."
+      ],
+      "history": []
+    },
+    {
+      "name": "Braelon Allen",
+      "pos": "RB",
+      "team": "NYJ",
+      "opp": "LAC",
+      "opp_name": "the Chargers",
+      "game": "NYJ @ LAC",
+      "kickoff": "Sun Nov 22, 3:05 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 27,
+      "verdict": "No call",
+      "summary": "Cyrus gives Braelon Allen a 27% chance to score, which is below even money. Not a call this week.",
       "pros": [
-        "Last season's pace, blended with the league average, puts his underlying rate at 0.64 touchdowns per game.",
-        "The market implies about 27 points for Cincinnati in this game (their season average is 28)."
+        "The Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league."
       ],
       "cons": [
-        "Chase Brown has 1 touchdown in 8 games this season (0.12 per game).",
-        "Pittsburgh allows 1.38 rushing and receiving touchdowns per game this season, 2nd-fewest in the league.",
-        "He has scored in 1 of his last 6 meetings with Pittsburgh."
+        "Braelon Allen has 3 touchdowns in 10 games this season (0.30 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.39 touchdowns per game.",
+        "The market implies about 19 points for the Jets in this game (their season average is 20)."
+      ],
+      "history": []
+    },
+    {
+      "name": "Woody Marks",
+      "pos": "RB",
+      "team": "HOU",
+      "opp": "IND",
+      "opp_name": "Indianapolis",
+      "game": "HOU vs IND",
+      "kickoff": "Thu Nov 19, 7:15 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 26,
+      "verdict": "No call",
+      "summary": "Cyrus gives Woody Marks a 26% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "The market implies about 28 points for Houston in this game (their season average is 25)."
+      ],
+      "cons": [
+        "Woody Marks has 2 touchdowns in 9 games this season (0.22 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.35 touchdowns per game.",
+        "Indianapolis allows 2.70 rushing and receiving touchdowns per game this season, 14th-most in the league. That is an average matchup.",
+        "He has scored in 1 of his last 3 meetings with Indianapolis."
       ],
       "history": [
-        "2023 Wk 12: 0 TD",
-        "2023 Wk 16: 0 TD",
-        "2024 Wk 13: 1 TD",
-        "2025 Wk 7: 0 TD",
-        "2025 Wk 11: 0 TD",
-        "2026 Wk 3: 0 TD"
+        "2025 Wk 13: 0 TD",
+        "2025 Wk 18: 0 TD",
+        "2026 Wk 3: 1 TD"
+      ]
+    },
+    {
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "team": "LV",
+      "opp": "DEN",
+      "opp_name": "Denver",
+      "game": "LV @ DEN",
+      "kickoff": "Sun Nov 22, 3:25 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 25,
+      "verdict": "No call",
+      "summary": "Cyrus gives Ashton Jeanty a 25% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.59 touchdowns per game.",
+        "He has scored in 1 of his last 2 meetings with Denver."
+      ],
+      "cons": [
+        "Ashton Jeanty has 4 touchdowns in 10 games this season (0.40 per game).",
+        "Denver allows 2.22 rushing and receiving touchdowns per game this season, 9th-fewest in the league.",
+        "The market implies about 15 points for Las Vegas in this game (their season average is 24)."
+      ],
+      "history": [
+        "2025 Wk 10: 1 TD",
+        "2025 Wk 14: 0 TD"
+      ]
+    },
+    {
+      "name": "Jeremiyah Love",
+      "pos": "RB",
+      "team": "ARI",
+      "opp": "KC",
+      "opp_name": "Kansas City",
+      "game": "ARI @ KC",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 25,
+      "verdict": "No call",
+      "summary": "Cyrus gives Jeremiyah Love a 25% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.58 touchdowns per game."
+      ],
+      "cons": [
+        "Jeremiyah Love has 2 touchdowns in 6 games this season (0.33 per game).",
+        "Kansas City allows 1.44 rushing and receiving touchdowns per game this season, 2nd-fewest in the league.",
+        "The market implies about 12 points for Arizona in this game (their season average is 20).",
+        "He missed his team's last game, so his role this week is less certain."
+      ],
+      "history": []
+    },
+    {
+      "name": "Breece Hall",
+      "pos": "RB",
+      "team": "NYJ",
+      "opp": "LAC",
+      "opp_name": "the Chargers",
+      "game": "NYJ @ LAC",
+      "kickoff": "Sun Nov 22, 3:05 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 23,
+      "verdict": "No call",
+      "summary": "Cyrus gives Breece Hall a 23% chance to score, which is below even money. Not a call this week.",
+      "pros": [
+        "The Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league."
+      ],
+      "cons": [
+        "Breece Hall has 1 touchdown in 5 games this season (0.20 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.35 touchdowns per game.",
+        "The market implies about 19 points for the Jets in this game (their season average is 20)."
+      ],
+      "history": [
+        "2023 Wk 9: 0 TD",
+        "He has scored in 0 of his last 1 meeting with the Chargers."
+      ]
+    },
+    {
+      "name": "Kendre Miller",
+      "pos": "RB",
+      "team": "NO",
+      "opp": "CHI",
+      "opp_name": "Chicago",
+      "game": "NO @ CHI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 22,
+      "verdict": "No call",
+      "summary": "Cyrus gives Kendre Miller a 22% chance to score, which is below even money. Not a call this week.",
+      "pros": [],
+      "cons": [
+        "Kendre Miller has 2 touchdowns in 6 games this season (0.33 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.27 touchdowns per game.",
+        "Chicago allows 2.33 rushing and receiving touchdowns per game this season, 12th-fewest in the league. That is an average matchup.",
+        "The market implies about 18 points for New Orleans in this game (their season average is 22).",
+        "He missed his team's last game, so his role this week is less certain.",
+        "He has scored in 0 of his last 2 meetings with Chicago."
+      ],
+      "history": [
+        "2023 Wk 9: 0 TD",
+        "2025 Wk 7: 0 TD"
+      ]
+    },
+    {
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "team": "ARI",
+      "opp": "KC",
+      "opp_name": "Kansas City",
+      "game": "ARI @ KC",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "PASS",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 21,
+      "verdict": "No call",
+      "summary": "Cyrus gives Tyler Allgeier a 21% chance to score, which is below even money. Not a call this week.",
+      "pros": [],
+      "cons": [
+        "Tyler Allgeier has 3 touchdowns in 10 games this season (0.30 per game).",
+        "Last season's pace, blended with the league average, puts his underlying rate at 0.49 touchdowns per game.",
+        "Kansas City allows 1.44 rushing and receiving touchdowns per game this season, 2nd-fewest in the league.",
+        "The market implies about 12 points for Arizona in this game (their season average is 20)."
+      ],
+      "history": [
+        "2024 Wk 3: 0 TD",
+        "He has scored in 0 of his last 1 meeting with Kansas City."
       ]
     }
   ]
