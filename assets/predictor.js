@@ -73,6 +73,9 @@
     var whyByName = {};
     (data.players || []).forEach(function (p) { if (p.pros && p.pros.length) whyByName[p.pos + ':' + p.name] = p.pros[0]; });
     function whyText(pos, r) {
+      // Cards written from Week 12 on carry a composed analyst 'why' (which already covers injury flags);
+      // older cards fall back to the top factor plus the flag note.
+      if (r.why) return r.why;
       var why = whyByName[pos + ':' + r.player] || '';
       var note = String(r.note || '').trim();
       if (note) { note = note.charAt(0).toUpperCase() + note.slice(1); if (!/[.!?]$/.test(note)) note += '.'; }
@@ -269,7 +272,7 @@
         stat('Verdict', p.verdict);
       }
       out.appendChild(nums);
-      out.appendChild(el('p', 'lk-summary', p.summary));
+      out.appendChild(el('p', 'lk-summary', p.take || p.summary));
       var cols = el('div', 'lk-cols');
       var isCall = p.tier === 'STRONG' || p.tier === 'MODERATE' || p.tier === 'RECHECK';
       var a = list(isCall ? 'Why Cyrus makes the call' : 'What he has going for him', p.pros, 'pos');
