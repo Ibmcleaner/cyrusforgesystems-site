@@ -66,21 +66,31 @@
     document.getElementById('n-bet').textContent = count('MODERATE');
     document.getElementById('n-pass').textContent = (data.passed || []).reduce(function (s, p) { return s + (p.count || 0); }, 0);
 
-    fillBody('rb-body', data.rb, 6, function (r) {
+    // Only Strong and Moderate calls (and Rechecks waiting on an injury decision) are published on the card.
+    // Slight leans are still logged and graded; they appear in the chronicle, not here.
+    function published(r) { var t = norm(r.tier); return t === 'STRONG' || t === 'MODERATE' || t === 'RECHECK'; }
+    // The biggest reason behind each call comes from the same explanation the player lookup shows.
+    var whyByName = {};
+    (data.players || []).forEach(function (p) { if (p.pros && p.pros.length) whyByName[p.pos + ':' + p.name] = p.pros[0]; });
+    function whyText(pos, r) {
+      var why = whyByName[pos + ':' + r.player] || '';
+      var note = String(r.note || '').trim();
+      if (note) { note = note.charAt(0).toUpperCase() + note.slice(1); if (!/[.!?]$/.test(note)) note += '.'; }
+      return [why, note].filter(function (x) { return x; }).join(' ');
+    }
+
+    fillBody('rb-body', (data.rb || []).filter(published), 6, function (r) {
       var tr = el('tr');
       tr.appendChild(chip(r.tier));
       tr.appendChild(el('td', 'strong', r.player));
       tr.appendChild(el('td', 'soft', r.game));
       tr.appendChild(el('td', 'soft nowrap', r.kickoff));
       tr.appendChild(meter(r.chance));
-      tr.appendChild(el('td', 'note', r.note));
+      tr.appendChild(el('td', 'note', whyText('RB', r)));
       return tr;
     });
 
-    // The biggest reason behind each QB call comes from the same explanation the player lookup shows.
-    var whyByName = {};
-    (data.players || []).forEach(function (p) { if (p.pos === 'QB' && p.pros && p.pros.length) whyByName[p.name] = p.pros[0]; });
-    fillBody('qb-body', data.qb, 9, function (q) {
+    fillBody('qb-body', (data.qb || []).filter(published), 9, function (q) {
       var tr = el('tr');
       tr.appendChild(chip(q.tier));
       tr.appendChild(el('td', 'strong', q.player));
@@ -93,8 +103,7 @@
       call.appendChild(el('span', 'chip ' + (side === 'OVER' ? 'chip-over' : side === 'UNDER' ? 'chip-under' : 'chip-lean'), side || '—'));
       tr.appendChild(call);
       tr.appendChild(el('td', 'num strong', q.chance + '%'));
-      var why = [q.note, whyByName[q.player]].filter(function (x) { return x; }).join(' ');
-      tr.appendChild(el('td', 'note', why));
+      tr.appendChild(el('td', 'note', whyText('QB', q)));
       return tr;
     });
 
@@ -246,7 +255,7 @@
       left.appendChild(el('p', 'lk-name', p.name + ' · ' + p.pos));
       left.appendChild(el('p', 'lk-game', p.game + ' · ' + p.kickoff));
       head.appendChild(left);
-      head.appendChild(chip(p.tier === 'NO LINE' ? 'PASS' : p.tier).firstChild);
+      head.appendChild(chip((p.tier === 'NO LINE' || p.tier === 'SLIGHT') ? 'PASS' : p.tier).firstChild);
       out.appendChild(head);
       var nums = el('div', 'lk-nums');
       function stat(label, val) { var d = el('div'); d.appendChild(el('span', 'lk-label', label)); d.appendChild(el('span', 'lk-val', val)); nums.appendChild(d); }
@@ -262,8 +271,10 @@
       out.appendChild(nums);
       out.appendChild(el('p', 'lk-summary', p.summary));
       var cols = el('div', 'lk-cols');
-      var a = list('What supports it', p.pros, 'pos'); if (a) cols.appendChild(a);
-      var b = list('What works against it', p.cons, 'neg'); if (b) cols.appendChild(b);
+      var isCall = p.tier === 'STRONG' || p.tier === 'MODERATE' || p.tier === 'RECHECK';
+      var a = list(isCall ? 'Why Cyrus makes the call' : 'What he has going for him', p.pros, 'pos');
+      var b = list(isCall ? 'What could get in the way' : 'Why Cyrus is not making the call', p.cons, 'neg');
+      if (isCall) { if (a) cols.appendChild(a); if (b) cols.appendChild(b); } else { if (b) cols.appendChild(b); if (a) cols.appendChild(a); }
       var h = list('Against ' + (p.opp_name || p.opp || 'this opponent') + ' recently', p.history, 'hist'); if (h) cols.appendChild(h);
       out.appendChild(cols);
       out.appendChild(el('p', 'lk-note', 'A "no call" means Cyrus does not see enough of an edge either way; it is not a prediction of the opposite. Lines move and injury reports change, so check again before kickoff.'));
