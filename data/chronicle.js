@@ -2,8 +2,8 @@
 window.CYRUS_CHRONICLE = {
  "season": 2026,
  "start_week": 8,
- "generated": "Thu Nov 19, 9:05 AM CT",
- "label": "2026 Weeks 8-10",
+ "generated": "Sat Nov 21, 7:43 AM CT",
+ "label": "2026 Weeks 8-11",
  "core_tiers": [
   "STRONG",
   "MODERATE"
@@ -325,7 +325,7 @@ window.CYRUS_CHRONICLE = {
   {
    "week": 11,
    "official": true,
-   "status": "in_play",
+   "status": "partial",
    "rb": {
     "logged": 10,
     "picks": 0,
@@ -357,14 +357,14 @@ window.CYRUS_CHRONICLE = {
     }
    },
    "qb": {
-    "logged": 15,
-    "picks": 0,
+    "logged": 18,
+    "picks": 2,
     "wins": 0,
-    "losses": 0,
+    "losses": 2,
     "voids": 0,
-    "pending": 15,
-    "win_pct": null,
-    "expected_pct": null,
+    "pending": 16,
+    "win_pct": 0.0,
+    "expected_pct": 0.5275000000000001,
     "core": {
      "logged": 12,
      "picks": 0,
@@ -376,14 +376,14 @@ window.CYRUS_CHRONICLE = {
      "expected_pct": null
     },
     "slight": {
-     "logged": 3,
-     "picks": 0,
+     "logged": 6,
+     "picks": 2,
      "wins": 0,
-     "losses": 0,
+     "losses": 2,
      "voids": 0,
-     "pending": 3,
-     "win_pct": null,
-     "expected_pct": null
+     "pending": 4,
+     "win_pct": 0.0,
+     "expected_pct": 0.5275000000000001
     }
    },
    "runs": [
@@ -393,6 +393,13 @@ window.CYRUS_CHRONICLE = {
      "published": "auto",
      "pushed": "Wed Nov 18, 6:48 PM CT",
      "commit": "3fb4872"
+    },
+    {
+     "logged": "Fri Nov 20, 6:47 PM CT",
+     "day": "Fri",
+     "published": "auto",
+     "pushed": "Fri Nov 20, 6:47 PM CT",
+     "commit": "c432f92"
     }
    ]
   }
@@ -429,14 +436,14 @@ window.CYRUS_CHRONICLE = {
    }
   },
   "qb": {
-   "logged": 71,
-   "picks": 56,
+   "logged": 74,
+   "picks": 58,
    "wins": 25,
-   "losses": 31,
+   "losses": 33,
    "voids": 0,
-   "pending": 15,
-   "win_pct": 0.44642857142857145,
-   "expected_pct": 0.5566964285714285,
+   "pending": 16,
+   "win_pct": 0.43103448275862066,
+   "expected_pct": 0.5556896551724139,
    "core": {
     "logged": 54,
     "picks": 42,
@@ -448,77 +455,77 @@ window.CYRUS_CHRONICLE = {
     "expected_pct": 0.5674761904761905
    },
    "slight": {
-    "logged": 17,
-    "picks": 14,
+    "logged": 20,
+    "picks": 16,
     "wins": 4,
-    "losses": 10,
+    "losses": 12,
     "voids": 0,
-    "pending": 3,
-    "win_pct": 0.2857142857142857,
-    "expected_pct": 0.5243571428571429
+    "pending": 4,
+    "win_pct": 0.25,
+    "expected_pct": 0.52475
    }
   }
  },
  "last_week": {
-  "week": 10,
+  "week": 11,
   "rb": {
    "logged": 10,
-   "picks": 8,
-   "wins": 5,
-   "losses": 3,
-   "voids": 2,
-   "pending": 0,
-   "win_pct": 0.625,
-   "expected_pct": 0.62225,
+   "picks": 0,
+   "wins": 0,
+   "losses": 0,
+   "voids": 0,
+   "pending": 10,
+   "win_pct": null,
+   "expected_pct": null,
    "core": {
     "logged": 7,
-    "picks": 6,
-    "wins": 4,
-    "losses": 2,
-    "voids": 1,
-    "pending": 0,
-    "win_pct": 0.6666666666666666,
-    "expected_pct": 0.6478333333333334
+    "picks": 0,
+    "wins": 0,
+    "losses": 0,
+    "voids": 0,
+    "pending": 7,
+    "win_pct": null,
+    "expected_pct": null
    },
    "slight": {
     "logged": 3,
-    "picks": 2,
-    "wins": 1,
-    "losses": 1,
-    "voids": 1,
-    "pending": 0,
-    "win_pct": 0.5,
-    "expected_pct": 0.5455000000000001
+    "picks": 0,
+    "wins": 0,
+    "losses": 0,
+    "voids": 0,
+    "pending": 3,
+    "win_pct": null,
+    "expected_pct": null
    }
   },
   "qb": {
-   "logged": 16,
-   "picks": 16,
-   "wins": 10,
-   "losses": 6,
+   "logged": 18,
+   "picks": 2,
+   "wins": 0,
+   "losses": 2,
    "voids": 0,
-   "pending": 0,
-   "win_pct": 0.625,
-   "expected_pct": 0.55425,
+   "pending": 16,
+   "win_pct": 0.0,
+   "expected_pct": 0.5275000000000001,
    "core": {
-    "logged": 10,
-    "picks": 10,
-    "wins": 8,
-    "losses": 2,
+    "logged": 12,
+    "picks": 0,
+    "wins": 0,
+    "losses": 0,
     "voids": 0,
-    "pending": 0,
-    "win_pct": 0.8,
-    "expected_pct": 0.5692
+    "pending": 12,
+    "win_pct": null,
+    "expected_pct": null
    },
    "slight": {
     "logged": 6,
-    "picks": 6,
-    "wins": 2,
-    "losses": 4,
+    "picks": 2,
+    "wins": 0,
+    "losses": 2,
     "voids": 0,
-    "pending": 0,
-    "win_pct": 0.3333333333333333,
-    "expected_pct": 0.5293333333333333
+    "pending": 4,
+    "win_pct": 0.0,
+    "expected_pct": 0.5275000000000001
    }
   }
  },
@@ -538,6 +545,10 @@ window.CYRUS_CHRONICLE = {
   {
    "date": "Nov 18, 2026",
    "text": "Week 11: first clean end-to-end run. The scheduled job built the card, pushed it to GitHub (6:48 PM CT), the site deployed itself, and the ledger was saved to Drive (6:51 PM CT) with no hand on any step. The independent checker confirmed all three the next morning."
+  },
+  {
+   "date": "Nov 20, 2026",
+   "text": "Week 11: first clean Friday run, and the first week with both scheduled runs (Wed and Fri) published automatically. The Friday job pushed the card to GitHub (6:47 PM CT) and saved the ledger to Drive (6:49 PM CT) with no hand on any step."
   }
  ]
 };
