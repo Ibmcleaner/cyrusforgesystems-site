@@ -375,7 +375,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 59,
       "verdict": "Strong projection",
-      "summary": "Matchup favors the over: tennessee allows 282 passing yards per game this season, the most in the league. Cyrus leans over 278.5 for Dak Prescott (59% chance). Strong projection.",
+      "summary": "Matchup favors the over: Tennessee allows 282 passing yards per game this season, the most in the league. Cyrus leans over 278.5 for Dak Prescott (59% chance). Strong projection.",
       "pros": [
         "Cyrus projects 320 yards against a line of 278.5: a 42-yard gap in favor of the over.",
         "Tennessee allows 282 passing yards per game this season, the most in the league.",
@@ -399,7 +399,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 57,
       "verdict": "Strong projection",
-      "summary": "Matchup is neutral: arizona allows 232 passing yards per game this season, 13th-fewest in the league. Cyrus leans over 250.5 for Patrick Mahomes (57% chance). Strong projection.",
+      "summary": "Matchup is neutral: Arizona allows 232 passing yards per game this season, 13th-fewest in the league. Cyrus leans over 250.5 for Patrick Mahomes (57% chance). Strong projection.",
       "pros": [
         "Cyrus projects 278 yards against a line of 250.5: a 28-yard gap in favor of the over.",
         "Kansas City is a 16.5-point underdog, and teams that trail tend to throw more."
@@ -424,7 +424,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 62,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: pittsburgh allows 261 passing yards per game this season, 3rd-most in the league. Cyrus leans over 187.5 for Joe Milton III (62% chance). Moderate projection.",
+      "summary": "Matchup favors the over: Pittsburgh allows 261 passing yards per game this season, 3rd-most in the league. Cyrus leans over 187.5 for Joe Milton III (62% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 225 yards against a line of 187.5: a 38-yard gap in favor of the over.",
         "Pittsburgh allows 261 passing yards per game this season, 3rd-most in the league."
@@ -450,7 +450,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 57,
       "verdict": "Moderate projection",
-      "summary": "Matchup works against the over: tampa Bay allows 227 passing yards per game this season, 9th-fewest in the league. Cyrus leans over 249.5 for Jared Goff (57% chance). Moderate projection.",
+      "summary": "Matchup works against the over: Tampa Bay allows 227 passing yards per game this season, 9th-fewest in the league. Cyrus leans over 249.5 for Jared Goff (57% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 277 yards against a line of 249.5: a 28-yard gap in favor of the over.",
         "Detroit is a 5.5-point underdog, and teams that trail tend to throw more.",
@@ -480,7 +480,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup works against the over: miami allows 212 passing yards per game this season, 6th-fewest in the league. Cyrus leans over 227.5 for Josh Allen (56% chance). Moderate projection.",
+      "summary": "Matchup works against the over: Miami allows 212 passing yards per game this season, 6th-fewest in the league. Cyrus leans over 227.5 for Josh Allen (56% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 251 yards against a line of 227.5: a 24-yard gap in favor of the over.",
         "Buffalo is a 16.5-point underdog, and teams that trail tend to throw more.",
@@ -513,7 +513,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 54,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: las Vegas allows 248 passing yards per game this season, 12th-most in the league. Cyrus leans over 214.5 for Bo Nix (54% chance). Moderate projection.",
+      "summary": "Matchup favors the over: Las Vegas allows 248 passing yards per game this season, 12th-most in the league. Cyrus leans over 214.5 for Bo Nix (54% chance). Moderate projection.",
       "pros": [
         "Las Vegas allows 248 passing yards per game this season, 12th-most in the league.",
         "Denver is a 10.5-point underdog, and teams that trail tend to throw more."
@@ -545,7 +545,7 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup is neutral: the Chargers allow 243 passing yards per game this season, 13th-most in the league. Cyrus leans under 217.5 for Geno Smith (56% chance). Moderate projection.",
+      "summary": "Matchup is neutral: The Chargers allow 243 passing yards per game this season, 13th-most in the league. Cyrus leans under 217.5 for Geno Smith (56% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 198 yards against a line of 217.5: a 20-yard gap in favor of the under.",
         "The Jets are favored by 3.0, and teams that lead tend to run more and throw less late.",
@@ -574,7 +574,7 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the under: minnesota allows 191 passing yards per game this season, 2nd-fewest in the league. Cyrus leans under 245.5 for Brock Purdy (56% chance). Moderate projection.",
+      "summary": "Matchup favors the under: Minnesota allows 191 passing yards per game this season, 2nd-fewest in the league. Cyrus leans under 245.5 for Brock Purdy (56% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 225 yards against a line of 245.5: a 20-yard gap in favor of the under.",
         "Minnesota allows 191 passing yards per game this season, 2nd-fewest in the league."
@@ -602,7 +602,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: denver allows 250 passing yards per game this season, 10th-most in the league. Cyrus leans over 168.5 for Fernando Mendoza (56% chance). Moderate projection.",
+      "summary": "Matchup favors the over: Denver allows 250 passing yards per game this season, 10th-most in the league. Cyrus leans over 168.5 for Fernando Mendoza (56% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 185 yards against a line of 168.5: a 16-yard gap in favor of the over.",
         "Denver allows 250 passing yards per game this season, 10th-most in the league."
@@ -629,7 +629,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 54,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: new Orleans allows 249 passing yards per game this season, 11th-most in the league. Cyrus leans over 245.5 for Caleb Williams (54% chance). Moderate projection.",
+      "summary": "Matchup favors the over: New Orleans allows 249 passing yards per game this season, 11th-most in the league. Cyrus leans over 245.5 for Caleb Williams (54% chance). Moderate projection.",
       "pros": [
         "New Orleans allows 249 passing yards per game this season, 11th-most in the league.",
         "Chicago is a 11.5-point underdog, and teams that trail tend to throw more.",
@@ -657,7 +657,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 55,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: washington allows 260 passing yards per game this season, 4th-most in the league. Cyrus leans over 302.5 for Joe Burrow (55% chance). Moderate projection.",
+      "summary": "Matchup favors the over: Washington allows 260 passing yards per game this season, 4th-most in the league. Cyrus leans over 302.5 for Joe Burrow (55% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 324 yards against a line of 302.5: a 22-yard gap in favor of the over.",
         "Washington allows 260 passing yards per game this season, 4th-most in the league.",
@@ -684,7 +684,7 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 55,
       "verdict": "Moderate projection",
-      "summary": "Matchup works against the under: dallas allows 252 passing yards per game this season, 7th-most in the league. Cyrus leans under 237.5 for Cam Ward (55% chance). Moderate projection.",
+      "summary": "Matchup works against the under: Dallas allows 252 passing yards per game this season, 7th-most in the league. Cyrus leans under 237.5 for Cam Ward (55% chance). Moderate projection.",
       "pros": [
         "Cyrus projects 219 yards against a line of 237.5: a 18-yard gap in favor of the under.",
         "Tennessee is favored by 8.5, and teams that lead tend to run more and throw less late."
@@ -709,7 +709,7 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 56,
       "verdict": "Slight lean",
-      "summary": "Matchup is neutral: jacksonville allows 238 passing yards per game this season, 15th-most in the league. Cyrus leans under 215.5 for J.J. McCarthy (56% chance). Slight lean.",
+      "summary": "Matchup is neutral: Jacksonville allows 238 passing yards per game this season, 15th-most in the league. Cyrus leans under 215.5 for J.J. McCarthy (56% chance). Slight lean.",
       "pros": [
         "Cyrus projects 198 yards against a line of 215.5: a 18-yard gap in favor of the under.",
         "The Giants are favored by 6.0, and teams that lead tend to run more and throw less late."
@@ -734,7 +734,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 50,
       "verdict": "Slight lean",
-      "summary": "Matchup works against the over: the Jets allow 210 passing yards per game this season, 5th-fewest in the league. Cyrus leans over 203.5 for Justin Herbert (50% chance). Slight lean.",
+      "summary": "Matchup works against the over: The Jets allow 210 passing yards per game this season, 5th-fewest in the league. Cyrus leans over 203.5 for Justin Herbert (50% chance). Slight lean.",
       "pros": [
         "The Chargers are a 3.0-point underdog, and teams that trail tend to throw more.",
         "Indoors, where passing numbers run a little higher."
@@ -762,7 +762,7 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 53,
       "verdict": "Slight lean",
-      "summary": "Matchup is neutral: chicago allows 236 passing yards per game this season, 15th-fewest in the league. Cyrus leans under 239.5 for Tyler Shough (53% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
+      "summary": "Matchup is neutral: Chicago allows 236 passing yards per game this season, 15th-fewest in the league. Cyrus leans under 239.5 for Tyler Shough (53% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
       "pros": [
         "New Orleans is favored by 11.5, and teams that lead tend to run more and throw less late."
       ],
@@ -788,7 +788,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 53,
       "verdict": "Slight lean",
-      "summary": "Matchup is neutral: san Francisco allows 236 passing yards per game this season, 16th-fewest in the league. Cyrus leans over 231.5 for Kirk Cousins (53% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
+      "summary": "Matchup is neutral: San Francisco allows 236 passing yards per game this season, 16th-fewest in the league. Cyrus leans over 231.5 for Kirk Cousins (53% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
       "pros": [],
       "cons": [
         "Cyrus projects 243 yards against a line of 231.5: a 12-yard gap which is too close to call with confidence.",
@@ -815,7 +815,7 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 52,
       "verdict": "No call",
-      "summary": "Matchup works against the under: detroit allows 266 passing yards per game this season, 2nd-most in the league. Not a call this week. Cyrus leans under 211.5 for Baker Mayfield, but only at 52%, which is not enough of an edge to publish.",
+      "summary": "Matchup works against the under: Detroit allows 266 passing yards per game this season, 2nd-most in the league. Not a call this week. Cyrus leans under 211.5 for Baker Mayfield, but only at 52%, which is not enough of an edge to publish.",
       "pros": [
         "Tampa Bay is favored by 5.5, and teams that lead tend to run more and throw less late.",
         "In his last 3 meetings with Detroit he averaged 206 yards and went over 211.5 1 time."
@@ -845,7 +845,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 52,
       "verdict": "No call",
-      "summary": "Matchup works against the over: the Giants allow 196 passing yards per game this season, 3rd-fewest in the league. Not a call this week. Cyrus leans over 234.5 for Trevor Lawrence, but only at 52%, which is not enough of an edge to publish.",
+      "summary": "Matchup works against the over: The Giants allow 196 passing yards per game this season, 3rd-fewest in the league. Not a call this week. Cyrus leans over 234.5 for Trevor Lawrence, but only at 52%, which is not enough of an edge to publish.",
       "pros": [
         "Jacksonville is a 6.0-point underdog, and teams that trail tend to throw more."
       ],
@@ -869,7 +869,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 51,
       "verdict": "No call",
-      "summary": "Matchup is neutral: cincinnati allows 237 passing yards per game this season, 16th-most in the league. Not a call this week. Cyrus leans over 223.5 for Jayden Daniels, but only at 51%, which is not enough of an edge to publish.",
+      "summary": "Matchup is neutral: Cincinnati allows 237 passing yards per game this season, 16th-most in the league. Not a call this week. Cyrus leans over 223.5 for Jayden Daniels, but only at 51%, which is not enough of an edge to publish.",
       "pros": [
         "The game total is 53.5, which the market reads as a high-scoring game."
       ],
@@ -897,7 +897,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 51,
       "verdict": "No call",
-      "summary": "Matchup is neutral: baltimore allows 231 passing yards per game this season, 12th-fewest in the league. Not a call this week. Cyrus leans over 237.5 for Bryce Young, but only at 51%, which is not enough of an edge to publish.",
+      "summary": "Matchup is neutral: Baltimore allows 231 passing yards per game this season, 12th-fewest in the league. Not a call this week. Cyrus leans over 237.5 for Bryce Young, but only at 51%, which is not enough of an edge to publish.",
       "pros": [
         "Carolina is a 3.0-point underdog, and teams that trail tend to throw more."
       ],
@@ -921,7 +921,7 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 50,
       "verdict": "No call",
-      "summary": "Matchup favors the over: buffalo allows 256 passing yards per game this season, 6th-most in the league. Not a call this week. Cyrus leans over 185.5 for Kyle McCord, but only at 50%, which is not enough of an edge to publish.",
+      "summary": "Matchup favors the over: Buffalo allows 256 passing yards per game this season, 6th-most in the league. Not a call this week. Cyrus leans over 185.5 for Kyle McCord, but only at 50%, which is not enough of an edge to publish.",
       "pros": [
         "Buffalo allows 256 passing yards per game this season, 6th-most in the league."
       ],
@@ -947,7 +947,7 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 50,
       "verdict": "No call",
-      "summary": "Matchup is neutral: philadelphia allows 239 passing yards per game this season, 14th-most in the league. Not a call this week. Cyrus leans under 209.5 for Aaron Rodgers, but only at 50%, which is not enough of an edge to publish.",
+      "summary": "Matchup is neutral: Philadelphia allows 239 passing yards per game this season, 14th-most in the league. Not a call this week. Cyrus leans under 209.5 for Aaron Rodgers, but only at 50%, which is not enough of an edge to publish.",
       "pros": [
         "The game total is 37.5, which the market reads as a low-scoring game."
       ],
@@ -1010,7 +1010,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 71,
       "verdict": "Strong projection",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.99 touchdowns per game. Cyrus gives Jahmyr Gibbs a 71% chance to score. Strong projection.",
+      "summary": "Matchup works against him: Tampa Bay allows 1.67 rushing and receiving touchdowns per game this season, 4th-fewest in the league. Cyrus gives Jahmyr Gibbs a 71% chance to score. Strong projection.",
       "pros": [
         "Jahmyr Gibbs has 13 touchdowns in 9 games this season (1.44 per game).",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.99 touchdowns per game.",
@@ -1039,7 +1039,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 67,
       "verdict": "Ruled out",
-      "summary": "Matchup favors him: arizona allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league. Kenneth Walker III was ruled Out (groin) on the final injury report after this card was built, so there is no call. Card corrected Sun Nov 22, 10:05 AM CT.",
+      "summary": "Matchup favors him: Arizona allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league. Kenneth Walker III was ruled Out (groin) on the final injury report after this card was built, so there is no call. Card corrected Sun Nov 22, 10:05 AM CT.",
       "pros": [
         "Kenneth Walker III has 11 touchdowns in 8 games this season (1.38 per game).",
         "Arizona allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league.",
@@ -1073,7 +1073,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 67,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.62 touchdowns per game. Cyrus gives D'Andre Swift a 67% chance to score. Moderate projection.",
+      "summary": "Matchup favors him: New Orleans allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives D'Andre Swift a 67% chance to score. Moderate projection.",
       "pros": [
         "D'Andre Swift has 10 touchdowns in 9 games this season (1.11 per game).",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.62 touchdowns per game.",
@@ -1100,7 +1100,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 67,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.94 touchdowns per game. Cyrus gives Christian McCaffrey a 67% chance to score. Moderate projection.",
+      "summary": "Matchup works against him: Minnesota allows 1.22 rushing and receiving touchdowns per game this season, the fewest in the league. Cyrus gives Christian McCaffrey a 67% chance to score. Moderate projection.",
       "pros": [
         "Christian McCaffrey has 13 touchdowns in 9 games this season (1.44 per game).",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.94 touchdowns per game.",
@@ -1128,7 +1128,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 66,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.78 touchdowns per game. Cyrus gives Javonte Williams a 66% chance to score. Moderate projection.",
+      "summary": "Matchup favors him: Tennessee allows 2.78 rushing and receiving touchdowns per game this season, 11th-most in the league. Cyrus gives Javonte Williams a 66% chance to score. Moderate projection.",
       "pros": [
         "Javonte Williams has 10 touchdowns in 10 games this season (1.00 per game).",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.78 touchdowns per game.",
@@ -1152,7 +1152,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 62,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.89 touchdowns per game. Cyrus gives Derrick Henry a 62% chance to score. Moderate projection.",
+      "summary": "Matchup favors him: Carolina allows 3.00 rushing and receiving touchdowns per game this season, 5th-most in the league. Cyrus gives Derrick Henry a 62% chance to score. Moderate projection.",
       "pros": [
         "Derrick Henry has 11 touchdowns in 10 games this season (1.10 per game).",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.89 touchdowns per game.",
@@ -1180,7 +1180,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 62,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.79 touchdowns per game. Cyrus gives James Cook a 62% chance to score. Moderate projection.",
+      "summary": "Matchup is neutral: Miami allows 2.67 rushing and receiving touchdowns per game this season, 16th-most in the league. Cyrus gives James Cook a 62% chance to score. Moderate projection.",
       "pros": [
         "James Cook has 9 touchdowns in 9 games this season (1.00 per game).",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.79 touchdowns per game.",
@@ -1213,7 +1213,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 52,
       "verdict": "Slight lean",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.32 touchdowns per game. Cyrus gives Chuba Hubbard a 52% chance to score: better than even, but not enough for a confident call.",
+      "summary": "Matchup is neutral: Baltimore allows 2.60 rushing and receiving touchdowns per game this season, 16th-fewest in the league. Cyrus gives Chuba Hubbard a 52% chance to score: better than even, but not enough for a confident call.",
       "pros": [
         "Chuba Hubbard has 9 touchdowns in 9 games this season (1.00 per game)."
       ],
@@ -1238,7 +1238,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 51,
       "verdict": "Slight lean",
-      "summary": "Matchup favors him: dallas allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league. Cyrus gives Tony Pollard a 51% chance to score: better than even, but not enough for a confident call.",
+      "summary": "Matchup favors him: Dallas allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league. Cyrus gives Tony Pollard a 51% chance to score: better than even, but not enough for a confident call.",
       "pros": [
         "Tony Pollard has 7 touchdowns in 9 games this season (0.78 per game).",
         "Dallas allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league."
@@ -1263,7 +1263,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 51,
       "verdict": "Slight lean",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.49 touchdowns per game. Cyrus gives Bhayshul Tuten a 51% chance to score: better than even, but not enough for a confident call.",
+      "summary": "Matchup is neutral: The Giants allow 2.67 rushing and receiving touchdowns per game this season, 16th-most in the league. Cyrus gives Bhayshul Tuten a 51% chance to score: better than even, but not enough for a confident call.",
       "pros": [
         "Bhayshul Tuten has 8 touchdowns in 9 games this season (0.89 per game).",
         "The market implies about 26 points for Jacksonville in this game (their season average is 28)."
@@ -1288,7 +1288,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 49,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.58 touchdowns per game. Cyrus gives Jonah Coleman a 49% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: Las Vegas allows 3.50 rushing and receiving touchdowns per game this season, the most in the league. Cyrus gives Jonah Coleman a 49% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Jonah Coleman has 3 touchdowns in 5 games this season (0.60 per game).",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.58 touchdowns per game.",
@@ -1312,7 +1312,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 48,
       "verdict": "No call",
-      "summary": "Matchup favors him: detroit allows 2.78 rushing and receiving touchdowns per game this season, 11th-most in the league. Cyrus gives Bucky Irving a 48% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: Detroit allows 2.78 rushing and receiving touchdowns per game this season, 11th-most in the league. Cyrus gives Bucky Irving a 48% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Bucky Irving has 8 touchdowns in 9 games this season (0.89 per game).",
         "Detroit allows 2.78 rushing and receiving touchdowns per game this season, 11th-most in the league."
@@ -1340,7 +1340,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 46,
       "verdict": "No call",
-      "summary": "Matchup favors him: new Orleans allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives Kyle Monangai a 46% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: New Orleans allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives Kyle Monangai a 46% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Kyle Monangai has 3 touchdowns in 4 games this season (0.75 per game).",
         "New Orleans allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league.",
@@ -1369,7 +1369,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 45,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.56 touchdowns per game. Cyrus gives Omarion Hampton a 45% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: The Jets allow 3.00 rushing and receiving touchdowns per game this season, 5th-most in the league. Cyrus gives Omarion Hampton a 45% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.56 touchdowns per game.",
         "The Jets allow 3.00 rushing and receiving touchdowns per game this season, 5th-most in the league."
@@ -1394,7 +1394,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 45,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.79 touchdowns per game. Cyrus gives Cam Skattebo a 45% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: Jacksonville allows 1.67 rushing and receiving touchdowns per game this season, 4th-fewest in the league. Cyrus gives Cam Skattebo a 45% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.79 touchdowns per game."
       ],
@@ -1419,7 +1419,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 38,
       "verdict": "No call",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.49 touchdowns per game. Cyrus gives Jacory Croskey-Merritt a 38% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: Cincinnati allows 2.11 rushing and receiving touchdowns per game this season, 8th-fewest in the league. Cyrus gives Jacory Croskey-Merritt a 38% chance to score, which is below even money. Not a call this week.",
       "pros": [],
       "cons": [
         "Jacory Croskey-Merritt has 2 touchdowns in 5 games this season (0.40 per game).",
@@ -1444,7 +1444,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 37,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.64 touchdowns per game. Cyrus gives Chase Brown a 37% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: Washington allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives Chase Brown a 37% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.64 touchdowns per game.",
         "Washington allows 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league.",
@@ -1472,7 +1472,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 36,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.57 touchdowns per game. Cyrus gives Saquon Barkley a 36% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: Pittsburgh allows 1.78 rushing and receiving touchdowns per game this season, 7th-fewest in the league. Cyrus gives Saquon Barkley a 36% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.57 touchdowns per game."
       ],
@@ -1500,7 +1500,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 35,
       "verdict": "No call",
-      "summary": "Matchup favors him: las Vegas allows 3.50 rushing and receiving touchdowns per game this season, the most in the league. Cyrus gives J.K. Dobbins a 35% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: Las Vegas allows 3.50 rushing and receiving touchdowns per game this season, the most in the league. Cyrus gives J.K. Dobbins a 35% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Las Vegas allows 3.50 rushing and receiving touchdowns per game this season, the most in the league.",
         "The market implies about 26 points for Denver in this game (their season average is 22)."
@@ -1530,7 +1530,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 31,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.51 touchdowns per game. Cyrus gives Jaylen Warren a 31% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup is neutral: Philadelphia allows 2.56 rushing and receiving touchdowns per game this season, 15th-fewest in the league. Cyrus gives Jaylen Warren a 31% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.51 touchdowns per game."
       ],
@@ -1558,7 +1558,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 30,
       "verdict": "No call",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.22 touchdowns per game. Cyrus gives Dameon Pierce a 30% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: Pittsburgh allows 1.78 rushing and receiving touchdowns per game this season, 7th-fewest in the league. Cyrus gives Dameon Pierce a 30% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Dameon Pierce has 2 touchdowns in 3 games this season (0.67 per game)."
       ],
@@ -1587,7 +1587,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 29,
       "verdict": "No call",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.32 touchdowns per game. Cyrus gives Aaron Jones a 29% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: San Francisco allows 2.22 rushing and receiving touchdowns per game this season, 9th-fewest in the league. Cyrus gives Aaron Jones a 29% chance to score, which is below even money. Not a call this week.",
       "pros": [],
       "cons": [
         "Aaron Jones has 3 touchdowns in 9 games this season (0.33 per game).",
@@ -1614,7 +1614,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 29,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.72 touchdowns per game. Cyrus gives De'Von Achane a 29% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup is neutral: Buffalo allows 2.44 rushing and receiving touchdowns per game this season, 14th-fewest in the league. Cyrus gives De'Von Achane a 29% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.72 touchdowns per game.",
         "He has scored in 5 of his last 6 meetings with Buffalo."
@@ -1648,7 +1648,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 29,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.74 touchdowns per game. Cyrus gives Travis Etienne a 29% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup is neutral: Chicago allows 2.33 rushing and receiving touchdowns per game this season, 12th-fewest in the league. Cyrus gives Travis Etienne a 29% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.74 touchdowns per game."
       ],
@@ -1676,7 +1676,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 28,
       "verdict": "No call",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.41 touchdowns per game. Cyrus gives Jordan Mason a 28% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: San Francisco allows 2.22 rushing and receiving touchdowns per game this season, 9th-fewest in the league. Cyrus gives Jordan Mason a 28% chance to score, which is below even money. Not a call this week.",
       "pros": [],
       "cons": [
         "Jordan Mason has 1 touchdown in 5 games this season (0.20 per game).",
@@ -1700,7 +1700,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 27,
       "verdict": "No call",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.29 touchdowns per game. Cyrus gives Ollie Gordon II a 27% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup is neutral: Buffalo allows 2.44 rushing and receiving touchdowns per game this season, 14th-fewest in the league. Cyrus gives Ollie Gordon II a 27% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "He has scored in 1 of his last 2 meetings with Buffalo."
       ],
@@ -1729,7 +1729,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 27,
       "verdict": "No call",
-      "summary": "Matchup favors him: the Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives Braelon Allen a 27% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: The Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives Braelon Allen a 27% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "The Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league."
       ],
@@ -1754,7 +1754,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 25,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.59 touchdowns per game. Cyrus gives Ashton Jeanty a 25% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: Denver allows 2.22 rushing and receiving touchdowns per game this season, 9th-fewest in the league. Cyrus gives Ashton Jeanty a 25% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.59 touchdowns per game.",
         "He has scored in 1 of his last 2 meetings with Denver."
@@ -1783,7 +1783,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 24,
       "verdict": "No call",
-      "summary": "Matchup favors him: last season's pace, blended with the league average, puts his underlying rate at 0.58 touchdowns per game. Cyrus gives Jeremiyah Love a 24% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: Kansas City allows 1.44 rushing and receiving touchdowns per game this season, 2nd-fewest in the league. Cyrus gives Jeremiyah Love a 24% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "Last season's pace, blended with the league average, puts his underlying rate at 0.58 touchdowns per game."
       ],
@@ -1809,7 +1809,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 23,
       "verdict": "No call",
-      "summary": "Matchup favors him: the Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives Breece Hall a 23% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup favors him: The Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league. Cyrus gives Breece Hall a 23% chance to score, which is below even money. Not a call this week.",
       "pros": [
         "The Chargers allow 2.89 rushing and receiving touchdowns per game this season, 9th-most in the league."
       ],
@@ -1837,7 +1837,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 22,
       "verdict": "No call",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.27 touchdowns per game. Cyrus gives Kendre Miller a 22% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup is neutral: Chicago allows 2.33 rushing and receiving touchdowns per game this season, 12th-fewest in the league. Cyrus gives Kendre Miller a 22% chance to score, which is below even money. Not a call this week.",
       "pros": [],
       "cons": [
         "Kendre Miller has 2 touchdowns in 6 games this season (0.33 per game).",
@@ -1866,7 +1866,7 @@ window.CYRUS_DATA = {
       "side": null,
       "chance": 20,
       "verdict": "No call",
-      "summary": "Matchup works against him: last season's pace, blended with the league average, puts his underlying rate at 0.49 touchdowns per game. Cyrus gives Tyler Allgeier a 20% chance to score, which is below even money. Not a call this week.",
+      "summary": "Matchup works against him: Kansas City allows 1.44 rushing and receiving touchdowns per game this season, 2nd-fewest in the league. Cyrus gives Tyler Allgeier a 20% chance to score, which is below even money. Not a call this week.",
       "pros": [],
       "cons": [
         "Tyler Allgeier has 3 touchdowns in 10 games this season (0.30 per game).",
