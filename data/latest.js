@@ -101,7 +101,8 @@ window.CYRUS_DATA = {
       "line": 278.5,
       "projection": 320,
       "chance": 59,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Dak Prescott: Cyrus has him at 320 yards against a 278.5 line, a 42-yard edge to the over, and a 54.5 total says the market expects a high-scoring game. Matchup favors the over: Tennessee gives up 282 passing yards a game, the most in the league. The catch: Dallas is favored by 7.5 (front-running teams throw less late)."
     },
     {
       "tier": "STRONG",
@@ -112,7 +113,8 @@ window.CYRUS_DATA = {
       "line": 250.5,
       "projection": 278,
       "chance": 57,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Patrick Mahomes: Cyrus has him at 278 yards against a 250.5 line, a 28-yard edge to the over. Matchup is neutral: Arizona allows 232 passing yards a game, 13th-fewest in the league, middle of the pack. The catch: Kansas City is favored by 15.5 (front-running teams throw less late)."
     },
     {
       "tier": "MODERATE",
@@ -123,7 +125,8 @@ window.CYRUS_DATA = {
       "line": 187.5,
       "projection": 225,
       "chance": 62,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Joe Milton III: Cyrus has him at 225 yards against a 187.5 line, a 38-yard edge to the over, and Philadelphia is a 3.5-point underdog (trailing teams throw more). Matchup favors the over: Pittsburgh gives up 261 passing yards a game, 3rd-most in the league. The catch: a 37.5 total says the market expects a low-scoring game."
     },
     {
       "tier": "MODERATE",
@@ -134,7 +137,8 @@ window.CYRUS_DATA = {
       "line": 249.5,
       "projection": 277,
       "chance": 57,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Jared Goff: Cyrus has him at 277 yards against a 249.5 line, a 28-yard edge to the over, and a 48.5 total says the market expects a high-scoring game. Matchup works against the over: Tampa Bay allows just 227 passing yards a game, 9th-fewest in the league. The catch: Detroit is favored by 3.5 (front-running teams throw less late)."
     },
     {
       "tier": "MODERATE",
@@ -145,7 +149,8 @@ window.CYRUS_DATA = {
       "line": 227.5,
       "projection": 251,
       "chance": 56,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Josh Allen: Cyrus has him at 251 yards against a 227.5 line, a 24-yard edge to the over, and in his last 6 meetings with Miami he averaged 262 yards and went over 227.5 4 times. Matchup works against the over: Miami allows just 212 passing yards a game, 6th-fewest in the league. The catch: Buffalo is favored by 16.5 (front-running teams throw less late)."
     },
     {
       "tier": "MODERATE",
@@ -156,7 +161,8 @@ window.CYRUS_DATA = {
       "line": 214.5,
       "projection": 229,
       "chance": 54,
-      "note": ""
+      "note": "",
+      "why": "Cyrus leans over 214.5 on Bo Nix at 54%. Matchup favors the over: Las Vegas gives up 248 passing yards a game, 12th-most in the league. The catch: Denver is favored by 10.5 (front-running teams throw less late)."
     },
     {
       "tier": "MODERATE",
@@ -167,7 +173,8 @@ window.CYRUS_DATA = {
       "line": 217.5,
       "projection": 198,
       "chance": 56,
-      "note": ""
+      "note": "",
+      "why": "The case for the under on Geno Smith: Cyrus has him at 198 yards against a 217.5 line, a 20-yard edge to the under, and in his last 2 meetings with the Chargers he averaged 172 yards and never went over 217.5. Matchup is neutral: the Chargers allow 243 passing yards a game, 13th-most in the league, middle of the pack. The catch: it is indoors, where passing numbers run a touch higher."
     },
     {
       "tier": "MODERATE",
@@ -178,7 +185,8 @@ window.CYRUS_DATA = {
       "line": 245.5,
       "projection": 225,
       "chance": 56,
-      "note": ""
+      "note": "",
+      "why": "The case for the under on Brock Purdy: Cyrus has him at 225 yards against a 245.5 line, a 20-yard edge to the under, and San Francisco is favored by 3.5 (front-running teams throw less late). Matchup favors the under: Minnesota allows just 191 passing yards a game, 2nd-fewest in the league. The catch: in his last 2 meetings with Minnesota he averaged 296 yards and went over 245.5 every time."
     },
     {
       "tier": "MODERATE",
@@ -189,7 +197,8 @@ window.CYRUS_DATA = {
       "line": 168.5,
       "projection": 185,
       "chance": 56,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Fernando Mendoza: Cyrus has him at 185 yards against a 168.5 line, a 16-yard edge to the over, and Las Vegas is a 10.5-point underdog (trailing teams throw more). Matchup favors the over: Denver gives up 250 passing yards a game, 10th-most in the league. The catch: a 40.5 total says the market expects a low-scoring game."
     },
     {
       "tier": "MODERATE",
@@ -200,7 +209,8 @@ window.CYRUS_DATA = {
       "line": 245.5,
       "projection": 260,
       "chance": 54,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Caleb Williams: a 47.5 total says the market expects a high-scoring game. Matchup favors the over: New Orleans gives up 249 passing yards a game, 11th-most in the league. The catch: Chicago is favored by 11.5 (front-running teams throw less late)."
     },
     {
       "tier": "MODERATE",
@@ -211,7 +221,8 @@ window.CYRUS_DATA = {
       "line": 302.5,
       "projection": 324,
       "chance": 55,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Joe Burrow: Cyrus has him at 324 yards against a 302.5 line, a 22-yard edge to the over, and a 54.5 total says the market expects a high-scoring game. Matchup favors the over: Washington gives up 260 passing yards a game, 4th-most in the league. The catch: Cincinnati is favored by 6 (front-running teams throw less late)."
     },
     {
       "tier": "MODERATE",
@@ -222,7 +233,8 @@ window.CYRUS_DATA = {
       "line": 237.5,
       "projection": 219,
       "chance": 55,
-      "note": ""
+      "note": "",
+      "why": "The case for the under on Cam Ward: Cyrus has him at 219 yards against a 237.5 line, an 18-yard edge to the under. Matchup works against the under: Dallas gives up 252 passing yards a game, 7th-most in the league. The catch: a 54.5 total says the market expects a high-scoring game."
     },
     {
       "tier": "SLIGHT",
@@ -233,7 +245,8 @@ window.CYRUS_DATA = {
       "line": 215.5,
       "projection": 198,
       "chance": 56,
-      "note": ""
+      "note": "",
+      "why": "The case for the under on J.J. McCarthy: Cyrus has him at 198 yards against a 215.5 line, a 18-yard edge to the under. Matchup is neutral: Jacksonville allows 238 passing yards a game, 15th-most in the league, middle of the pack. The catch: the Giants are a 6-point underdog (trailing teams throw more). Most of the visible factors point the other way, which is why this is only a lean."
     },
     {
       "tier": "SLIGHT",
@@ -244,7 +257,8 @@ window.CYRUS_DATA = {
       "line": 203.5,
       "projection": 202,
       "chance": 50,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Justin Herbert: it is indoors, where passing numbers run a touch higher. Matchup works against the over: the Jets allow just 210 passing yards a game, 5th-fewest in the league. The catch: the projection (202) sits only 2 yards from the line (203.5), too close to lean on hard. Most of the visible factors point the other way, which is why this is only a lean."
     },
     {
       "tier": "SLIGHT",
@@ -255,7 +269,8 @@ window.CYRUS_DATA = {
       "line": 239.5,
       "projection": 230,
       "chance": 53,
-      "note": ""
+      "note": "",
+      "why": "Cyrus leans under 239.5 on Tyler Shough at 53%. Matchup is neutral: Chicago allows 236 passing yards a game, 15th-fewest in the league, middle of the pack. The catch: New Orleans is an 11.5-point underdog (trailing teams throw more). Most of the visible factors point the other way, which is why this is only a lean."
     },
     {
       "tier": "SLIGHT",
@@ -266,7 +281,8 @@ window.CYRUS_DATA = {
       "line": 231.5,
       "projection": 243,
       "chance": 53,
-      "note": ""
+      "note": "",
+      "why": "The case for the over on Kirk Cousins: Minnesota is a 3.5-point underdog (trailing teams throw more). Matchup is neutral: San Francisco allows 236 passing yards a game, 16th-fewest in the league, middle of the pack. The catch: the projection (243) sits only 12 yards from the line (231.5), too close to lean on hard."
     }
   ],
   "passed": [
@@ -384,15 +400,17 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 59,
       "verdict": "Strong projection",
-      "summary": "Matchup favors the over: Tennessee allows 282 passing yards per game this season, the most in the league. Cyrus leans over 278.5 for Dak Prescott (59% chance). Strong projection.",
+      "summary": "Cyrus leans over 278.5 for Dak Prescott (59% chance). Strong projection.",
       "pros": [
-        "Cyrus projects 320 yards against a line of 278.5: a 42-yard gap in favor of the over.",
-        "Tennessee allows 282 passing yards per game this season, the most in the league.",
-        "Dallas is a 8.5-point underdog, and teams that trail tend to throw more.",
-        "The game total is 54.5, which the market reads as a high-scoring game."
+        "Cyrus has him at 320 yards against a 278.5 line, a 42-yard edge to the over.",
+        "Tennessee gives up 282 passing yards a game, the most in the league.",
+        "A 54.5 total says the market expects a high-scoring game."
       ],
-      "cons": [],
-      "history": []
+      "cons": [
+        "Dallas is favored by 7.5 (front-running teams throw less late)."
+      ],
+      "history": [],
+      "take": "The case for the over on Dak Prescott: Cyrus has him at 320 yards against a 278.5 line, a 42-yard edge to the over, and a 54.5 total says the market expects a high-scoring game. Matchup favors the over: Tennessee gives up 282 passing yards a game, the most in the league. The catch: Dallas is favored by 7.5 (front-running teams throw less late)."
     },
     {
       "name": "Patrick Mahomes",
@@ -408,16 +426,17 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 57,
       "verdict": "Strong projection",
-      "summary": "Matchup is neutral: Arizona allows 232 passing yards per game this season, 13th-fewest in the league. Cyrus leans over 250.5 for Patrick Mahomes (57% chance). Strong projection.",
+      "summary": "Cyrus leans over 250.5 for Patrick Mahomes (57% chance). Strong projection.",
       "pros": [
-        "Cyrus projects 278 yards against a line of 250.5: a 28-yard gap in favor of the over.",
-        "Kansas City is a 16.5-point underdog, and teams that trail tend to throw more."
+        "Cyrus has him at 278 yards against a 250.5 line, a 28-yard edge to the over."
       ],
       "cons": [
-        "Arizona allows 232 passing yards per game this season, 13th-fewest in the league. That is middle of the pack, so the matchup does not push either way.",
-        "The game total is 40.5, which the market reads as a low-scoring game."
+        "Kansas City is favored by 15.5 (front-running teams throw less late).",
+        "Arizona allows 232 passing yards a game, 13th-fewest in the league, middle of the pack.",
+        "A 40.5 total says the market expects a low-scoring game."
       ],
-      "history": []
+      "history": [],
+      "take": "The case for the over on Patrick Mahomes: Cyrus has him at 278 yards against a 250.5 line, a 28-yard edge to the over. Matchup is neutral: Arizona allows 232 passing yards a game, 13th-fewest in the league, middle of the pack. The catch: Kansas City is favored by 15.5 (front-running teams throw less late)."
     },
     {
       "name": "Joe Milton III",
@@ -433,17 +452,18 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 62,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: Pittsburgh allows 261 passing yards per game this season, 3rd-most in the league. Cyrus leans over 187.5 for Joe Milton III (62% chance). Moderate projection.",
+      "summary": "Cyrus leans over 187.5 for Joe Milton III (62% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 225 yards against a line of 187.5: a 38-yard gap in favor of the over.",
-        "Pittsburgh allows 261 passing yards per game this season, 3rd-most in the league."
+        "Cyrus has him at 225 yards against a 187.5 line, a 38-yard edge to the over.",
+        "Pittsburgh gives up 261 passing yards a game, 3rd-most in the league.",
+        "Philadelphia is a 3.5-point underdog (trailing teams throw more)."
       ],
       "cons": [
-        "Philadelphia is favored by 3.5, and teams that lead tend to run more and throw less late.",
-        "The game total is 37.5, which the market reads as a low-scoring game.",
-        "Only 2 starts on record, so the projection rests on a thin history."
+        "A 37.5 total says the market expects a low-scoring game.",
+        "Only 2 starts on record, so the history is thin."
       ],
-      "history": []
+      "history": [],
+      "take": "The case for the over on Joe Milton III: Cyrus has him at 225 yards against a 187.5 line, a 38-yard edge to the over, and Philadelphia is a 3.5-point underdog (trailing teams throw more). Matchup favors the over: Pittsburgh gives up 261 passing yards a game, 3rd-most in the league. The catch: a 37.5 total says the market expects a low-scoring game."
     },
     {
       "name": "Jared Goff",
@@ -459,21 +479,23 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 57,
       "verdict": "Moderate projection",
-      "summary": "Matchup works against the over: Tampa Bay allows 227 passing yards per game this season, 9th-fewest in the league. Cyrus leans over 249.5 for Jared Goff (57% chance). Moderate projection.",
+      "summary": "Cyrus leans over 249.5 for Jared Goff (57% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 277 yards against a line of 249.5: a 28-yard gap in favor of the over.",
-        "Detroit is a 5.5-point underdog, and teams that trail tend to throw more.",
-        "Indoors, where passing numbers run a little higher.",
-        "In his last 3 meetings with Tampa Bay he averaged 300 yards and went over 249.5 2 times."
+        "Cyrus has him at 277 yards against a 249.5 line, a 28-yard edge to the over.",
+        "A 48.5 total says the market expects a high-scoring game.",
+        "In his last 3 meetings with Tampa Bay he averaged 300 yards and went over 249.5 2 times.",
+        "It is indoors, where passing numbers run a touch higher."
       ],
       "cons": [
-        "Tampa Bay allows 227 passing yards per game this season, 9th-fewest in the league."
+        "Tampa Bay allows just 227 passing yards a game, 9th-fewest in the league.",
+        "Detroit is favored by 3.5 (front-running teams throw less late)."
       ],
       "history": [
         "2023 Wk 6: 353 yds",
         "2024 Wk 2: 307 yds",
         "2025 Wk 7: 241 yds"
-      ]
+      ],
+      "take": "The case for the over on Jared Goff: Cyrus has him at 277 yards against a 249.5 line, a 28-yard edge to the over, and a 48.5 total says the market expects a high-scoring game. Matchup works against the over: Tampa Bay allows just 227 passing yards a game, 9th-fewest in the league. The catch: Detroit is favored by 3.5 (front-running teams throw less late)."
     },
     {
       "name": "Josh Allen",
@@ -489,15 +511,15 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup works against the over: Miami allows 212 passing yards per game this season, 6th-fewest in the league. Cyrus leans over 227.5 for Josh Allen (56% chance). Moderate projection.",
+      "summary": "Cyrus leans over 227.5 for Josh Allen (56% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 251 yards against a line of 227.5: a 24-yard gap in favor of the over.",
-        "Buffalo is a 16.5-point underdog, and teams that trail tend to throw more.",
+        "Cyrus has him at 251 yards against a 227.5 line, a 24-yard edge to the over.",
         "In his last 6 meetings with Miami he averaged 262 yards and went over 227.5 4 times."
       ],
       "cons": [
-        "Miami allows 212 passing yards per game this season, 6th-fewest in the league.",
-        "Division game: familiar opponents, and passing yards run lower on average in these matchups."
+        "Buffalo is favored by 16.5 (front-running teams throw less late).",
+        "Miami allows just 212 passing yards a game, 6th-fewest in the league.",
+        "It is a division game, where passing yards run lower on average."
       ],
       "history": [
         "2023 Wk 4: 320 yds",
@@ -506,7 +528,8 @@ window.CYRUS_DATA = {
         "2024 Wk 9: 235 yds",
         "2025 Wk 3: 213 yds",
         "2025 Wk 10: 306 yds"
-      ]
+      ],
+      "take": "The case for the over on Josh Allen: Cyrus has him at 251 yards against a 227.5 line, a 24-yard edge to the over, and in his last 6 meetings with Miami he averaged 262 yards and went over 227.5 4 times. Matchup works against the over: Miami allows just 212 passing yards a game, 6th-fewest in the league. The catch: Buffalo is favored by 16.5 (front-running teams throw less late)."
     },
     {
       "name": "Bo Nix",
@@ -522,23 +545,24 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 54,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: Las Vegas allows 248 passing yards per game this season, 12th-most in the league. Cyrus leans over 214.5 for Bo Nix (54% chance). Moderate projection.",
+      "summary": "Cyrus leans over 214.5 for Bo Nix (54% chance). Moderate projection.",
       "pros": [
-        "Las Vegas allows 248 passing yards per game this season, 12th-most in the league.",
-        "Denver is a 10.5-point underdog, and teams that trail tend to throw more."
+        "Las Vegas gives up 248 passing yards a game, 12th-most in the league."
       ],
       "cons": [
-        "Cyrus projects 229 yards against a line of 214.5: a 14-yard gap which is too close to call with confidence.",
-        "The game total is 40.5, which the market reads as a low-scoring game.",
-        "Division game: familiar opponents, and passing yards run lower on average in these matchups.",
-        "In his last 4 meetings with Las Vegas he averaged 210 yards and went over 214.5 1 time."
+        "Denver is favored by 10.5 (front-running teams throw less late).",
+        "In his last 4 meetings with Las Vegas he averaged 210 yards and went over 214.5 1 time.",
+        "A 40.5 total says the market expects a low-scoring game.",
+        "It is a division game, where passing yards run lower on average.",
+        "The projection (229) sits only 14 yards from the line (214.5), too close to lean on hard."
       ],
       "history": [
         "2024 Wk 5: 206 yds",
         "2024 Wk 12: 273 yds",
         "2025 Wk 10: 150 yds",
         "2025 Wk 14: 212 yds"
-      ]
+      ],
+      "take": "Cyrus leans over 214.5 on Bo Nix at 54%. Matchup favors the over: Las Vegas gives up 248 passing yards a game, 12th-most in the league. The catch: Denver is favored by 10.5 (front-running teams throw less late)."
     },
     {
       "name": "Geno Smith",
@@ -554,20 +578,21 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup is neutral: The Chargers allow 243 passing yards per game this season, 13th-most in the league. Cyrus leans under 217.5 for Geno Smith (56% chance). Moderate projection.",
+      "summary": "Cyrus leans under 217.5 for Geno Smith (56% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 198 yards against a line of 217.5: a 20-yard gap in favor of the under.",
-        "The Jets are favored by 3.0, and teams that lead tend to run more and throw less late.",
-        "In his last 2 meetings with the Chargers he averaged 172 yards and went over 217.5 0 times."
+        "Cyrus has him at 198 yards against a 217.5 line, a 20-yard edge to the under.",
+        "In his last 2 meetings with the Chargers he averaged 172 yards and never went over 217.5."
       ],
       "cons": [
-        "The Chargers allow 243 passing yards per game this season, 13th-most in the league. That is middle of the pack, so the matchup does not push either way.",
-        "Indoors, where passing numbers run a little higher."
+        "The Chargers allow 243 passing yards a game, 13th-most in the league, middle of the pack.",
+        "It is indoors, where passing numbers run a touch higher.",
+        "The Jets are a 3-point underdog (trailing teams throw more)."
       ],
       "history": [
         "2025 Wk 2: 180 yds",
         "2025 Wk 13: 165 yds"
-      ]
+      ],
+      "take": "The case for the under on Geno Smith: Cyrus has him at 198 yards against a 217.5 line, a 20-yard edge to the under, and in his last 2 meetings with the Chargers he averaged 172 yards and never went over 217.5. Matchup is neutral: the Chargers allow 243 passing yards a game, 13th-most in the league, middle of the pack. The catch: it is indoors, where passing numbers run a touch higher."
     },
     {
       "name": "Brock Purdy",
@@ -583,19 +608,20 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the under: Minnesota allows 191 passing yards per game this season, 2nd-fewest in the league. Cyrus leans under 245.5 for Brock Purdy (56% chance). Moderate projection.",
+      "summary": "Cyrus leans under 245.5 for Brock Purdy (56% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 225 yards against a line of 245.5: a 20-yard gap in favor of the under.",
-        "Minnesota allows 191 passing yards per game this season, 2nd-fewest in the league."
+        "Minnesota allows just 191 passing yards a game, 2nd-fewest in the league.",
+        "Cyrus has him at 225 yards against a 245.5 line, a 20-yard edge to the under.",
+        "San Francisco is favored by 3.5 (front-running teams throw less late)."
       ],
       "cons": [
-        "San Francisco is a 3.0-point underdog, and teams that trail tend to throw more.",
-        "In his last 2 meetings with Minnesota he averaged 296 yards and went over 245.5 2 times."
+        "In his last 2 meetings with Minnesota he averaged 296 yards and went over 245.5 every time."
       ],
       "history": [
         "2023 Wk 7: 272 yds",
         "2024 Wk 2: 319 yds"
-      ]
+      ],
+      "take": "The case for the under on Brock Purdy: Cyrus has him at 225 yards against a 245.5 line, a 20-yard edge to the under, and San Francisco is favored by 3.5 (front-running teams throw less late). Matchup favors the under: Minnesota allows just 191 passing yards a game, 2nd-fewest in the league. The catch: in his last 2 meetings with Minnesota he averaged 296 yards and went over 245.5 every time."
     },
     {
       "name": "Fernando Mendoza",
@@ -611,18 +637,19 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 56,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: Denver allows 250 passing yards per game this season, 10th-most in the league. Cyrus leans over 168.5 for Fernando Mendoza (56% chance). Moderate projection.",
+      "summary": "Cyrus leans over 168.5 for Fernando Mendoza (56% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 185 yards against a line of 168.5: a 16-yard gap in favor of the over.",
-        "Denver allows 250 passing yards per game this season, 10th-most in the league."
+        "Cyrus has him at 185 yards against a 168.5 line, a 16-yard edge to the over.",
+        "Denver gives up 250 passing yards a game, 10th-most in the league.",
+        "Las Vegas is a 10.5-point underdog (trailing teams throw more)."
       ],
       "cons": [
-        "Las Vegas is favored by 10.5, and teams that lead tend to run more and throw less late.",
-        "The game total is 40.5, which the market reads as a low-scoring game.",
-        "Division game: familiar opponents, and passing yards run lower on average in these matchups.",
-        "Only 1 starts on record, so the projection rests on a thin history."
+        "A 40.5 total says the market expects a low-scoring game.",
+        "It is a division game, where passing yards run lower on average.",
+        "Only 1 starts on record, so the history is thin."
       ],
-      "history": []
+      "history": [],
+      "take": "The case for the over on Fernando Mendoza: Cyrus has him at 185 yards against a 168.5 line, a 16-yard edge to the over, and Las Vegas is a 10.5-point underdog (trailing teams throw more). Matchup favors the over: Denver gives up 250 passing yards a game, 10th-most in the league. The catch: a 40.5 total says the market expects a low-scoring game."
     },
     {
       "name": "Caleb Williams",
@@ -638,19 +665,20 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 54,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: New Orleans allows 249 passing yards per game this season, 11th-most in the league. Cyrus leans over 245.5 for Caleb Williams (54% chance). Moderate projection.",
+      "summary": "Cyrus leans over 245.5 for Caleb Williams (54% chance). Moderate projection.",
       "pros": [
-        "New Orleans allows 249 passing yards per game this season, 11th-most in the league.",
-        "Chicago is a 11.5-point underdog, and teams that trail tend to throw more.",
-        "The game total is 48.5, which the market reads as a high-scoring game."
+        "New Orleans gives up 249 passing yards a game, 11th-most in the league.",
+        "A 47.5 total says the market expects a high-scoring game."
       ],
       "cons": [
-        "Cyrus projects 260 yards against a line of 245.5: a 14-yard gap which is too close to call with confidence."
+        "Chicago is favored by 11.5 (front-running teams throw less late).",
+        "The projection (260) sits only 14 yards from the line (245.5), too close to lean on hard."
       ],
       "history": [
         "2025 Wk 7: 172 yds",
-        "In his last 1 meeting with New Orleans he averaged 172 yards and went over 245.5 0 times."
-      ]
+        "In his last 1 meeting with New Orleans he averaged 172 yards and never went over 245.5."
+      ],
+      "take": "The case for the over on Caleb Williams: a 47.5 total says the market expects a high-scoring game. Matchup favors the over: New Orleans gives up 249 passing yards a game, 11th-most in the league. The catch: Chicago is favored by 11.5 (front-running teams throw less late)."
     },
     {
       "name": "Joe Burrow",
@@ -666,18 +694,20 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 55,
       "verdict": "Moderate projection",
-      "summary": "Matchup favors the over: Washington allows 260 passing yards per game this season, 4th-most in the league. Cyrus leans over 302.5 for Joe Burrow (55% chance). Moderate projection.",
+      "summary": "Cyrus leans over 302.5 for Joe Burrow (55% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 324 yards against a line of 302.5: a 22-yard gap in favor of the over.",
-        "Washington allows 260 passing yards per game this season, 4th-most in the league.",
-        "Cincinnati is a 6.0-point underdog, and teams that trail tend to throw more.",
-        "The game total is 53.5, which the market reads as a high-scoring game."
+        "Cyrus has him at 324 yards against a 302.5 line, a 22-yard edge to the over.",
+        "Washington gives up 260 passing yards a game, 4th-most in the league.",
+        "A 54.5 total says the market expects a high-scoring game."
       ],
-      "cons": [],
+      "cons": [
+        "Cincinnati is favored by 6 (front-running teams throw less late)."
+      ],
       "history": [
         "2024 Wk 3: 324 yds",
         "In his last 1 meeting with Washington he averaged 324 yards and went over 302.5 1 time."
-      ]
+      ],
+      "take": "The case for the over on Joe Burrow: Cyrus has him at 324 yards against a 302.5 line, a 22-yard edge to the over, and a 54.5 total says the market expects a high-scoring game. Matchup favors the over: Washington gives up 260 passing yards a game, 4th-most in the league. The catch: Cincinnati is favored by 6 (front-running teams throw less late)."
     },
     {
       "name": "Cam Ward",
@@ -693,16 +723,17 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 55,
       "verdict": "Moderate projection",
-      "summary": "Matchup works against the under: Dallas allows 252 passing yards per game this season, 7th-most in the league. Cyrus leans under 237.5 for Cam Ward (55% chance). Moderate projection.",
+      "summary": "Cyrus leans under 237.5 for Cam Ward (55% chance). Moderate projection.",
       "pros": [
-        "Cyrus projects 219 yards against a line of 237.5: a 18-yard gap in favor of the under.",
-        "Tennessee is favored by 8.5, and teams that lead tend to run more and throw less late."
+        "Cyrus has him at 219 yards against a 237.5 line, an 18-yard edge to the under."
       ],
       "cons": [
-        "Dallas allows 252 passing yards per game this season, 7th-most in the league.",
-        "The game total is 54.5, which the market reads as a high-scoring game."
+        "A 54.5 total says the market expects a high-scoring game.",
+        "Dallas gives up 252 passing yards a game, 7th-most in the league.",
+        "Tennessee is a 7.5-point underdog (trailing teams throw more)."
       ],
-      "history": []
+      "history": [],
+      "take": "The case for the under on Cam Ward: Cyrus has him at 219 yards against a 237.5 line, an 18-yard edge to the under. Matchup works against the under: Dallas gives up 252 passing yards a game, 7th-most in the league. The catch: a 54.5 total says the market expects a high-scoring game."
     },
     {
       "name": "J.J. McCarthy",
@@ -718,16 +749,17 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 56,
       "verdict": "Slight lean",
-      "summary": "Matchup is neutral: Jacksonville allows 238 passing yards per game this season, 15th-most in the league. Cyrus leans under 215.5 for J.J. McCarthy (56% chance). Slight lean.",
+      "summary": "Cyrus leans under 215.5 for J.J. McCarthy (56% chance). Slight lean.",
       "pros": [
-        "Cyrus projects 198 yards against a line of 215.5: a 18-yard gap in favor of the under.",
-        "The Giants are favored by 6.0, and teams that lead tend to run more and throw less late."
+        "Cyrus has him at 198 yards against a 215.5 line, a 18-yard edge to the under."
       ],
       "cons": [
-        "Jacksonville allows 238 passing yards per game this season, 15th-most in the league. That is middle of the pack, so the matchup does not push either way.",
-        "Only 13 starts on record, so the projection rests on a thin history."
+        "The Giants are a 6-point underdog (trailing teams throw more).",
+        "Jacksonville allows 238 passing yards a game, 15th-most in the league, middle of the pack.",
+        "Only 13 starts on record, so the history is thin."
       ],
-      "history": []
+      "history": [],
+      "take": "The case for the under on J.J. McCarthy: Cyrus has him at 198 yards against a 215.5 line, a 18-yard edge to the under. Matchup is neutral: Jacksonville allows 238 passing yards a game, 15th-most in the league, middle of the pack. The catch: the Giants are a 6-point underdog (trailing teams throw more). Most of the visible factors point the other way, which is why this is only a lean."
     },
     {
       "name": "Justin Herbert",
@@ -743,19 +775,20 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 50,
       "verdict": "Slight lean",
-      "summary": "Matchup works against the over: The Jets allow 210 passing yards per game this season, 5th-fewest in the league. Cyrus leans over 203.5 for Justin Herbert (50% chance). Slight lean.",
+      "summary": "Cyrus leans over 203.5 for Justin Herbert (50% chance). Slight lean.",
       "pros": [
-        "The Chargers are a 3.0-point underdog, and teams that trail tend to throw more.",
-        "Indoors, where passing numbers run a little higher."
+        "It is indoors, where passing numbers run a touch higher."
       ],
       "cons": [
-        "Cyrus projects 202 yards against a line of 203.5: a 2-yard gap which is too close to call with confidence.",
-        "The Jets allow 210 passing yards per game this season, 5th-fewest in the league."
+        "The Jets allow just 210 passing yards a game, 5th-fewest in the league.",
+        "The projection (202) sits only 2 yards from the line (203.5), too close to lean on hard.",
+        "The Chargers are favored by 3 (front-running teams throw less late)."
       ],
       "history": [
         "2023 Wk 9: 136 yds",
-        "In his last 1 meeting with the Jets he averaged 136 yards and went over 203.5 0 times."
-      ]
+        "In his last 1 meeting with the Jets he averaged 136 yards and never went over 203.5."
+      ],
+      "take": "The case for the over on Justin Herbert: it is indoors, where passing numbers run a touch higher. Matchup works against the over: the Jets allow just 210 passing yards a game, 5th-fewest in the league. The catch: the projection (202) sits only 2 yards from the line (203.5), too close to lean on hard. Most of the visible factors point the other way, which is why this is only a lean."
     },
     {
       "name": "Tyler Shough",
@@ -771,17 +804,17 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 53,
       "verdict": "Slight lean",
-      "summary": "Matchup is neutral: Chicago allows 236 passing yards per game this season, 15th-fewest in the league. Cyrus leans under 239.5 for Tyler Shough (53% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
-      "pros": [
-        "New Orleans is favored by 11.5, and teams that lead tend to run more and throw less late."
-      ],
+      "summary": "Cyrus leans under 239.5 for Tyler Shough (53% chance). Slight lean.",
+      "pros": [],
       "cons": [
-        "Cyrus projects 230 yards against a line of 239.5: a 10-yard gap which is too close to call with confidence.",
-        "Chicago allows 236 passing yards per game this season, 15th-fewest in the league. That is middle of the pack, so the matchup does not push either way.",
-        "The game total is 48.5, which the market reads as a high-scoring game.",
-        "Only 18 starts on record, so the projection rests on a thin history."
+        "New Orleans is an 11.5-point underdog (trailing teams throw more).",
+        "Chicago allows 236 passing yards a game, 15th-fewest in the league, middle of the pack.",
+        "A 47.5 total says the market expects a high-scoring game.",
+        "The projection (230) sits only 10 yards from the line (239.5), too close to lean on hard.",
+        "Only 18 starts on record, so the history is thin."
       ],
-      "history": []
+      "history": [],
+      "take": "Cyrus leans under 239.5 on Tyler Shough at 53%. Matchup is neutral: Chicago allows 236 passing yards a game, 15th-fewest in the league, middle of the pack. The catch: New Orleans is an 11.5-point underdog (trailing teams throw more). Most of the visible factors point the other way, which is why this is only a lean."
     },
     {
       "name": "Kirk Cousins",
@@ -797,18 +830,20 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 53,
       "verdict": "Slight lean",
-      "summary": "Matchup is neutral: San Francisco allows 236 passing yards per game this season, 16th-fewest in the league. Cyrus leans over 231.5 for Kirk Cousins (53% chance). Slight lean. Most of the visible factors point the other way, which is why this is only a lean.",
-      "pros": [],
+      "summary": "Cyrus leans over 231.5 for Kirk Cousins (53% chance). Slight lean.",
+      "pros": [
+        "Minnesota is a 3.5-point underdog (trailing teams throw more)."
+      ],
       "cons": [
-        "Cyrus projects 243 yards against a line of 231.5: a 12-yard gap which is too close to call with confidence.",
-        "San Francisco allows 236 passing yards per game this season, 16th-fewest in the league. That is middle of the pack, so the matchup does not push either way.",
-        "Minnesota is favored by 3.0, and teams that lead tend to run more and throw less late.",
-        "In his last 2 meetings with San Francisco he averaged 297 yards and went over 231.5 1 time."
+        "San Francisco allows 236 passing yards a game, 16th-fewest in the league, middle of the pack.",
+        "The projection (243) sits only 12 yards from the line (231.5), too close to lean on hard."
       ],
       "history": [
         "2023 Wk 7: 378 yds",
-        "2026 Wk 9: 216 yds"
-      ]
+        "2026 Wk 9: 216 yds",
+        "In his last 2 meetings with San Francisco he averaged 297 yards and went over 231.5 1 time."
+      ],
+      "take": "The case for the over on Kirk Cousins: Minnesota is a 3.5-point underdog (trailing teams throw more). Matchup is neutral: San Francisco allows 236 passing yards a game, 16th-fewest in the league, middle of the pack. The catch: the projection (243) sits only 12 yards from the line (231.5), too close to lean on hard."
     },
     {
       "name": "Baker Mayfield",
@@ -824,21 +859,23 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 52,
       "verdict": "No call",
-      "summary": "Matchup works against the under: Detroit allows 266 passing yards per game this season, 2nd-most in the league. Not a call this week. Cyrus leans under 211.5 for Baker Mayfield, but only at 52%, which is not enough of an edge to publish.",
+      "summary": "Not a call this week. Cyrus leans under 211.5 for Baker Mayfield, but only at 52%, which is not enough of an edge to publish.",
       "pros": [
-        "Tampa Bay is favored by 5.5, and teams that lead tend to run more and throw less late.",
         "In his last 3 meetings with Detroit he averaged 206 yards and went over 211.5 1 time."
       ],
       "cons": [
-        "Cyrus projects 206 yards against a line of 211.5: a 6-yard gap which is too close to call with confidence.",
-        "Detroit allows 266 passing yards per game this season, 2nd-most in the league.",
-        "Indoors, where passing numbers run a little higher."
+        "Detroit gives up 266 passing yards a game, 2nd-most in the league.",
+        "The projection (206) sits only 6 yards from the line (211.5), too close to lean on hard.",
+        "A 48.5 total says the market expects a high-scoring game.",
+        "Tampa Bay is a 3.5-point underdog (trailing teams throw more).",
+        "It is indoors, where passing numbers run a touch higher."
       ],
       "history": [
         "2023 Wk 6: 206 yds",
         "2024 Wk 2: 185 yds",
         "2025 Wk 7: 228 yds"
-      ]
+      ],
+      "take": "Why Baker Mayfield is off the card: the projection (206) sits only 6 yards from the line (211.5), too close to lean on hard, and a 48.5 total says the market expects a high-scoring game. Matchup works against the under: Detroit gives up 266 passing yards a game, 2nd-most in the league. There is a case for the under (in his last 3 meetings with Detroit he averaged 206 yards and went over 211.5 1 time), but at 52% it is not enough of an edge to publish."
     },
     {
       "name": "Trevor Lawrence",
@@ -854,15 +891,15 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 52,
       "verdict": "No call",
-      "summary": "Matchup works against the over: The Giants allow 196 passing yards per game this season, 3rd-fewest in the league. Not a call this week. Cyrus leans over 234.5 for Trevor Lawrence, but only at 52%, which is not enough of an edge to publish.",
-      "pros": [
-        "Jacksonville is a 6.0-point underdog, and teams that trail tend to throw more."
-      ],
+      "summary": "Not a call this week. Cyrus leans over 234.5 for Trevor Lawrence, but only at 52%, which is not enough of an edge to publish.",
+      "pros": [],
       "cons": [
-        "Cyrus projects 240 yards against a line of 234.5: a 6-yard gap which is too close to call with confidence.",
-        "The Giants allow 196 passing yards per game this season, 3rd-fewest in the league."
+        "The Giants allow just 196 passing yards a game, 3rd-fewest in the league.",
+        "The projection (240) sits only 6 yards from the line (234.5), too close to lean on hard.",
+        "Jacksonville is favored by 6 (front-running teams throw less late)."
       ],
-      "history": []
+      "history": [],
+      "take": "Why Trevor Lawrence is off the card: the projection (240) sits only 6 yards from the line (234.5), too close to lean on hard, and Jacksonville is favored by 6 (front-running teams throw less late). Matchup works against the over: the Giants allow just 196 passing yards a game, 3rd-fewest in the league. At 52% there is not enough of an edge either way to publish."
     },
     {
       "name": "Jayden Daniels",
@@ -878,19 +915,20 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 51,
       "verdict": "No call",
-      "summary": "Matchup is neutral: Cincinnati allows 237 passing yards per game this season, 16th-most in the league. Not a call this week. Cyrus leans over 223.5 for Jayden Daniels, but only at 51%, which is not enough of an edge to publish.",
+      "summary": "Not a call this week. Cyrus leans over 223.5 for Jayden Daniels, but only at 51%, which is not enough of an edge to publish.",
       "pros": [
-        "The game total is 53.5, which the market reads as a high-scoring game."
+        "A 54.5 total says the market expects a high-scoring game.",
+        "Washington is a 6-point underdog (trailing teams throw more)."
       ],
       "cons": [
-        "Cyrus projects 228 yards against a line of 223.5: a 4-yard gap which is too close to call with confidence.",
-        "Cincinnati allows 237 passing yards per game this season, 16th-most in the league. That is middle of the pack, so the matchup does not push either way.",
-        "Washington is favored by 6.0, and teams that lead tend to run more and throw less late."
+        "The projection (228) sits only 4 yards from the line (223.5), too close to lean on hard.",
+        "Cincinnati allows 237 passing yards a game, 16th-most in the league, middle of the pack."
       ],
       "history": [
         "2024 Wk 3: 254 yds",
         "In his last 1 meeting with Cincinnati he averaged 254 yards and went over 223.5 1 time."
-      ]
+      ],
+      "take": "Why Jayden Daniels is off the card: the projection (228) sits only 4 yards from the line (223.5), too close to lean on hard. Matchup is neutral: Cincinnati allows 237 passing yards a game, 16th-most in the league, middle of the pack. There is a case for the over (a 54.5 total says the market expects a high-scoring game), but at 51% it is not enough of an edge to publish."
     },
     {
       "name": "Bryce Young",
@@ -906,15 +944,14 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 51,
       "verdict": "No call",
-      "summary": "Matchup is neutral: Baltimore allows 231 passing yards per game this season, 12th-fewest in the league. Not a call this week. Cyrus leans over 237.5 for Bryce Young, but only at 51%, which is not enough of an edge to publish.",
-      "pros": [
-        "Carolina is a 3.0-point underdog, and teams that trail tend to throw more."
-      ],
+      "summary": "Not a call this week. Cyrus leans over 237.5 for Bryce Young, but only at 51%, which is not enough of an edge to publish.",
+      "pros": [],
       "cons": [
-        "Cyrus projects 240 yards against a line of 237.5: a 2-yard gap which is too close to call with confidence.",
-        "Baltimore allows 231 passing yards per game this season, 12th-fewest in the league. That is middle of the pack, so the matchup does not push either way."
+        "The projection (240) sits only 2 yards from the line (237.5), too close to lean on hard.",
+        "Baltimore allows 231 passing yards a game, 12th-fewest in the league, middle of the pack."
       ],
-      "history": []
+      "history": [],
+      "take": "Why Bryce Young is off the card: the projection (240) sits only 2 yards from the line (237.5), too close to lean on hard. Matchup is neutral: Baltimore allows 231 passing yards a game, 12th-fewest in the league, middle of the pack. At 51% there is not enough of an edge either way to publish."
     },
     {
       "name": "Kyle McCord",
@@ -930,17 +967,18 @@ window.CYRUS_DATA = {
       "side": "Over",
       "chance": 50,
       "verdict": "No call",
-      "summary": "Matchup favors the over: Buffalo allows 256 passing yards per game this season, 6th-most in the league. Not a call this week. Cyrus leans over 185.5 for Kyle McCord, but only at 50%, which is not enough of an edge to publish.",
+      "summary": "Not a call this week. Cyrus leans over 185.5 for Kyle McCord, but only at 50%, which is not enough of an edge to publish.",
       "pros": [
-        "Buffalo allows 256 passing yards per game this season, 6th-most in the league."
+        "Miami is a 16.5-point underdog (trailing teams throw more).",
+        "Buffalo gives up 256 passing yards a game, 6th-most in the league."
       ],
       "cons": [
-        "Cyrus projects 186 yards against a line of 185.5: a 0-yard gap which is too close to call with confidence.",
-        "Miami is favored by 16.5, and teams that lead tend to run more and throw less late.",
-        "Division game: familiar opponents, and passing yards run lower on average in these matchups.",
-        "Only 1 starts on record, so the projection rests on a thin history."
+        "The projection (186) sits right on the line (185.5).",
+        "It is a division game, where passing yards run lower on average.",
+        "Only 1 starts on record, so the history is thin."
       ],
-      "history": []
+      "history": [],
+      "take": "Why Kyle McCord is off the card: the projection (186) sits right on the line (185.5), and it is a division game, where passing yards run lower on average. Matchup favors the over: Buffalo gives up 256 passing yards a game, 6th-most in the league. There is a case for the over (Miami is a 16.5-point underdog (trailing teams throw more)), but at 50% it is not enough of an edge to publish."
     },
     {
       "name": "Aaron Rodgers",
@@ -956,16 +994,17 @@ window.CYRUS_DATA = {
       "side": "Under",
       "chance": 50,
       "verdict": "No call",
-      "summary": "Matchup is neutral: Philadelphia allows 239 passing yards per game this season, 14th-most in the league. Not a call this week. Cyrus leans under 209.5 for Aaron Rodgers, but only at 50%, which is not enough of an edge to publish.",
+      "summary": "Not a call this week. Cyrus leans under 209.5 for Aaron Rodgers, but only at 50%, which is not enough of an edge to publish.",
       "pros": [
-        "The game total is 37.5, which the market reads as a low-scoring game."
+        "A 37.5 total says the market expects a low-scoring game.",
+        "Pittsburgh is favored by 3.5 (front-running teams throw less late)."
       ],
       "cons": [
-        "Cyrus projects 208 yards against a line of 209.5: a 2-yard gap which is too close to call with confidence.",
-        "Philadelphia allows 239 passing yards per game this season, 14th-most in the league. That is middle of the pack, so the matchup does not push either way.",
-        "Pittsburgh is a 3.5-point underdog, and teams that trail tend to throw more."
+        "The projection (208) sits only 2 yards from the line (209.5), too close to lean on hard.",
+        "Philadelphia allows 239 passing yards a game, 14th-most in the league, middle of the pack."
       ],
-      "history": []
+      "history": [],
+      "take": "Why Aaron Rodgers is off the card: the projection (208) sits only 2 yards from the line (209.5), too close to lean on hard. Matchup is neutral: Philadelphia allows 239 passing yards a game, 14th-most in the league, middle of the pack. There is a case for the under (a 37.5 total says the market expects a low-scoring game), but at 50% it is not enough of an edge to publish."
     },
     {
       "name": "Tyler Huntley",
