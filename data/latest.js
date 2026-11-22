@@ -2,7 +2,7 @@
 window.CYRUS_DATA = {
   "season": 2026,
   "week": 11,
-  "updated": "Fri Nov 20, 6:46 PM CT",
+  "updated": "Fri Nov 20, 6:46 PM CT (corrected Sun Nov 22, 10:05 AM CT: Kenneth Walker III removed, ruled Out)",
   "sample": false,
   "next_update": [
     "Wed 6:45 PM CT",
@@ -16,14 +16,6 @@ window.CYRUS_DATA = {
       "kickoff": "Sun Nov 22, 12:00 PM CT",
       "chance": 71,
       "note": ""
-    },
-    {
-      "tier": "MODERATE",
-      "player": "Kenneth Walker III",
-      "game": "KC vs ARI",
-      "kickoff": "Sun Nov 22, 12:00 PM CT",
-      "chance": 67,
-      "note": "missed team's last game"
     },
     {
       "tier": "MODERATE",
@@ -1041,19 +1033,20 @@ window.CYRUS_DATA = {
       "opp_name": "Arizona",
       "game": "KC vs ARI",
       "kickoff": "Sun Nov 22, 12:00 PM CT",
-      "tier": "MODERATE",
+      "tier": "PASS",
       "projection": null,
       "line": null,
       "side": null,
       "chance": 67,
-      "verdict": "Moderate projection",
-      "summary": "Cyrus gives Kenneth Walker III a 67% chance to score. Moderate projection.",
+      "verdict": "Ruled out",
+      "summary": "Kenneth Walker III was ruled Out (groin) on the final injury report after this card was built, so there is no call. Card corrected Sun Nov 22, 10:05 AM CT.",
       "pros": [
         "Kenneth Walker III has 11 touchdowns in 8 games this season (1.38 per game).",
         "Arizona allows 3.30 rushing and receiving touchdowns per game this season, 3rd-most in the league.",
         "The market implies about 28 points for Kansas City in this game (their season average is 25)."
       ],
       "cons": [
+        "Listed Out on the final injury report; he will not play.",
         "Last season's pace, blended with the league average, puts his underlying rate at 0.34 touchdowns per game.",
         "He missed his team's last game, so his role this week is less certain.",
         "He has scored in 0 of his last 5 meetings with Arizona."
