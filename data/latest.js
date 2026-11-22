@@ -59,6 +59,15 @@ window.CYRUS_DATA = {
     },
     {
       "tier": "SLIGHT",
+      "player": "Emmett Johnson",
+      "game": "KC vs ARI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "chance": 60,
+      "note": "fills in for Kenneth Walker III (Out); 1 game as the lead back",
+      "why": "Why Emmett Johnson is off the card: he steps in for Kenneth Walker III (Out), and 1 game in the lead role is a thin sample, so the number leans on the league average. Matchup favors him: Arizona gives up 3.3 rushing-and-receiving TDs a game to backs, 3rd-most in the league; against the run they allow 130 rushing yards a game (5th-most in the league). In his favor, he is finding the end zone 2.00 times a game as the lead back (2 TDs in 1 game), but at 60% that is better than a coin flip, not a call."
+    },
+    {
+      "tier": "SLIGHT",
       "player": "Chuba Hubbard",
       "game": "CAR vs BAL",
       "kickoff": "Sun Nov 22, 12:00 PM CT",
@@ -1878,6 +1887,33 @@ window.CYRUS_DATA = {
         "2024 Wk 3: 0 TD",
         "He has scored in 0 of his last 1 meeting with Kansas City."
       ]
+    },
+    {
+      "name": "Emmett Johnson",
+      "pos": "RB",
+      "team": "KC",
+      "opp": "ARI",
+      "opp_name": "Arizona",
+      "game": "KC vs ARI",
+      "kickoff": "Sun Nov 22, 12:00 PM CT",
+      "tier": "SLIGHT",
+      "projection": null,
+      "line": null,
+      "side": null,
+      "chance": 60,
+      "verdict": "Slight lean",
+      "summary": "Cyrus gives Emmett Johnson a 60% chance to score: better than even, but not enough for a confident call.",
+      "take": "Why Emmett Johnson is off the card: he steps in for Kenneth Walker III (Out), and 1 game in the lead role is a thin sample, so the number leans on the league average. Matchup favors him: Arizona gives up 3.3 rushing-and-receiving TDs a game to backs, 3rd-most in the league; against the run they allow 130 rushing yards a game (5th-most in the league). In his favor, he is finding the end zone 2.00 times a game as the lead back (2 TDs in 1 game), but at 60% that is better than a coin flip, not a call.",
+      "pros": [
+        "He is finding the end zone 2.00 times a game as the lead back (2 TDs in 1 game).",
+        "Arizona gives up 3.3 rushing-and-receiving TDs a game to backs, 3rd-most in the league; against the run they allow 130 rushing yards a game (5th-most in the league).",
+        "The market expects Kansas City to score about 28 points (their season average is 25).",
+        "His longer track record is solid (0.58 TDs a game going back to last season)."
+      ],
+      "cons": [
+        "He steps in for Kenneth Walker III (Out), and 1 game in the lead role is a thin sample, so the number leans on the league average."
+      ],
+      "history": []
     }
   ]
 };
