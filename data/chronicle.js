@@ -2,7 +2,7 @@
 window.CYRUS_CHRONICLE = {
  "season": 2026,
  "start_week": 8,
- "generated": "Sat Nov 21, 7:43 AM CT",
+ "generated": "Thu Nov 26, 7:40 AM CT",
  "label": "2026 Weeks 8-11",
  "core_tiers": [
   "STRONG",
@@ -325,65 +325,65 @@ window.CYRUS_CHRONICLE = {
   {
    "week": 11,
    "official": true,
-   "status": "partial",
+   "status": "graded",
    "rb": {
     "logged": 10,
-    "picks": 0,
-    "wins": 0,
-    "losses": 0,
-    "voids": 0,
-    "pending": 10,
-    "win_pct": null,
-    "expected_pct": null,
+    "picks": 9,
+    "wins": 7,
+    "losses": 2,
+    "voids": 1,
+    "pending": 0,
+    "win_pct": 0.7777777777777778,
+    "expected_pct": 0.610111111111111,
     "core": {
      "logged": 7,
-     "picks": 0,
-     "wins": 0,
+     "picks": 6,
+     "wins": 6,
      "losses": 0,
-     "voids": 0,
-     "pending": 7,
-     "win_pct": null,
-     "expected_pct": null
+     "voids": 1,
+     "pending": 0,
+     "win_pct": 1.0,
+     "expected_pct": 0.6578333333333334
     },
     "slight": {
      "logged": 3,
-     "picks": 0,
-     "wins": 0,
-     "losses": 0,
+     "picks": 3,
+     "wins": 1,
+     "losses": 2,
      "voids": 0,
-     "pending": 3,
-     "win_pct": null,
-     "expected_pct": null
+     "pending": 0,
+     "win_pct": 0.3333333333333333,
+     "expected_pct": 0.5146666666666667
     }
    },
    "qb": {
     "logged": 18,
-    "picks": 2,
-    "wins": 0,
-    "losses": 2,
+    "picks": 18,
+    "wins": 10,
+    "losses": 8,
     "voids": 0,
-    "pending": 16,
-    "win_pct": 0.0,
-    "expected_pct": 0.5275000000000001,
+    "pending": 0,
+    "win_pct": 0.5555555555555556,
+    "expected_pct": 0.5522777777777779,
     "core": {
      "logged": 12,
-     "picks": 0,
-     "wins": 0,
-     "losses": 0,
+     "picks": 12,
+     "wins": 7,
+     "losses": 5,
      "voids": 0,
-     "pending": 12,
-     "win_pct": null,
-     "expected_pct": null
+     "pending": 0,
+     "win_pct": 0.5833333333333334,
+     "expected_pct": 0.5646666666666667
     },
     "slight": {
      "logged": 6,
-     "picks": 2,
-     "wins": 0,
-     "losses": 2,
+     "picks": 6,
+     "wins": 3,
+     "losses": 3,
      "voids": 0,
-     "pending": 4,
-     "win_pct": 0.0,
-     "expected_pct": 0.5275000000000001
+     "pending": 0,
+     "win_pct": 0.5,
+     "expected_pct": 0.5275
     }
    },
    "runs": [
@@ -400,114 +400,54 @@ window.CYRUS_CHRONICLE = {
      "published": "auto",
      "pushed": "Fri Nov 20, 6:47 PM CT",
      "commit": "c432f92"
+    },
+    {
+     "logged": "",
+     "day": "Sun",
+     "published": "manual",
+     "pushed": "Sun Nov 22, 10:00 AM CT",
+     "commit": "0afbf98",
+     "note": "Week 11 card correction: remove Kenneth Walker III (ruled Out, groin) from the RB card"
+    },
+    {
+     "logged": "",
+     "day": "Sun",
+     "published": "manual",
+     "pushed": "Sun Nov 22, 10:09 AM CT",
+     "commit": "aabe1bd",
+     "note": "Week 11 card: lead every explanation with the opponent-defense matchup"
+    },
+    {
+     "logged": "",
+     "day": "Sun",
+     "published": "manual",
+     "pushed": "Sun Nov 22, 10:09 AM CT",
+     "commit": "2ae3661",
+     "note": "Week 11 card: fix matchup lead sentences (correct defense line, keep capitalization)"
+    },
+    {
+     "logged": "",
+     "day": "Sun",
+     "published": "manual",
+     "pushed": "Sun Nov 22, 10:43 AM CT",
+     "commit": "113813e",
+     "note": "Week 11 card: add Emmett Johnson (fills in for Kenneth Walker III, ruled out)"
+    },
+    {
+     "logged": "",
+     "day": "Sun",
+     "published": "manual",
+     "pushed": "Sun Nov 22, 11:26 AM CT",
+     "commit": "32e08b1",
+     "note": "Week 11 card: fix favored/underdog wording in QB explanations (spread sign)"
     }
    ]
-  }
- ],
- "totals": {
-  "rb": {
-   "logged": 37,
-   "picks": 25,
-   "wins": 16,
-   "losses": 9,
-   "voids": 2,
-   "pending": 10,
-   "win_pct": 0.64,
-   "expected_pct": 0.62512,
-   "core": {
-    "logged": 24,
-    "picks": 16,
-    "wins": 10,
-    "losses": 6,
-    "voids": 1,
-    "pending": 7,
-    "win_pct": 0.625,
-    "expected_pct": 0.66575
-   },
-   "slight": {
-    "logged": 13,
-    "picks": 9,
-    "wins": 6,
-    "losses": 3,
-    "voids": 1,
-    "pending": 3,
-    "win_pct": 0.6666666666666666,
-    "expected_pct": 0.5528888888888889
-   }
   },
-  "qb": {
-   "logged": 74,
-   "picks": 58,
-   "wins": 25,
-   "losses": 33,
-   "voids": 0,
-   "pending": 16,
-   "win_pct": 0.43103448275862066,
-   "expected_pct": 0.5556896551724139,
-   "core": {
-    "logged": 54,
-    "picks": 42,
-    "wins": 21,
-    "losses": 21,
-    "voids": 0,
-    "pending": 12,
-    "win_pct": 0.5,
-    "expected_pct": 0.5674761904761905
-   },
-   "slight": {
-    "logged": 20,
-    "picks": 16,
-    "wins": 4,
-    "losses": 12,
-    "voids": 0,
-    "pending": 4,
-    "win_pct": 0.25,
-    "expected_pct": 0.52475
-   }
-  }
- },
- "last_week": {
-  "week": 11,
-  "rb": {
-   "logged": 10,
-   "picks": 0,
-   "wins": 0,
-   "losses": 0,
-   "voids": 0,
-   "pending": 10,
-   "win_pct": null,
-   "expected_pct": null,
-   "core": {
-    "logged": 7,
-    "picks": 0,
-    "wins": 0,
-    "losses": 0,
-    "voids": 0,
-    "pending": 7,
-    "win_pct": null,
-    "expected_pct": null
-   },
-   "slight": {
-    "logged": 3,
-    "picks": 0,
-    "wins": 0,
-    "losses": 0,
-    "voids": 0,
-    "pending": 3,
-    "win_pct": null,
-    "expected_pct": null
-   }
-  },
-  "qb": {
-   "logged": 18,
-   "picks": 2,
-   "wins": 0,
-   "losses": 2,
-   "voids": 0,
-   "pending": 16,
-   "win_pct": 0.0,
-   "expected_pct": 0.5275000000000001,
-   "core": {
+  {
+   "week": 12,
+   "official": true,
+   "status": "in_play",
+   "rb": {
     "logged": 12,
     "picks": 0,
     "wins": 0,
@@ -515,17 +455,191 @@ window.CYRUS_CHRONICLE = {
     "voids": 0,
     "pending": 12,
     "win_pct": null,
-    "expected_pct": null
+    "expected_pct": null,
+    "core": {
+     "logged": 5,
+     "picks": 0,
+     "wins": 0,
+     "losses": 0,
+     "voids": 0,
+     "pending": 5,
+     "win_pct": null,
+     "expected_pct": null
+    },
+    "slight": {
+     "logged": 7,
+     "picks": 0,
+     "wins": 0,
+     "losses": 0,
+     "voids": 0,
+     "pending": 7,
+     "win_pct": null,
+     "expected_pct": null
+    }
+   },
+   "qb": {
+    "logged": 11,
+    "picks": 0,
+    "wins": 0,
+    "losses": 0,
+    "voids": 0,
+    "pending": 11,
+    "win_pct": null,
+    "expected_pct": null,
+    "core": {
+     "logged": 9,
+     "picks": 0,
+     "wins": 0,
+     "losses": 0,
+     "voids": 0,
+     "pending": 9,
+     "win_pct": null,
+     "expected_pct": null
+    },
+    "slight": {
+     "logged": 2,
+     "picks": 0,
+     "wins": 0,
+     "losses": 0,
+     "voids": 0,
+     "pending": 2,
+     "win_pct": null,
+     "expected_pct": null
+    }
+   },
+   "runs": [
+    {
+     "logged": "Wed Nov 25, 6:48 PM CT",
+     "day": "Wed",
+     "published": "auto",
+     "pushed": "Wed Nov 25, 6:48 PM CT",
+     "commit": "7da1530"
+    }
+   ]
+  }
+ ],
+ "totals": {
+  "rb": {
+   "logged": 49,
+   "picks": 34,
+   "wins": 23,
+   "losses": 11,
+   "voids": 3,
+   "pending": 12,
+   "win_pct": 0.6764705882352942,
+   "expected_pct": 0.6211470588235294,
+   "core": {
+    "logged": 29,
+    "picks": 22,
+    "wins": 16,
+    "losses": 6,
+    "voids": 2,
+    "pending": 5,
+    "win_pct": 0.7272727272727273,
+    "expected_pct": 0.6635909090909091
+   },
+   "slight": {
+    "logged": 20,
+    "picks": 12,
+    "wins": 7,
+    "losses": 5,
+    "voids": 1,
+    "pending": 7,
+    "win_pct": 0.5833333333333334,
+    "expected_pct": 0.5433333333333333
+   }
+  },
+  "qb": {
+   "logged": 85,
+   "picks": 74,
+   "wins": 35,
+   "losses": 39,
+   "voids": 0,
+   "pending": 11,
+   "win_pct": 0.47297297297297297,
+   "expected_pct": 0.5556216216216217,
+   "core": {
+    "logged": 63,
+    "picks": 54,
+    "wins": 28,
+    "losses": 26,
+    "voids": 0,
+    "pending": 9,
+    "win_pct": 0.5185185185185185,
+    "expected_pct": 0.5668518518518518
+   },
+   "slight": {
+    "logged": 22,
+    "picks": 20,
+    "wins": 7,
+    "losses": 13,
+    "voids": 0,
+    "pending": 2,
+    "win_pct": 0.35,
+    "expected_pct": 0.5253
+   }
+  }
+ },
+ "last_week": {
+  "week": 11,
+  "rb": {
+   "logged": 10,
+   "picks": 9,
+   "wins": 7,
+   "losses": 2,
+   "voids": 1,
+   "pending": 0,
+   "win_pct": 0.7777777777777778,
+   "expected_pct": 0.610111111111111,
+   "core": {
+    "logged": 7,
+    "picks": 6,
+    "wins": 6,
+    "losses": 0,
+    "voids": 1,
+    "pending": 0,
+    "win_pct": 1.0,
+    "expected_pct": 0.6578333333333334
+   },
+   "slight": {
+    "logged": 3,
+    "picks": 3,
+    "wins": 1,
+    "losses": 2,
+    "voids": 0,
+    "pending": 0,
+    "win_pct": 0.3333333333333333,
+    "expected_pct": 0.5146666666666667
+   }
+  },
+  "qb": {
+   "logged": 18,
+   "picks": 18,
+   "wins": 10,
+   "losses": 8,
+   "voids": 0,
+   "pending": 0,
+   "win_pct": 0.5555555555555556,
+   "expected_pct": 0.5522777777777779,
+   "core": {
+    "logged": 12,
+    "picks": 12,
+    "wins": 7,
+    "losses": 5,
+    "voids": 0,
+    "pending": 0,
+    "win_pct": 0.5833333333333334,
+    "expected_pct": 0.5646666666666667
    },
    "slight": {
     "logged": 6,
-    "picks": 2,
-    "wins": 0,
-    "losses": 2,
+    "picks": 6,
+    "wins": 3,
+    "losses": 3,
     "voids": 0,
-    "pending": 4,
-    "win_pct": 0.0,
-    "expected_pct": 0.5275000000000001
+    "pending": 0,
+    "win_pct": 0.5,
+    "expected_pct": 0.5275
    }
   }
  },
